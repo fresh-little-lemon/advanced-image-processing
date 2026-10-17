@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "scene_count": 26,
+  "manifest_sha256": "307dea2fa5e966c56879054dba9cdeb2a74a0a936d04ec8171c2fc55444a6fc2",
+  "config_sha256": "cdd1e44793f1cfb1541c3c7239dc417b3f120d1a5471fefe4bf824075e9e7cda",
+  "source_sha256": "ad872be521b8124239fd38d5b7440e315830f49e47b2c86453d2480e5aa0b12a",
+  "threads": 1,
+  "timing": "single fusion call per scene, excludes decode/metrics; sequential same process",
+  "python": "3.12.14",
+  "author_reference_status": "source inspected; MATLAB author program not executed",
+  "input_domain": "encoded_RGB_0_1",
+  "timing_status": "diagnostic_only_shared_CPU_overlap_with_phase2_validation",
+  "timing_overlap_start_utc": "2026-10-17T13:07:09Z",
+  "evaluation_track": "encoded_RGB_supplementary",
+  "metric_channels": "RGB_all_channels",
+  "metric_extent": "full_image_no_border_crop",
+  "metric_peak": 1.0,
+  "aggregation": "per_scene_metric_then_unweighted_scene_mean"
+}

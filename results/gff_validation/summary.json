@@ -1,0 +1,38 @@
+{
+  "guided": {
+    "psnr": 37.79249675699657,
+    "mse": 0.00020579460703622167,
+    "mae": 0.0026314148421120354,
+    "fusion_seconds": 0.13088867431193088
+  },
+  "author_aligned": {
+    "psnr": 38.81001224608786,
+    "mse": 0.0001544936059626412,
+    "mae": 0.0028760728443978996,
+    "fusion_seconds": 0.37482217884658336,
+    "paired_psnr_difference": 1.017515489091283,
+    "paired_bootstrap95": [
+      0.593336064363341,
+      1.483190349306111
+    ],
+    "wins": 21
+  },
+  "continuous_shared_gray": {
+    "psnr": 38.88682038523448,
+    "mse": 0.0001513786380899099,
+    "mae": 0.0030133548935406987,
+    "fusion_seconds": 0.3203398269654896,
+    "paired_psnr_difference": 1.0943236282379067,
+    "paired_bootstrap95": [
+      0.6270860719897957,
+      1.5647407843016272
+    ],
+    "wins": 21
+  },
+  "_notes": {
+    "timing": "Diagnostic only: overlapping single-thread validation activity; no performance ranking",
+    "comparison_domain": "encoded RGB; phase2 linear-domain results require separate matched-domain comparison",
+    "bootstrap": "scene paired percentile, 10000 resamples, RNG seed1701 sequential across variants",
+    "author_parity": "Author MATLAB source inspected, not executed"
+  }
+}
