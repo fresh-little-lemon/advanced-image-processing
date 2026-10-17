@@ -1,0 +1,13 @@
+{
+  "source": "https://viewer.mathworks.com/addons/68962/latest",
+  "archive_url": "https://addons.mathworks.com/downloads/79/799e30b3-8d5c-435e-9bec-4b0cf2e3baac/1.0.0/image_fusion_demo-1.0.0.zip",
+  "archive_sha256": "73124e349620e8f968268b35686783d5ef8d194b027140d544b908cde5abaafd",
+  "execution": "not_executed",
+  "files": {
+    "GFF_1.0/GFF.m": "4b0ceece0ae559396b2e88d056257d3553f18964f04ac8caba551606055cdad7",
+    "GFF_1.0/Script.m": "8b2c1782988a2ffb4eaca99232b6f235921edc5dad530bc4d895b97364282a0c",
+    "GFF_1.0/boxfilter.m": "704a5662fedf44002f3497d2ecd97c4fc08722b8d6b43c62a269026aecef0ccd",
+    "GFF_1.0/guidedfilter.m": "335c2389af5efd185898959485b63f3865d26774841829bb1e3afbce578e5672",
+    "GFF_1.0/load_images.m": "814cfa5f89898ce2de735f72a0b32544afb26c3cda010ab3d81efcf526b15a8c"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "conditions": 270,
+  "domain": "linear RGB, same known exposure compensation and exact RNG order as phase2_procedural",
+  "profile": "continuous_shared_gray",
+  "symmetric_noise": {
+    "psnr_linear": 33.29666067452385,
+    "mae_linear": 0.019820932040516336,
+    "boundary_mae": 0.027062430266297274
+  },
+  "asymmetric_noise": {
+    "psnr_linear": 31.12996166146441,
+    "mae_linear": 0.022426774911916855,
+    "boundary_mae": 0.03134101029566098
+  },
+  "clean_nonconstant": {
+    "psnr_linear": 44.343143757778414,
+    "mae_linear": 0.003218095153462183,
+    "boundary_mae": 0.0191545638372444
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profile": "continuous_shared_gray",
+  "domain": "decoded sRGB to linear, same inputs as phase2_validation",
+  "scenes": 26,
+  "mean_psnr_linear": 38.694563686014284,
+  "mean_mae_linear": 0.0029346479751515787,
+  "scope": "Independent GFF two-layer adaptation with continuous linear-domain arithmetic; author-aligned encoded profile measured separately"
+}
