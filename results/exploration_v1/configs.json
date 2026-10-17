@@ -1,0 +1,82 @@
+{
+  "average": {
+    "method": "average",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": true,
+    "confidence_weighting": true
+  },
+  "laplacian": {
+    "method": "laplacian",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": true,
+    "confidence_weighting": true
+  },
+  "sml": {
+    "method": "sml",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": true,
+    "confidence_weighting": true
+  },
+  "guided": {
+    "method": "guided",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": true,
+    "confidence_weighting": true
+  },
+  "experimental": {
+    "method": "experimental",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": true,
+    "confidence_weighting": true
+  },
+  "exp_no_noise": {
+    "method": "experimental",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": false,
+    "exposure_normalization": true,
+    "confidence_weighting": true
+  },
+  "exp_no_exposure": {
+    "method": "experimental",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": false,
+    "confidence_weighting": true
+  },
+  "exp_no_confidence": {
+    "method": "experimental",
+    "window": 7,
+    "radius": 5,
+    "epsilon": 0.001,
+    "linear_light": false,
+    "noise_correction": true,
+    "exposure_normalization": true,
+    "confidence_weighting": false
+  }
+}

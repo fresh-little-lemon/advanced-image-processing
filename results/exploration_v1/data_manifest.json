@@ -1,0 +1,562 @@
+[
+  {
+    "dataset": "Lytro",
+    "scene": 1,
+    "filename": "lytro-01-A.jpg",
+    "sha256": "e2a1acece08828c5a50c96b396af2c20e354ae19b0ce7caac187d6d5ffc77018",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 1,
+    "filename": "lytro-01-B.jpg",
+    "sha256": "311d21d4a857b50813ccf86fee2bb08bcb72cb3710c8120967ff21d2932292e6",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 2,
+    "filename": "lytro-02-A.jpg",
+    "sha256": "babca8a6eb4a8f374160c43a734a2552ab1754aeb71a442e40d6c5fde7f85910",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 2,
+    "filename": "lytro-02-B.jpg",
+    "sha256": "588251b87680579491e7c7c56182bc55e373eefea3b4ed1d05cda0fb423a7308",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 3,
+    "filename": "lytro-03-A.jpg",
+    "sha256": "0220d2c5b55267dda03840321d3693da8f4e22a772d7dffc7a5fecc5b76b61bc",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 3,
+    "filename": "lytro-03-B.jpg",
+    "sha256": "dab6aeb745b397ba59a3fcd653839823b68ca33245e66ed6deb7bfdd44d99a68",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 4,
+    "filename": "lytro-04-A.jpg",
+    "sha256": "def97cc3abe4169e7479cc6de19d89c39b8d146b5873a8eef79b6db73dd63361",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 4,
+    "filename": "lytro-04-B.jpg",
+    "sha256": "9680178192a820801b5c4f8ea337db8d744c6eb0e228caa517b8c6f692f8e450",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 5,
+    "filename": "lytro-05-A.jpg",
+    "sha256": "8992c3a42feb4b729bef04a891b0d9e2fcb94333c12440f4467cadccb92712ba",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 5,
+    "filename": "lytro-05-B.jpg",
+    "sha256": "c437fc33638e019f01302d4e705420f2cabb6554d74d786e8be5c6a3d4c4c893",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 6,
+    "filename": "lytro-06-A.jpg",
+    "sha256": "09528f6dfc7408cc535b0273b420d5bdd64e8a476b65d27e8403ce29b56ba701",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 6,
+    "filename": "lytro-06-B.jpg",
+    "sha256": "fca680fc66cfdce3ff8d777fa159a37d0c6a4eb1996ac7b3845bd56901a58604",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 7,
+    "filename": "lytro-07-A.jpg",
+    "sha256": "96740f84244aeeac15cddf38f07fd4177578cc8b94b0008032e8a3e231d32156",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 7,
+    "filename": "lytro-07-B.jpg",
+    "sha256": "870b61576c84085218fa17700011e4071711f4dc8efb6dbb8d1ead23d045833c",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 8,
+    "filename": "lytro-08-A.jpg",
+    "sha256": "87ff78a73a203fa63ece66e56967f687dcb83ebe60d64021c0b691d3fbf68855",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 8,
+    "filename": "lytro-08-B.jpg",
+    "sha256": "e776710085844355f9c732256c614aab05ab82c9316d631c7cfd6c452b9433c3",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 9,
+    "filename": "lytro-09-A.jpg",
+    "sha256": "61465f3687d60e734594e383a9bfa218b9c51c876250ba63e5c69e416c3fc151",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 9,
+    "filename": "lytro-09-B.jpg",
+    "sha256": "1b22f487cf0c29be712ba6c1d3872a05ac540269f54013d8670fc78139fb02c1",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 10,
+    "filename": "lytro-10-A.jpg",
+    "sha256": "f3872c3ee3a188d55f4ef0c0dc28c12af0653ebab8b8bd1b8aa99439ed9a2e60",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 10,
+    "filename": "lytro-10-B.jpg",
+    "sha256": "e0c4d7ecad60a3270bd4bcafeb5db24adc54b111c0666b17a0941e51c8bf88ab",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 11,
+    "filename": "lytro-11-A.jpg",
+    "sha256": "1eeb60ae25503f7624c58b29c0524a8f1f2e120dd3ed8f4134e17053f7d3660d",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 11,
+    "filename": "lytro-11-B.jpg",
+    "sha256": "3cc6acf8d1baf5965ce327351308cd9c99f5d513122862d81af8f818744f4b11",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 12,
+    "filename": "lytro-12-A.jpg",
+    "sha256": "fb090858d530ef63489742ca47f6f79e75726a6e7da1ed4bee6155c9a62daebe",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 12,
+    "filename": "lytro-12-B.jpg",
+    "sha256": "d0931944e814d19367dd1486308b628bba4d9857d04ca11e772c3283035a2a69",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 13,
+    "filename": "lytro-13-A.jpg",
+    "sha256": "089db066b8bb3386a36836703d31ee96940c12bcb6a167abe919bcd2dca2e96e",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 13,
+    "filename": "lytro-13-B.jpg",
+    "sha256": "c46b476026d2d19027a82a7e7b5b876235ca503b7fee92504ab4d15863dcf05b",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 14,
+    "filename": "lytro-14-A.jpg",
+    "sha256": "c8c412a2e52d86ba8ecb4787f47581265e95293f5d7427cbffc702259ab37beb",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 14,
+    "filename": "lytro-14-B.jpg",
+    "sha256": "e04148af48acd1012024f52e4fed6c9e3d5ac84fb02d04809e3e3e9077a8c5b2",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 15,
+    "filename": "lytro-15-A.jpg",
+    "sha256": "57ba0e3e2edf651e36b908c1c6f11415bf840dadd7575ccf22218456ddad2925",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 15,
+    "filename": "lytro-15-B.jpg",
+    "sha256": "c3ac46ab6f0891ac01977700f8b24197537f5a0d30e62001cc5e8c7779a42d7a",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 16,
+    "filename": "lytro-16-A.jpg",
+    "sha256": "aefc598d9599f7208f9ac7706360fb9cb39c8543b8202d608f7014154e57c54c",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 16,
+    "filename": "lytro-16-B.jpg",
+    "sha256": "084c8782a19500f1c5ab05ddcb9dffa6e3303d8d5281f75b52e7077d8d544356",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 17,
+    "filename": "lytro-17-A.jpg",
+    "sha256": "457e2879aa6d1593ff444d7bb7f46783820d89352399d080fbb2edcd27766634",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 17,
+    "filename": "lytro-17-B.jpg",
+    "sha256": "eec9a9b107182ffe73a1c299b792b08e04d5855e106f55a55f6c274a241f33cb",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 18,
+    "filename": "lytro-18-A.jpg",
+    "sha256": "6b476b10c4c0aac61dc1bb07985f6f059e2aff6e1a7764b9b22674a0ac316d15",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 18,
+    "filename": "lytro-18-B.jpg",
+    "sha256": "f5461a86c1d2246cdcc2c26e0632a62115c544875fe67916e7ff4a0c19e8f4b0",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 19,
+    "filename": "lytro-19-A.jpg",
+    "sha256": "0312fc8ccf5053d771f165d5425b4153cb9133492828de6fd178f4ec7557d0e1",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 19,
+    "filename": "lytro-19-B.jpg",
+    "sha256": "a2cc3e78246dfe288d838af605ee0d98e506a72b5e087edf05d622fb596f5d4b",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 20,
+    "filename": "lytro-20-A.jpg",
+    "sha256": "dffc4a0ac9e2ef2dc1fa7edd939f47ebe574d454a39e266a7c87a70fc206b2e2",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "Lytro",
+    "scene": 20,
+    "filename": "lytro-20-B.jpg",
+    "sha256": "e245c21a31b75f3b7a4d325a6afe620578105d4fb8f2bd68a6914bfb4ca88d9b",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 1,
+    "filename": "bg-A-1.jpg",
+    "sha256": "fe18fc9cec5517a43eaf0e92defc0906bfb57c299e5d4f05443137f53caa1208",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 1,
+    "filename": "bg-B-1.jpg",
+    "sha256": "b98668d32282c53b4a67e5325373c2a4c7487adb260719a1fe68eaf606b5044e",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 50,
+    "filename": "bg-A-50.jpg",
+    "sha256": "0c54c889d81d4be7e45391b59047bcc71519f91b6f980db7eda2b06e09ebd922",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 50,
+    "filename": "bg-B-50.jpg",
+    "sha256": "c19bd3b965c05d43f1f0aaaa9f6855bb680ee09c1904a684f6f335cb64686290",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 100,
+    "filename": "bg-A-100.jpg",
+    "sha256": "a4f804733a8cb4a9499bf0c902c92d19f36679aa706caa7650e3f36deeb17acf",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 100,
+    "filename": "bg-B-100.jpg",
+    "sha256": "57a34a2d2cf3ac149706c6ee3d53b18e0a1cad01794666150f2337eadf8eb6f5",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 150,
+    "filename": "bg-A-150.jpg",
+    "sha256": "e0f8702ef8494d9e4a1a6e33e545d7a0e6f2f77efd605e2976bce05a7cad54a8",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 150,
+    "filename": "bg-B-150.jpg",
+    "sha256": "6700cd15a86423b46eeabac17ebd04411829e7f61f428a6750fdf720e2500326",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 200,
+    "filename": "bg-A-200.jpg",
+    "sha256": "ef8c0b6f1c5d473e2a65409f22480d104af0f04618599152e5f35a7750894cca",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 200,
+    "filename": "bg-B-200.jpg",
+    "sha256": "70ddd3e41920cf0c650da5af41ec7364da93264de4c2c6910566b717ed09c48b",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 250,
+    "filename": "bg-A-250.jpg",
+    "sha256": "5aebe54d6ab3ec8e50832b6cedaff32e93b968a901b8604459896a2070824b23",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 250,
+    "filename": "bg-B-250.jpg",
+    "sha256": "13fb2a5a6b47af98cf02571fb26084725ac5b185683dbd8ca06e9c7744a67d5c",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 300,
+    "filename": "bg-A-300.jpg",
+    "sha256": "f128dfbc03af443344329df6ae25c2e4823adcd05f373c82e6a360a4f8105b22",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 300,
+    "filename": "bg-B-300.jpg",
+    "sha256": "214e4d90083b7a6fb15d51201393e2031839254a1dabf8a5d4f8d35e13e64212",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 350,
+    "filename": "bg-A-350.jpg",
+    "sha256": "07ce626f6a8255d0cd732ab1c8790a510074ff21961da9dc7d4335ce8e7ddc3e",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 350,
+    "filename": "bg-B-350.jpg",
+    "sha256": "dce34e8fdbfcf3cf2b6a3d75f0b0ea1660056235e64a86a7059179f334573375",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 400,
+    "filename": "bg-A-400.jpg",
+    "sha256": "88a700c15b3757b78e05a2cd877e5f4e9a7dd7447cf6339683aa2a79838e1761",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 400,
+    "filename": "bg-B-400.jpg",
+    "sha256": "d1508849ea2a9f495c2f1bc83c00ea506e583276955ea4f290cd432296bb4611",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 450,
+    "filename": "bg-A-450.jpg",
+    "sha256": "858373b94fad6d482884a09f2fd78cd88304803855415a845c1d756c5495298d",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 450,
+    "filename": "bg-B-450.jpg",
+    "sha256": "6a17632764257807dd579cd04e207acd7a442b7148074847362ae50c157b449d",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 500,
+    "filename": "bg-A-500.jpg",
+    "sha256": "39a2b25a9c060e4ccb2342ed01aa6972144a9f02d3633c65ea123ed983780180",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 500,
+    "filename": "bg-B-500.jpg",
+    "sha256": "63c934c37d52dcf6b0db06b3746e6a054f894f2bcac39b971232d5630dabfa8e",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 600,
+    "filename": "bg-A-600.jpg",
+    "sha256": "698c189aea1df301fa37e5d715a718cab9768e33c7682cc1baf935f5c295ddb3",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 600,
+    "filename": "bg-B-600.jpg",
+    "sha256": "6b66a67fdd0c175285310f5c80d5e4cccc24682e211630c82ea049263d5b2a6a",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 650,
+    "filename": "bg-A-650.jpg",
+    "sha256": "78c83d54120ba52ee9dca829fb6671c15bbcf024587d38de4206c69c2a55dea7",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 650,
+    "filename": "bg-B-650.jpg",
+    "sha256": "2cac56045029185c0e2d2eead06cb21d55deb65e4845a8441d1258a7697c041f",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 700,
+    "filename": "bg-A-700.jpg",
+    "sha256": "8202794f069c30ee590b9f3c94467cf83bacea490f4c42d246563acf11876ff1",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 700,
+    "filename": "bg-B-700.jpg",
+    "sha256": "60be9e61d4de8f68ca40d26e4939f7d2dd2d42675eab6f4defb5379cd7bf2e67",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 750,
+    "filename": "bg-A-750.jpg",
+    "sha256": "5c8e16e73cb8f393a7e801833942a77a2560bec62e6daff1beb24852ea26c63a",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 750,
+    "filename": "bg-B-750.jpg",
+    "sha256": "b71862d0bda926862aa58ae02412259369d768e2485f1e488bb6f654485a3ce8",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 800,
+    "filename": "bg-A-800.jpg",
+    "sha256": "d67cc882f2885776cc02bdb97d179a5a3c11922115bc61dc0e32c1f4100cafa9",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 800,
+    "filename": "bg-B-800.jpg",
+    "sha256": "2f0e61d37428eb177331a69e045b459ffb447394fd87aef34c16ac353af32326",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 850,
+    "filename": "bg-A-850.jpg",
+    "sha256": "1adc2181a6757d009e597c5c54c9c12b30f5554471169ccb30f405b10f2c0a7a",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 850,
+    "filename": "bg-B-850.jpg",
+    "sha256": "9ea3a439f9c96f7e0d29e74142df86d714a8245121a0ad826ce294111d28f971",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 900,
+    "filename": "bg-A-900.jpg",
+    "sha256": "183003fc0cb59fba26d5e74eec3eda6393543ec1a69cf90817a7eb5fdbfa9ddc",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 900,
+    "filename": "bg-B-900.jpg",
+    "sha256": "7ef8f1f1b6eb6467e1ff3e84adea9a7ac00c8ed7a574bc655acf4868fb9418bc",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 950,
+    "filename": "bg-A-950.jpg",
+    "sha256": "8884732bf995eb11fd7a5b0951d85ab2c194ad8d2403e7530176232162e5d6c6",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 950,
+    "filename": "bg-B-950.jpg",
+    "sha256": "aadc769ecc00046797a7f80537b741f89a17ff32aa2bc5ef0fdf7ce74364ebf7",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 1000,
+    "filename": "bg-A-1000.jpg",
+    "sha256": "9774d618b3eab2b4c7fa5f0c8db84493e4ddb2d80b0f65388a5e5068c50a8d54",
+    "split": "previously_used_exploration"
+  },
+  {
+    "dataset": "EDMF",
+    "scene": 1000,
+    "filename": "bg-B-1000.jpg",
+    "sha256": "a3e10d077f18b56f96d9d01bf7f4fd3cf13c16492382fe8c3eb4aabdb324521a",
+    "split": "previously_used_exploration"
+  }
+]

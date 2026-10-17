@@ -1,0 +1,15 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "logical_cpus": 9,
+  "thread_limit": 1,
+  "peak_process_rss_kib_linux": 325632,
+  "timing": "single cold-ish call per scene; excludes decode and metric computation; not benchmark-quality steady-state",
+  "cpu_info": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "profile_policy": "encoded_ignore: benchmark evaluates stored RGB codes, ignores embedded ICC to match historical pilot; not colorimetric comparison",
+  "synthetic_seed": 20261017,
+  "synthetic_notes": "Procedural GT. Exposure changes source B only; PSNR to canonical GT penalizes brightness changes. No exposure restoration in any method."
+}
