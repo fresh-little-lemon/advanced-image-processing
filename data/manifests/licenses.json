@@ -1,0 +1,13 @@
+[
+  {
+    "dataset": "MFI-WHU",
+    "upstream_license": "MIT repository license",
+    "license_sha256": "c48965dd4456d4f93d6a9926f262cf08ff75ce3e6e0b26562111d27871bcf386",
+    "source_photo_rights": "Not individually specified by upstream README; no image redistribution clearance claimed"
+  },
+  {
+    "dataset": "MFFW2 MFIF snapshot",
+    "upstream_license": "No license file in pinned repository tree",
+    "source_photo_rights": "Internet photos; original rights not independently established"
+  }
+]

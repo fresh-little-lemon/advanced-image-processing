@@ -1,0 +1,470 @@
+[
+  {
+    "scene_id": "MFFW2-01",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/01/mffw_01_A.jpg",
+        "role": "A",
+        "sha256": "030c9bb015d0b8a65e3211149dc77ae2cd673c2c2fdcc03a9f2cb7617ea05430",
+        "bytes": 31346,
+        "width": 300,
+        "height": 200,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_01/mffw_01_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_01/mffw_01_A.jpg"
+      },
+      {
+        "path": "MFFW2/01/mffw_01_B.jpg",
+        "role": "B",
+        "sha256": "790def3dd52abd72e46bca08beb2a7aa58545d471ef8938f92d7da52b19a2836",
+        "bytes": 35657,
+        "width": 300,
+        "height": 200,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_01/mffw_01_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_01/mffw_01_B.jpg"
+      }
+    ],
+    "group_id": "group-b38a42916e8e",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-02",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/02/mffw_02_A.jpg",
+        "role": "A",
+        "sha256": "fba3f4b97f0519974d3bf5c2b4e0012c95eabb7f0bfe9b49b5b1d6d24b7c0763",
+        "bytes": 55217,
+        "width": 592,
+        "height": 368,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_02/mffw_02_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_02/mffw_02_A.jpg"
+      },
+      {
+        "path": "MFFW2/02/mffw_02_B.jpg",
+        "role": "B",
+        "sha256": "85fb4edf09d027ee91326594e0c1935264c6b8a00e50ab2e72f9af70236cc660",
+        "bytes": 46265,
+        "width": 592,
+        "height": 368,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_02/mffw_02_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_02/mffw_02_B.jpg"
+      }
+    ],
+    "group_id": "group-0a9428627b22",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-03",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/03/mffw_03_A.jpg",
+        "role": "A",
+        "sha256": "5073267337f2ef501133d8126f7ebbc75cba24643f6c560661961df469c0a353",
+        "bytes": 229740,
+        "width": 520,
+        "height": 880,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_03/mffw_03_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_03/mffw_03_A.jpg"
+      },
+      {
+        "path": "MFFW2/03/mffw_03_B.jpg",
+        "role": "B",
+        "sha256": "3e436e314e95afcdc353eb0ba1587ce012a9267a5e4b5a8a33942470b5ccc3a0",
+        "bytes": 180645,
+        "width": 520,
+        "height": 880,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_03/mffw_03_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_03/mffw_03_B.jpg"
+      }
+    ],
+    "group_id": "group-39e10fe5e156",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-04",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/04/mffw_04_A.jpg",
+        "role": "A",
+        "sha256": "3c261ee8ee0000f002c7c832c00508cd2761b428bf4cf2f7ccfd65dd2e0943bf",
+        "bytes": 76402,
+        "width": 780,
+        "height": 580,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_04/mffw_04_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_04/mffw_04_A.jpg"
+      },
+      {
+        "path": "MFFW2/04/mffw_04_B.jpg",
+        "role": "B",
+        "sha256": "e4d17d26b35bc8481b85e87ef8661c3c11a8fc3cafcc865159a8da46a0c35ded",
+        "bytes": 64517,
+        "width": 780,
+        "height": 580,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_04/mffw_04_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_04/mffw_04_B.jpg"
+      }
+    ],
+    "group_id": "group-3579c4ed3e0c",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-05",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/05/mffw_05_A.jpg",
+        "role": "A",
+        "sha256": "f7d032c99b18f0d91c11d979c718f771d0d3a697b8073b70bfdb5007a0d60456",
+        "bytes": 74878,
+        "width": 388,
+        "height": 248,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_05/mffw_05_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_05/mffw_05_A.jpg"
+      },
+      {
+        "path": "MFFW2/05/mffw_05_B.jpg",
+        "role": "B",
+        "sha256": "76c46703968e719c0b9e5945ff3a61805ba8287fd389fd6e09152bb7d2d76537",
+        "bytes": 75447,
+        "width": 388,
+        "height": 248,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_05/mffw_05_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_05/mffw_05_B.jpg"
+      }
+    ],
+    "group_id": "group-96e4d345a403",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-06",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/06/mffw_06_A.jpg",
+        "role": "A",
+        "sha256": "db0aa081d1c8aea4b6fc0bd9a9dd540b5efa123cb6d337a38d7893e56674284a",
+        "bytes": 90420,
+        "width": 568,
+        "height": 868,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_06/mffw_06_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_06/mffw_06_A.jpg"
+      },
+      {
+        "path": "MFFW2/06/mffw_06_B.jpg",
+        "role": "B",
+        "sha256": "87560a831e566bebec0a777c2d83ead7d1cf0c288bfc6351b6d248e4ea006ee0",
+        "bytes": 94330,
+        "width": 568,
+        "height": 868,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_06/mffw_06_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_06/mffw_06_B.jpg"
+      }
+    ],
+    "group_id": "group-e9b4f47b42ac",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-07",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/07/mffw_07_A.jpg",
+        "role": "A",
+        "sha256": "ea3d358fec5ff53c49b8c0dc5ec879088127ac29aa8fdd0b6f34c2a10cbcfe5f",
+        "bytes": 38211,
+        "width": 584,
+        "height": 520,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_07/mffw_07_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_07/mffw_07_A.jpg"
+      },
+      {
+        "path": "MFFW2/07/mffw_07_B.jpg",
+        "role": "B",
+        "sha256": "75c30b69fd9bb234fccf869ce347bda5b1d99b0fead9ea2979f48b3cb622d87e",
+        "bytes": 110675,
+        "width": 584,
+        "height": 520,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_07/mffw_07_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_07/mffw_07_B.jpg"
+      }
+    ],
+    "group_id": "group-ce1c7a406add",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-08",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/08/mffw_08_A.jpg",
+        "role": "A",
+        "sha256": "7b3e024cff53d1cfe925a01ff085c879e8aafc5914b5670c939ef882f27ab748",
+        "bytes": 119467,
+        "width": 560,
+        "height": 560,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_08/mffw_08_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_08/mffw_08_A.jpg"
+      },
+      {
+        "path": "MFFW2/08/mffw_08_B.jpg",
+        "role": "B",
+        "sha256": "a09b253cc69ab77f14eee743cdc8d30ec0873ed0619bff2a066f69eecd8c4ca0",
+        "bytes": 141801,
+        "width": 560,
+        "height": 560,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_08/mffw_08_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_08/mffw_08_B.jpg"
+      }
+    ],
+    "group_id": "group-affd1032d2d6",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-09",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/09/mffw_09_A.jpg",
+        "role": "A",
+        "sha256": "ff4a779f1b0ee69a3c875edc69dff3682b029895d8d6bdc763adcdc03ac3e3ba",
+        "bytes": 48701,
+        "width": 584,
+        "height": 448,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_09/mffw_09_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_09/mffw_09_A.jpg"
+      },
+      {
+        "path": "MFFW2/09/mffw_09_B.jpg",
+        "role": "B",
+        "sha256": "2177a6a554326c2b86723b1e4c5cf0b76faa986e415a16cfac35792c70345a34",
+        "bytes": 61978,
+        "width": 584,
+        "height": 448,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_09/mffw_09_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_09/mffw_09_B.jpg"
+      }
+    ],
+    "group_id": "group-9d06ada7a4b0",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-10",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/10/mffw_10_A.jpg",
+        "role": "A",
+        "sha256": "ec6128b34c5a962aa71f7f13e7b14699fe25958887fb1df1e4d0ae9d9a3555f3",
+        "bytes": 75729,
+        "width": 600,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_10/mffw_10_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_10/mffw_10_A.jpg"
+      },
+      {
+        "path": "MFFW2/10/mffw_10_B.jpg",
+        "role": "B",
+        "sha256": "c5a6b64858184a6493aed50eb8172a01ecbbb4b9c1b79118bce5176092eba7d1",
+        "bytes": 66218,
+        "width": 600,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_10/mffw_10_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_10/mffw_10_B.jpg"
+      }
+    ],
+    "group_id": "group-08434641be0b",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-11",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/11/mffw_11_A.jpg",
+        "role": "A",
+        "sha256": "82b139c288ece3e1cbf41c6328b8e0af4838302eea54105f4fc82487129233e6",
+        "bytes": 54991,
+        "width": 432,
+        "height": 624,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_11/mffw_11_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_11/mffw_11_A.jpg"
+      },
+      {
+        "path": "MFFW2/11/mffw_11_B.jpg",
+        "role": "B",
+        "sha256": "17e510049641f79d697a0779c56374ea0f75b47f1f97ecd98179350b0c828d30",
+        "bytes": 45516,
+        "width": 432,
+        "height": 624,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_11/mffw_11_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_11/mffw_11_B.jpg"
+      }
+    ],
+    "group_id": "group-760bbe0deb47",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-12",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/12/mffw_12_A.jpg",
+        "role": "A",
+        "sha256": "da7ba95e367fe838bc25d34640b20e1e570606513269c08447f24eee905b0d7e",
+        "bytes": 57468,
+        "width": 576,
+        "height": 304,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_12/mffw_12_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_12/mffw_12_A.jpg"
+      },
+      {
+        "path": "MFFW2/12/mffw_12_B.jpg",
+        "role": "B",
+        "sha256": "c89c74b68f6f4eeb9049c1321cf906115e6901c8dd5c332e4794f6938794a036",
+        "bytes": 58648,
+        "width": 576,
+        "height": 304,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_12/mffw_12_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_12/mffw_12_B.jpg"
+      }
+    ],
+    "group_id": "group-60a4dcd1185c",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  },
+  {
+    "scene_id": "MFFW2-13",
+    "dataset": "MFFW2",
+    "data_kind": "registered_real_internet_photos",
+    "reference_type": "none_downloaded",
+    "files": [
+      {
+        "path": "MFFW2/13/mffw_13_A.jpg",
+        "role": "A",
+        "sha256": "c1e8940f6f0fcac834e2bef1fd495f3b8cd5e6e2afdb785b16d82907dd4d8459",
+        "bytes": 34966,
+        "width": 448,
+        "height": 300,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_13/mffw_13_A.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_13/mffw_13_A.jpg"
+      },
+      {
+        "path": "MFFW2/13/mffw_13_B.jpg",
+        "role": "B",
+        "sha256": "406e480ca29a7a64feae4d0e7e3df27cc71b3c7e2843319a99b3e0539e73a06e",
+        "bytes": 29132,
+        "width": 448,
+        "height": 300,
+        "mode": "RGB",
+        "source_url": "https://github.com/xingchenzhang/MFIF/blob/f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9/input/mffw_13/mffw_13_B.jpg",
+        "upstream_commit": "f0f0e0725e7d82fe91aa30eb6296d8241d26e4c9",
+        "upstream_path": "input/mffw_13/mffw_13_B.jpg"
+      }
+    ],
+    "group_id": "group-f5db1d1ec132",
+    "split": "external_test",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending"
+  }
+]
