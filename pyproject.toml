@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "reliable-focus"
+version = "0.1.0"
+description = "Reproducible classical multifocus fusion under exposure differences and noise"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "Pillow>=10"]
+[project.scripts]
+reliable-focus = "reliable_focus.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
