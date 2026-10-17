@@ -1,0 +1,1172 @@
+[
+  {
+    "scene_id": "WHU-004",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-d4e3b1efac25",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "5e720a8a9fa61ce056c3f1d60a10113ddc5f9d86a7ade9ab4542f613e1b1c97d",
+        "bytes": 45949,
+        "width": 558,
+        "height": 374,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/4.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/4.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "431c4d118d4cab956026d06116088dcf9b22b0b67af468d9d8ea4fd105055a2a",
+        "bytes": 69818,
+        "width": 558,
+        "height": 374,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/4.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/4.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "34751d7ff2b84c6e123ae5f86f0bee7d5aa3d1df0eb69c2a291fee04f117b3b2",
+        "bytes": 79631,
+        "width": 558,
+        "height": 374,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/4.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/4.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-008",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-05bdb6758e9b",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "17bd409d7455a707c2a0a168d882c56d87949a3ce687c44fb38bbd5847781122",
+        "bytes": 43800,
+        "width": 900,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/8.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/8.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "d26127c2c152b30910b6e734828e6f9951d4324ae84639e8d49d0a3449c6eb3b",
+        "bytes": 58854,
+        "width": 900,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/8.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/8.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "b85435ee6d44834b202dc2a2169da490ffa5efb435fa3dbe83cfbc3deadcd0e9",
+        "bytes": 59844,
+        "width": 900,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/8.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/8.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-011",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-c1380c57463f",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "9d0b99eab9e8b97c9dc1f56671bb7f5d30cf013462417436a5b90dbd12bb506a",
+        "bytes": 53576,
+        "width": 856,
+        "height": 521,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/11.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/11.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "8eadc63fa9166ef556ee5549d2a8fdc167cc2b0676c8fcf40ccc15f2c5a210f3",
+        "bytes": 60184,
+        "width": 856,
+        "height": 521,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/11.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/11.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "4eaad1ce5fa18d285144e9ed4710931689b7b8c2be930726e1bd4496c959b8fe",
+        "bytes": 69832,
+        "width": 856,
+        "height": 521,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/11.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/11.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-018",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-082dd027449c",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "528899be93f3b2462c4cabb40b7403262f3daf543f5346d233300e9ff74e25b2",
+        "bytes": 29204,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/18.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/18.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "d08311be887d4f27bd6c37966069d445cbfb2aa5d5b24bbff61278cac243efab",
+        "bytes": 21699,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/18.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/18.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "f9e2c8d6e9a44a3955aba2ba3e64bccd19242e7f1a879de592af00f3375b4bfb",
+        "bytes": 30462,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/18.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/18.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-020",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-99c075e98395",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "fddbbf1a1be46af873a72778cdeba16230affa3462f60b9bbad79d1230e96ba1",
+        "bytes": 51044,
+        "width": 637,
+        "height": 423,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/20.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/20.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "6a285c51905b95e306406a5c53633b9e2af4bd616cc9323f97e31721e7dfa416",
+        "bytes": 46583,
+        "width": 637,
+        "height": 423,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/20.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/20.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "898ab169433aa1450dc5b32797c76e3bad39906087c5ed7a4faff2a82c8d08ef",
+        "bytes": 62799,
+        "width": 637,
+        "height": 423,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/20.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/20.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-021",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-cc27378a3eb8",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "fd561ae37729448848070a2d229ad61c336b605e23181746dda5405f6f0ddf04",
+        "bytes": 23754,
+        "width": 584,
+        "height": 389,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/21.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/21.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "c9a9cd148d53cacc52658183ff6d3b0d119a5fb58f336b162194332713ca3726",
+        "bytes": 20701,
+        "width": 584,
+        "height": 389,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/21.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/21.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "49131799e5df1fb2adb212f218db6ca1a34971c497da8c7411a383e197abad24",
+        "bytes": 24658,
+        "width": 584,
+        "height": 389,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/21.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/21.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-022",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-8224f1214029",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "b057b60617cfec4293bb9d9cba1a52461e2d212baa3cbcd3b28ce06cc699cf56",
+        "bytes": 69792,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/22.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/22.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "c16f9f6aa4cc93d4c8eb24f387c2d5306f0498e97f0591cd85ca4d17028a8de1",
+        "bytes": 45015,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/22.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/22.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "dba43463c2e114160a7a7ae12945bc3630c10cbf8397ae08e8153711168394d4",
+        "bytes": 75741,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/22.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/22.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-044",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-2716646fbfd0",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "668ca6fd940827391e14d9be8281e5750d198fc20c298986db18aedf9fa23184",
+        "bytes": 57471,
+        "width": 843,
+        "height": 562,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/44.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/44.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "4c76e20288b0daf589099b1b7ca3921798f74f9e3fbcd72c11316f89ae922601",
+        "bytes": 81861,
+        "width": 843,
+        "height": 562,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/44.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/44.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "7f1f1b8cce164a55023736af7babe87fc7b29f2e86816644742b1e4da1e8582d",
+        "bytes": 90998,
+        "width": 843,
+        "height": 562,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/44.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/44.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-051",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-ad5cd4e18265",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "26ff2cdab9d0849dad34ed6324a2b3193b81812c48a0d43f0ea5b24758ad2853",
+        "bytes": 70118,
+        "width": 900,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/51.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/51.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "198983370a911213e1ceb81d0beeac633cb483a23861e4924556d601700fbf9c",
+        "bytes": 125406,
+        "width": 900,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/51.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/51.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "8f0e2ba9125a889503f4a353555eeaf2912ef0c01b8a340ca73c93723f314fa6",
+        "bytes": 130118,
+        "width": 900,
+        "height": 600,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/51.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/51.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-052",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-3812288ab7d3",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "61a6c776d11db5d5594b2480b85053255b98b34706e4c1a89d9fc8a6837f9615",
+        "bytes": 48911,
+        "width": 740,
+        "height": 490,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/52.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/52.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "01f7c83e0e72c662bdaf3f1c5e8ad39cebe2ac38b78699a27d3f4ee28a2c0aab",
+        "bytes": 49245,
+        "width": 740,
+        "height": 490,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/52.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/52.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "569d09b674bc12532e713886cb472cdb68596ecb5c348c71c350237024016777",
+        "bytes": 60239,
+        "width": 740,
+        "height": 490,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/52.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/52.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-056",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-460737a41721",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "74cda4c8589682532ba4e8ad1cad55fc9180c7fd9086c85333eb5aa5eac0c8ea",
+        "bytes": 54058,
+        "width": 428,
+        "height": 644,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/56.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/56.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "bcd938e0cab7ab90503cfea2cab6f352f96303462abb426f28e932c559889b4c",
+        "bytes": 80579,
+        "width": 428,
+        "height": 644,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/56.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/56.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "901af57e185b7d15bfe2481e264c865bc0f6ec0dd7fd2d3e72cd7822af1e4f9e",
+        "bytes": 89954,
+        "width": 428,
+        "height": 644,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/56.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/56.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-058",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-5d0ee83f3d4e",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "5197da5a374689c2a558358b84f0ced12447cde65e4e2a57b26701bfe7c52e66",
+        "bytes": 33367,
+        "width": 637,
+        "height": 423,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/58.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/58.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "4044433a2516923c39b04b543bd6324ad26c588b56573c859705fc80aff82c23",
+        "bytes": 49149,
+        "width": 637,
+        "height": 423,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/58.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/58.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "2ba9d000212b50c50a8de7ae0b5d9cbae06e00eb0f16d8b10e4007a542afcdd6",
+        "bytes": 50876,
+        "width": 637,
+        "height": 423,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/58.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/58.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-060",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-13f6e7296782",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "a18f6a96f455e238ddebd85f3ffda2fa73a9ae9a04300f9dc31ca6deb948a219",
+        "bytes": 49584,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/60.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/60.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "89c8ccf09d96343c41dfc7a84cc0b9bd78c103c3daaf70945cf689cfc8a3330b",
+        "bytes": 85463,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/60.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/60.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "22438a85a00a2e662a0f176e30e6e030cf03a2c9deaed8d53aeda51aadbfc96d",
+        "bytes": 90503,
+        "width": 644,
+        "height": 428,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/60.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/60.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-067",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-7b88afebd798",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "a9bee8024545722cb142a57cab9d3c5a1f6f336cd607a5b596f5044df678bc6a",
+        "bytes": 37163,
+        "width": 640,
+        "height": 505,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/67.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/67.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "9e72d7eb8be5f44f9b8ffb638530ead15a46739c1724af4c7daeda5fff86fbc7",
+        "bytes": 65539,
+        "width": 640,
+        "height": 505,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/67.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/67.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "836eeee56f52b30d62e4bf4386760c0bc0f8271f43b7a22b3371cb9d5d21e38e",
+        "bytes": 68246,
+        "width": 640,
+        "height": 505,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/67.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/67.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-071",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-c9be7adde9cf",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "deba7ea77066f43dfdde52db9615582a39df8db484fd6cd9ad463bb89bd9f458",
+        "bytes": 35808,
+        "width": 640,
+        "height": 444,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/71.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/71.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "2054941967d37d16f3878de13bf491570c6604ebafe8efd40f461384266e1d4e",
+        "bytes": 47709,
+        "width": 640,
+        "height": 444,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/71.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/71.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "96ae74eb7c870db0a94377598bf050e27e862ce7b90b48120a29c0e649ebc75e",
+        "bytes": 49155,
+        "width": 640,
+        "height": 444,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/71.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/71.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-073",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-ba74a292000e",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "c7935dfd21537dc9726928f75648f4cd1fa1aa28907d74505e60276ac45ac14f",
+        "bytes": 37714,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/73.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/73.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "73f7d27f33125c144eaff208fc056caa098de0d5ddf42ac1c2c465bb49d28f0d",
+        "bytes": 63631,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/73.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/73.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "356e968f91d3e2b637a0e60fc0d0cac8c98fdb73153e77c527e72f03a932a64f",
+        "bytes": 66514,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/73.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/73.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-077",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-a6b4e114a795",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "e3a706694bd5e53a8c227cbc5de98a3989ba87810af67a01257050302b73850e",
+        "bytes": 28302,
+        "width": 500,
+        "height": 375,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/77.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/77.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "3c99fb42964fb022e602d76a85344d1b338ccda9767ba95c26053b5851789067",
+        "bytes": 29120,
+        "width": 500,
+        "height": 375,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/77.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/77.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "f0e99b5a10a15fc7072d4a0aa1333fb31f922d368b01a4d10800efac6e4a6fc8",
+        "bytes": 34970,
+        "width": 500,
+        "height": 375,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/77.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/77.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-079",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-bd3e8b53b4ea",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "068aaff5874cf2bd4251b9e77fd79f401bcea394559388a729700d036fe17ac0",
+        "bytes": 43663,
+        "width": 640,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/79.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/79.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "fd40e83fcd8cc9df5763f957f1f4f069d8ce9ffda133da60d5cc1a5209de5ddd",
+        "bytes": 80438,
+        "width": 640,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/79.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/79.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "f6a1d89c7b8e7ce7fbcfe8deb76795626646299ab2760be5dadadce6aa141db9",
+        "bytes": 85654,
+        "width": 640,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/79.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/79.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-080",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-54f1c872319d",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "94ebfb56450b9ceeee7d94439133e0b862fde1539d0a39855d70d6f289da6dc4",
+        "bytes": 31713,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/80.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/80.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "be3a0de17f41a93007e397c42b033ce6bb5b5a4167526afee12b38be9776be5a",
+        "bytes": 41731,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/80.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/80.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "c974ca2707d79b6cb98898b19f56554fc936fe13023618bf7e9f40bbced71c0f",
+        "bytes": 45822,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/80.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/80.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-083",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-e59e716f4ae4",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "a54c7d9ebf12f315e217c2fd673fbeb7ddae039db28d14410807235c6239c71c",
+        "bytes": 23485,
+        "width": 500,
+        "height": 375,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/83.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/83.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "1fb6b18f60c15b4931c36b1e7821d29b99f758afaa13e507d73144196c75b24c",
+        "bytes": 25774,
+        "width": 500,
+        "height": 375,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/83.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/83.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "5f30e1d94fc05463655a23c4252a36aa7c3badc0bb5d084caf275c2359a90295",
+        "bytes": 29397,
+        "width": 500,
+        "height": 375,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/83.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/83.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-085",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-4609ea51595b",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "10201cd8c6e651ee81a7ebbca76bc8ea640ca67e9d10d40c602c876a82f615f6",
+        "bytes": 47983,
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/85.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/85.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "27ce86c81d69e8fc39618d14cbfbc7f51daf9a4928f7f0ba2a7c018bdf719f84",
+        "bytes": 106544,
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/85.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/85.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "b28015c7190515072d2371cd52fa1d592e26967bbe1b501eb574339873b1bd99",
+        "bytes": 109519,
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/85.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/85.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-091",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-ffeb8c1ec36b",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "42b56fa4c42b3565133d3f83c3f4bab04e06dd599b18bead7c6e659ddc9a931d",
+        "bytes": 49379,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/91.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/91.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "15155c0674674d26409bf80920c138bddb4dfd3e361d4adbd28e4ec417222613",
+        "bytes": 63919,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/91.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/91.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "7b051c8405d195341fa386c481102f1b302644662355ceeb1ad8fd21d1af1385",
+        "bytes": 74528,
+        "width": 427,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/91.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/91.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-097",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-c795ff53341b",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "0cce457204c77d4a1b4fa7abccc02e64a214390854535f3cf23065a2354924b4",
+        "bytes": 23597,
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/97.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/97.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "0c1fa6a45e52ec709cc5857dc3e5f300b0597b8ba51a2497f9f06b3a196c607f",
+        "bytes": 36754,
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/97.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/97.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "0ffe51109691db252c169fa3a6199829d2a06d5b74a695aab87709c81574459d",
+        "bytes": 38632,
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/97.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/97.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-098",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-128cc9eb679a",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "9e8f22cd1ccea5246af4964a301c06f06b05ba254cddd43d7f1b19ae1ebb610b",
+        "bytes": 28776,
+        "width": 640,
+        "height": 427,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/98.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/98.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "21213dc9fc5ded67ec4188441d00ddbe4abdc60a78a2aa82ac891e542665b126",
+        "bytes": 41870,
+        "width": 640,
+        "height": 427,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/98.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/98.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "d7d09140c3dc9a16966277916ba4e94fb412bf374448b29baffdabfc132d75ec",
+        "bytes": 45615,
+        "width": 640,
+        "height": 427,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/98.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/98.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-105",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-6121c6a08b21",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "53a1f84cbf869c95259acc0159356148494fc273e89cd5f8cbddbe6d2a464720",
+        "bytes": 45195,
+        "width": 480,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/105.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/105.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "3bbe2d6f26bf9f6015a629a2253e8b80ffe0f60927aa990aafded0267ed71b6f",
+        "bytes": 94594,
+        "width": 480,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/105.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/105.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "f672b1e3c8994a5ebe492584d239ec7d27a6474bced7966ce0d6a5cdf88925fb",
+        "bytes": 98911,
+        "width": 480,
+        "height": 640,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/105.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/105.jpg"
+      }
+    ]
+  },
+  {
+    "scene_id": "WHU-118",
+    "dataset": "MFI-WHU",
+    "data_kind": "synthetically_defocused_public_photos",
+    "reference_type": "provided_full_clear",
+    "group_id": "group-01dd84f060e2",
+    "split": "validation",
+    "split_status": "frozen_v1_2026-10-17",
+    "independence_audit": "sha256_and_conservative_thumbnail_screen; visual semantic audit pending",
+    "files": [
+      {
+        "role": "A",
+        "sha256": "4ab5c2b234c88bf7657bf6b4be5f18ed3ec6d62400c80cb66782f3d03076b606",
+        "bytes": 28876,
+        "width": 333,
+        "height": 500,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_1/118.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_1/118.jpg"
+      },
+      {
+        "role": "B",
+        "sha256": "220443b351d23065e1a7274d0052c02757039d602bc7344949caf864b95b1973",
+        "bytes": 39870,
+        "width": 333,
+        "height": 500,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/source_2/118.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/source_2/118.jpg"
+      },
+      {
+        "role": "GT",
+        "sha256": "4376d8a17221add24108168b38515067f2279432256ad9f35d2e88a2aefb58a5",
+        "bytes": 43645,
+        "width": 333,
+        "height": 500,
+        "mode": "RGB",
+        "source_url": "https://github.com/HaoZhang1018/MFI-WHU/blob/6071f2909f5563ccb9bcd71317f5102eefe13e6f/MFI-WHU.rar#MFI-WHU/full_clear/118.jpg",
+        "upstream_commit": "6071f2909f5563ccb9bcd71317f5102eefe13e6f",
+        "upstream_path": "MFI-WHU.rar#MFI-WHU/full_clear/118.jpg"
+      }
+    ]
+  }
+]
