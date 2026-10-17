@@ -1,0 +1,33 @@
+name: C++ portable CPU fusion
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-and-parity:
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [ubuntu-24.04, ubuntu-24.04-arm]
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install official Ubuntu build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake g++ libopencv-dev python3-venv
+      - name: Install Python package
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --upgrade pip
+          .venv/bin/python -m pip install -e .
+      - name: Build portable C++17 implementation
+        run: |
+          cmake -S cpp -B build/cpp -DCMAKE_BUILD_TYPE=Release
+          cmake --build build/cpp --parallel 2
+      - name: Test C++ invariants
+        run: ctest --test-dir build/cpp --output-on-failure
+      - name: Verify float64 Python parity
+        run: .venv/bin/python cpp/tests/parity.py --probe build/cpp/fusion_probe
