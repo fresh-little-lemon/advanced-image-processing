@@ -1,0 +1,92 @@
+{
+  "average": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "average",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "energy_no_confidence": {
+    "confidence_weighting": false,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "noise_energy",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "energy_no_exposure": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": false,
+    "linear_light": false,
+    "method": "noise_energy",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "energy_no_noise": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "noise_energy",
+    "noise_correction": false,
+    "radius": 5,
+    "window": 7
+  },
+  "experimental": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "experimental",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "guided": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "guided",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "laplacian": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "laplacian",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "noise_energy": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "noise_energy",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  },
+  "sml": {
+    "confidence_weighting": true,
+    "epsilon": 0.001,
+    "exposure_normalization": true,
+    "linear_light": false,
+    "method": "sml",
+    "noise_correction": true,
+    "radius": 5,
+    "window": 7
+  }
+}

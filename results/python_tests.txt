@@ -1,0 +1,16 @@
+test_cli_average (test_cli.CliTests.test_cli_average) ... ok
+test_grayscale_rejected (test_cli.CliTests.test_grayscale_rejected) ... ok
+test_average (test_core.FusionTests.test_average) ... ok
+test_bounds_and_determinism (test_core.FusionTests.test_bounds_and_determinism) ... ok
+test_constants_tie (test_core.FusionTests.test_constants_tie) ... ok
+test_flat_metric_undefined (test_core.FusionTests.test_flat_metric_undefined) ... ok
+test_identity (test_core.FusionTests.test_identity) ... ok
+test_linear_light_differs (test_core.FusionTests.test_linear_light_differs) ... ok
+test_noise_estimator (test_core.FusionTests.test_noise_estimator) ... ok
+test_reject_bad_input (test_core.FusionTests.test_reject_bad_input) ... ok
+test_srgb_round_trip (test_core.FusionTests.test_srgb_round_trip) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.486s
+
+OK
