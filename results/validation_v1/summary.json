@@ -1,0 +1,83 @@
+{
+  "average": {
+    "fusion_seconds": 0.01934781334309194,
+    "q_local": 0.5962594988895469,
+    "clipped_fraction": 0.0057115961078776445,
+    "laplacian_energy": 0.012648931358569628,
+    "source_envelope_violation": 0.0,
+    "psnr": 29.494771660187727,
+    "mae": 0.021741388610792552
+  },
+  "laplacian": {
+    "fusion_seconds": 0.034807642189732105,
+    "q_local": 0.7378534611887654,
+    "clipped_fraction": 0.016858194820413085,
+    "laplacian_energy": 0.05008817109110487,
+    "source_envelope_violation": 0.0,
+    "psnr": 36.79944196854995,
+    "mae": 0.0025715058993049105
+  },
+  "sml": {
+    "fusion_seconds": 0.03318095285794698,
+    "q_local": 0.73780351961546,
+    "clipped_fraction": 0.01686136704523447,
+    "laplacian_energy": 0.05008156422360651,
+    "source_envelope_violation": 0.0,
+    "psnr": 36.87870625351878,
+    "mae": 0.002548224190341339
+  },
+  "guided": {
+    "fusion_seconds": 0.136616977768986,
+    "q_local": 0.737958608418139,
+    "clipped_fraction": 0.011205327196477578,
+    "laplacian_energy": 0.04888602246649288,
+    "source_envelope_violation": 1.4042461709767763e-18,
+    "psnr": 37.79249675699657,
+    "mae": 0.0026314148421120354
+  },
+  "experimental": {
+    "fusion_seconds": 0.4087432954312625,
+    "q_local": 0.7299988104786886,
+    "clipped_fraction": 0.0057287278837951545,
+    "laplacian_energy": 0.040648516552188554,
+    "source_envelope_violation": 9.276838419397932e-19,
+    "psnr": 35.688712992644824,
+    "mae": 0.007382327028562402
+  },
+  "noise_energy": {
+    "fusion_seconds": 0.4416293739139711,
+    "q_local": 0.7284236960040358,
+    "clipped_fraction": 0.007088703992603173,
+    "laplacian_energy": 0.046476028778244007,
+    "source_envelope_violation": 8.439989685676984e-19,
+    "psnr": 36.795179860650926,
+    "mae": 0.005001720932078739
+  },
+  "energy_no_noise": {
+    "fusion_seconds": 0.23676911119344787,
+    "q_local": 0.737827259540771,
+    "clipped_fraction": 0.006528352802600051,
+    "laplacian_energy": 0.048907608279979746,
+    "source_envelope_violation": 1.0024869940916204e-18,
+    "psnr": 37.78657022824969,
+    "mae": 0.0026558841000801714
+  },
+  "energy_no_exposure": {
+    "fusion_seconds": 0.43814055326779805,
+    "q_local": 0.7283640099663634,
+    "clipped_fraction": 0.0071171978146346605,
+    "laplacian_energy": 0.04646999659892283,
+    "source_envelope_violation": 8.419149437484877e-19,
+    "psnr": 36.81043014443633,
+    "mae": 0.005021284806546745
+  },
+  "energy_no_confidence": {
+    "fusion_seconds": 0.19835115638964523,
+    "q_local": 0.7293865442542652,
+    "clipped_fraction": 0.01061537784415165,
+    "laplacian_energy": 0.04791968123966744,
+    "source_envelope_violation": 8.480650425708683e-19,
+    "psnr": 36.79014675411542,
+    "mae": 0.004205261196001028
+  }
+}

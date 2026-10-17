@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "5fd5113d7dad4c2615d31d83a9d07dd4ea94cbc1bbe4855ac18e4de86f2ef8a0",
+  "config_sha256": "4d504c11ac96c2d720e8c5029bc7c45011ae519bf0d4190fe7cca616d49559bf",
+  "threads": 1,
+  "profile_policy": "encoded_ignore",
+  "status": "complete",
+  "timing": "one call per method, excludes decoding/metrics",
+  "scene_count": 26
+}
