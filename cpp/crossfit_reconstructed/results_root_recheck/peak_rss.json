@@ -1,0 +1,83 @@
+{
+  "scope": "whole Linux CLI process peak RSS incl two RGB64 buffers, estimator temporaries, runtime and IO; not estimator-only incremental memory",
+  "method": "os.wait4 per child; Linux ru_maxrss KiB",
+  "seed": 20261018,
+  "executable_sha256": "8e8016386e3c14f2fea24eaa80a6dc248aa6af59d35dc7369e7d8ef3418fc3c7",
+  "cases": [
+    {
+      "width": 640,
+      "height": 480,
+      "max_rss_kib": 45484,
+      "output": {
+        "sigmas": [
+          0.1415596133403303,
+          0.13933282748729064
+        ],
+        "eligible_blocks": 4524,
+        "selected_blocks_per_source_per_fold": 905,
+        "available": true,
+        "valid_pixel_fraction": 0.9710416666666667,
+        "fold_variances": [
+          [
+            0.019917514452296572,
+            0.020160733805831072
+          ],
+          [
+            0.019824754758557883,
+            0.019002518872648314
+          ]
+        ]
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "max_rss_kib": 88704,
+      "output": {
+        "sigmas": [
+          0.13832920810853938,
+          0.1380738498804503
+        ],
+        "eligible_blocks": 13904,
+        "selected_blocks_per_source_per_fold": 2781,
+        "available": true,
+        "valid_pixel_fraction": 0.9827083333333333,
+        "fold_variances": [
+          [
+            0.019070346460103953,
+            0.019199593171767244
+          ],
+          [
+            0.019091720411674843,
+            0.019037055629943414
+          ]
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "max_rss_kib": 122732,
+      "output": {
+        "sigmas": [
+          0.13895188815561454,
+          0.13818419476134397
+        ],
+        "eligible_blocks": 31654,
+        "selected_blocks_per_source_per_fold": 6331,
+        "available": true,
+        "valid_pixel_fraction": 0.9884567901234568,
+        "fold_variances": [
+          [
+            0.01940295747645149,
+            0.019212296967569334
+          ],
+          [
+            0.019087228624044158,
+            0.019102514739637925
+          ]
+        ]
+      }
+    }
+  ]
+}

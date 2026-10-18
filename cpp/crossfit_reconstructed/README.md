@@ -99,3 +99,13 @@ address/undefined-behavior run disables only leak detection (`detect_leaks=0`).
 No leak-check success is claimed. On an unsupervised host you can rerun the native
 sanitized binary with `ASAN_OPTIONS=detect_leaks=1:halt_on_error=1`; the local
 script keeps this optional check disabled so it is reproducible here.
+
+## Additional recovery checks
+
+`CMakeLists.txt` restores a portable CMake entry point for the new implementation.
+Use `cmake -S . -B build_cmake -DCMAKE_BUILD_TYPE=Release`,
+`cmake --build build_cmake`, and `ctest --test-dir build_cmake`.
+`bench/measure_peak_rss.py` measures per-child Linux process high-water RSS via
+wait4, including the CLI input buffers, runtime, launch and temporary allocations.
+It is not incremental estimator memory and is not directly comparable to the
+lost historical memory measurements.
