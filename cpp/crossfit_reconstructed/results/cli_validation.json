@@ -1,0 +1,67 @@
+{
+  "suite": "malformed_cli_fixtures",
+  "total": 10,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "empty_file",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "invalid fixture header"
+    },
+    {
+      "name": "short_header",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "invalid fixture header"
+    },
+    {
+      "name": "wrong_magic",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "invalid fixture header"
+    },
+    {
+      "name": "truncated_payload",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "truncated or trailing fixture bytes"
+    },
+    {
+      "name": "trailing_payload",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "truncated or trailing fixture bytes"
+    },
+    {
+      "name": "too_small_height",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "invalid or excessive fixture dimensions"
+    },
+    {
+      "name": "zero_width",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "invalid or excessive fixture dimensions"
+    },
+    {
+      "name": "oversized_dimensions",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "invalid or excessive fixture dimensions"
+    },
+    {
+      "name": "nan_value",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "input values must be finite and in [0,1]"
+    },
+    {
+      "name": "missing_argument",
+      "passed": true,
+      "exit_code": 2,
+      "stderr": "usage: crossfit_cli fixture.bin"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"total_cases": 59, "passed_cases": 59, "max_sigma_abs_error": 6.245004513516506e-17, "max_fold_variance_abs_error": 2.7755575615628914e-17, "invariants": {"source_swap": true, "affine_half": true}, "passed": true}

@@ -1,0 +1,35 @@
+{
+  "reconstruction_date_utc": "2026-10-18",
+  "status": "new C++ reconstruction from preserved Python specification; original C++ unavailable",
+  "repository": "https://github.com/fresh-little-lemon/advanced-image-processing",
+  "python_reference": {
+    "core.py": {
+      "sha256": "12ca99755393abb0527d70c2d224a0ac22b48dce3de72d3b9435d8950e6d7321",
+      "git_blob_sha1": "735aa9241f50fcfed5609e82bba609845681f4de",
+      "source": "GitHub fixed commit",
+      "commit": "bb8ad3033327eb9a85d9378cd2831b304e4e5669",
+      "path": "src/reliable_focus/core.py"
+    },
+    "diagnostic.py": {
+      "sha256": "0274cfd8ab6087777aa8743c3e2de1f805284b9c7f6ddcd255406ac4168618ce",
+      "git_blob_sha1": "f99408a840888de9a0f669b047094694efa3527d",
+      "source": "GitHub fixed commit",
+      "commit": "bb8ad3033327eb9a85d9378cd2831b304e4e5669",
+      "path": "src/reliable_focus/diagnostic.py"
+    },
+    "crossfit_floor.py": {
+      "sha256": "8ad1084bf053c909fe1d114b2da606663527c3eee841015314b452c612f1af2a",
+      "git_blob_sha1": "02f069c642b64faeba6e7a4b58fafa80109f8c20",
+      "source": "Recovered research ZIP, original bytes",
+      "path": "repository_overlay/src/reliable_focus/crossfit_floor.py"
+    },
+    "residual_floor.py": {
+      "sha256": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea",
+      "git_blob_sha1": "6791a3c294256548cd81d1a884218c4b757507e5",
+      "source": "Recovered research ZIP, original bytes",
+      "path": "repository_overlay/src/reliable_focus/residual_floor.py"
+    }
+  },
+  "recovered_research_zip_sha256": "939fe00f4c60baeb3df6ea78ab71f234c336647b4ddb95a567698e3b480cccdb",
+  "historical_cpp_claims": "Not asserted as fresh results. Historical source and output were absent from the recovered research ZIP."
+}
