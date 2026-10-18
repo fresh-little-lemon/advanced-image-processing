@@ -1,0 +1,54 @@
+{
+  "archive_date_utc": "2026-10-18",
+  "source_repository_commit": "10ee25d8b6793383af1665f7c541dda162fa1035",
+  "purpose": "Append historical recovery material; path normalization only, no experiment rerun",
+  "contains_raw_data": false,
+  "new_empirical_results": false,
+  "path_convention": "All cases.json and cases.tsv paths are relative to repository root",
+  "source_directory_labels": {
+    "gff_author_audit": "historical author GFF compatibility pilot",
+    "fusion_comparison_20261018": "historical comparison/recovery workspace"
+  },
+  "files": [
+    {
+      "archive_path": "gff_pilot/cases.json",
+      "source_label": "gff_author_audit/pilot/cases.json",
+      "source_sha256": "c5af84b296190d95920628d9f328b91a09ea7a36715ed4aa7a90a8a19e1d68c2",
+      "archive_sha256": "74d1197bc1618cd82e26a10d4dd910f6ac63990367b8a670efe5227e26072d0d",
+      "change": "absolute path prefixes replaced by repository-relative paths"
+    },
+    {
+      "archive_path": "gff_pilot/cases.tsv",
+      "source_label": "gff_author_audit/pilot/cases.tsv",
+      "source_sha256": "db1106703c90967383df20da68f10a9476431be71694819e475920d1fbaa245e",
+      "archive_sha256": "ef8df546c95a81ee85f7f3abec991b7da79dda6b4c0e72b258a5005f17615b18",
+      "change": "absolute path prefixes replaced by repository-relative paths"
+    },
+    {
+      "archive_path": "extract_validation.py",
+      "source_label": "fusion_comparison_20261018/extract_validation.py",
+      "source_sha256": "b577025643cf26c5cb8ccb04291e4e88a2e75de7c0704cfd007716e72a810f2a",
+      "archive_sha256": "e3d1bda43355c16cd6423c5617b0cfe5547ee5bf1e2fea8099be3d234bac0dae",
+      "change": "path-root configuration only; algorithm and hash assertions unchanged"
+    },
+    {
+      "archive_path": "data_restoration.json",
+      "source_label": "fusion_comparison_20261018/data_restoration.json",
+      "source_sha256": "f07f7485b479bb9e62d584e8cbf30025007625ded4c063571249bb8350e83671",
+      "archive_sha256": "f07f7485b479bb9e62d584e8cbf30025007625ded4c063571249bb8350e83671",
+      "change": "unchanged bytes"
+    }
+  ],
+  "static_validation": {
+    "case_count": 78,
+    "scene_count": 26,
+    "tsv_rows": 78,
+    "case_non_path_fields_unchanged": true,
+    "restoration_metadata_unchanged": true,
+    "restored_file_count": 78,
+    "heldout_files_extracted_recorded": 0,
+    "extraction_script_ast_parse": "passed",
+    "script_executed": false,
+    "experiments_rerun": false
+  }
+}

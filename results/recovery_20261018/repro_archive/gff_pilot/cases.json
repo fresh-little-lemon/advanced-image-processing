@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "WHU-004_n0_0_s11",
+    "scene_id": "WHU-004",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-004_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-004_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/4.jpg",
+    "input_sha256": [
+      "cc4e926bdc82e8af4fa1cdd40bf714ccf232212743fea335db67fef8a0ec0dc6",
+      "3efbe648dd73e17c78e5a40dcf1aa896b4bad0a17385bbcbaaa7454515511a8f"
+    ]
+  },
+  {
+    "id": "WHU-004_n0_5_s11",
+    "scene_id": "WHU-004",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-004_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-004_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/4.jpg",
+    "input_sha256": [
+      "cc4e926bdc82e8af4fa1cdd40bf714ccf232212743fea335db67fef8a0ec0dc6",
+      "829ecc07ea4c69eb42f5f6a2d4e79f350fd7342a5a921d323a6c30d96fbcd9f5"
+    ]
+  },
+  {
+    "id": "WHU-004_n5_0_s11",
+    "scene_id": "WHU-004",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-004_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-004_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/4.jpg",
+    "input_sha256": [
+      "36efd63fd26026b3ed2cd914b24dda9e604df4e433b1c38ee2907b6331a5bafe",
+      "3efbe648dd73e17c78e5a40dcf1aa896b4bad0a17385bbcbaaa7454515511a8f"
+    ]
+  },
+  {
+    "id": "WHU-008_n0_0_s11",
+    "scene_id": "WHU-008",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-008_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-008_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/8.jpg",
+    "input_sha256": [
+      "b658b044a760642b80f96a53a531ecd68062aa3371e05149e4fd365ea325f368",
+      "73269bdbf8d8b7b194e1a6d320c530dd6c048077df2ba9e04171040fdd22897e"
+    ]
+  },
+  {
+    "id": "WHU-008_n0_5_s11",
+    "scene_id": "WHU-008",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-008_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-008_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/8.jpg",
+    "input_sha256": [
+      "b658b044a760642b80f96a53a531ecd68062aa3371e05149e4fd365ea325f368",
+      "3a98251371407db161442a64f944396533aad9e7e4c633e715bff19eda702333"
+    ]
+  },
+  {
+    "id": "WHU-008_n5_0_s11",
+    "scene_id": "WHU-008",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-008_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-008_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/8.jpg",
+    "input_sha256": [
+      "e47cd4e28cbb8fac815d89722889536f6b8235f1a02d57c540c2774260c64c00",
+      "73269bdbf8d8b7b194e1a6d320c530dd6c048077df2ba9e04171040fdd22897e"
+    ]
+  },
+  {
+    "id": "WHU-011_n0_0_s11",
+    "scene_id": "WHU-011",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-011_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-011_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/11.jpg",
+    "input_sha256": [
+      "d2b9eafa62fa80f91ad28db885ac27172d7c31243153b8133b8967460a243c56",
+      "b62bde02e7e1214c2a9cfb719c1b60e0da53aef44bd51fd46ebbc4da8be24310"
+    ]
+  },
+  {
+    "id": "WHU-011_n0_5_s11",
+    "scene_id": "WHU-011",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-011_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-011_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/11.jpg",
+    "input_sha256": [
+      "d2b9eafa62fa80f91ad28db885ac27172d7c31243153b8133b8967460a243c56",
+      "4a5e7d7a9c3f464ec35a11d4e4438378d80695d9d0678f98bd09aa12d21653c8"
+    ]
+  },
+  {
+    "id": "WHU-011_n5_0_s11",
+    "scene_id": "WHU-011",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-011_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-011_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/11.jpg",
+    "input_sha256": [
+      "d8c7f177b78f14c595dcdd99dbb1d6eccbe63b9c113dea7ef973df2982cc49ce",
+      "b62bde02e7e1214c2a9cfb719c1b60e0da53aef44bd51fd46ebbc4da8be24310"
+    ]
+  },
+  {
+    "id": "WHU-018_n0_0_s11",
+    "scene_id": "WHU-018",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-018_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-018_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/18.jpg",
+    "input_sha256": [
+      "a779dafd9cd86264b26b6af6dac374ad762ebe625fe731bd62701cbdd1884106",
+      "fbdb3d2a110a634b17894beb7b81cc316c46afbac185db24bc602214130b4915"
+    ]
+  },
+  {
+    "id": "WHU-018_n0_5_s11",
+    "scene_id": "WHU-018",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-018_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-018_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/18.jpg",
+    "input_sha256": [
+      "a779dafd9cd86264b26b6af6dac374ad762ebe625fe731bd62701cbdd1884106",
+      "c4a196a9b6c61bed72b55f4072dc240783b2cf240390cf73a4b14950673e9662"
+    ]
+  },
+  {
+    "id": "WHU-018_n5_0_s11",
+    "scene_id": "WHU-018",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-018_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-018_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/18.jpg",
+    "input_sha256": [
+      "8ca0295d16825aeaa129bf35500e171c091318fa5ac515656457504a256de290",
+      "fbdb3d2a110a634b17894beb7b81cc316c46afbac185db24bc602214130b4915"
+    ]
+  },
+  {
+    "id": "WHU-020_n0_0_s11",
+    "scene_id": "WHU-020",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-020_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-020_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/20.jpg",
+    "input_sha256": [
+      "5d59db58e3a4d17b085b7b13fca1dc7c8f34291c3f608447ad24aecff8413627",
+      "6d88f792d7d58b1d9b10edcc5fe94936c3450aefbbf0328ac8507c0390b06220"
+    ]
+  },
+  {
+    "id": "WHU-020_n0_5_s11",
+    "scene_id": "WHU-020",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-020_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-020_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/20.jpg",
+    "input_sha256": [
+      "5d59db58e3a4d17b085b7b13fca1dc7c8f34291c3f608447ad24aecff8413627",
+      "ab33e08f3fe8c54207cbe81a834299eb9420299951d4eed795878e39c17f4d77"
+    ]
+  },
+  {
+    "id": "WHU-020_n5_0_s11",
+    "scene_id": "WHU-020",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-020_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-020_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/20.jpg",
+    "input_sha256": [
+      "71266717fdeb887366a8b3f83a68d809bffc8c60c677c11f71f5f033438ddcea",
+      "6d88f792d7d58b1d9b10edcc5fe94936c3450aefbbf0328ac8507c0390b06220"
+    ]
+  },
+  {
+    "id": "WHU-021_n0_0_s11",
+    "scene_id": "WHU-021",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-021_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-021_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/21.jpg",
+    "input_sha256": [
+      "2e13cbd24e7d5384add933a9debda8893da2fdeeee1dcd3bea602b2d870d4b19",
+      "4ebfcb625ebb7339fd2e34d243270985ceb23752fa3833089efe86f24b8abfbd"
+    ]
+  },
+  {
+    "id": "WHU-021_n0_5_s11",
+    "scene_id": "WHU-021",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-021_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-021_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/21.jpg",
+    "input_sha256": [
+      "2e13cbd24e7d5384add933a9debda8893da2fdeeee1dcd3bea602b2d870d4b19",
+      "afe85d815dcbfd98bcdf7f603b0180a1cac022757441352e24c76743e9a6a15e"
+    ]
+  },
+  {
+    "id": "WHU-021_n5_0_s11",
+    "scene_id": "WHU-021",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-021_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-021_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/21.jpg",
+    "input_sha256": [
+      "be0098b0b4f5f8a42cfeb83f39c9589e4a6795294fbe93fa112d8271382080b5",
+      "4ebfcb625ebb7339fd2e34d243270985ceb23752fa3833089efe86f24b8abfbd"
+    ]
+  },
+  {
+    "id": "WHU-022_n0_0_s11",
+    "scene_id": "WHU-022",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-022_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-022_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/22.jpg",
+    "input_sha256": [
+      "729df0d58fd10c689d389760d99cab9f1f128c405a7515ff179482a61038c578",
+      "a9ab0536acebffbc5ee7c5d53997df0e5cdd2db4c8e7862d664763480792e858"
+    ]
+  },
+  {
+    "id": "WHU-022_n0_5_s11",
+    "scene_id": "WHU-022",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-022_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-022_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/22.jpg",
+    "input_sha256": [
+      "729df0d58fd10c689d389760d99cab9f1f128c405a7515ff179482a61038c578",
+      "3251d748db75b289e58f762f3dfa92efc8301bd724540eab05770be16c8f88a5"
+    ]
+  },
+  {
+    "id": "WHU-022_n5_0_s11",
+    "scene_id": "WHU-022",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-022_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-022_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/22.jpg",
+    "input_sha256": [
+      "4b498696dab8f2b1b797e29be11f58e5d9c1e90b8cbfc4b120f0cabb407f7f87",
+      "a9ab0536acebffbc5ee7c5d53997df0e5cdd2db4c8e7862d664763480792e858"
+    ]
+  },
+  {
+    "id": "WHU-044_n0_0_s11",
+    "scene_id": "WHU-044",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-044_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-044_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/44.jpg",
+    "input_sha256": [
+      "14071db52d4ad78afb0da1ac5de2c66af7a711757cedb368d0089378bcef7f1f",
+      "bd5cc5dc815696acf63b617e2fd73c76f2ce64af7924b13c0e160ef83ed619c7"
+    ]
+  },
+  {
+    "id": "WHU-044_n0_5_s11",
+    "scene_id": "WHU-044",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-044_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-044_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/44.jpg",
+    "input_sha256": [
+      "14071db52d4ad78afb0da1ac5de2c66af7a711757cedb368d0089378bcef7f1f",
+      "c64de88775506a917fc99410e36c854ae17518f3a3878422da1357e46f87bc0d"
+    ]
+  },
+  {
+    "id": "WHU-044_n5_0_s11",
+    "scene_id": "WHU-044",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-044_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-044_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/44.jpg",
+    "input_sha256": [
+      "aed73e6f88bce14e66768c4119d6d03fe50cb550c3383236213f41a411fb3f58",
+      "bd5cc5dc815696acf63b617e2fd73c76f2ce64af7924b13c0e160ef83ed619c7"
+    ]
+  },
+  {
+    "id": "WHU-051_n0_0_s11",
+    "scene_id": "WHU-051",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-051_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-051_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/51.jpg",
+    "input_sha256": [
+      "adcffd728a2dda54b742f8eff356c8bed5eeacac225b88213f0091415ae9bae0",
+      "9b61e3d58dca54a3ca9a7b5d6216d0dc6d768ecdd69bcbe2f4b3c34ddc3cc287"
+    ]
+  },
+  {
+    "id": "WHU-051_n0_5_s11",
+    "scene_id": "WHU-051",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-051_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-051_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/51.jpg",
+    "input_sha256": [
+      "adcffd728a2dda54b742f8eff356c8bed5eeacac225b88213f0091415ae9bae0",
+      "9702e2ccd6b64083f98af8cfa34658710622e64e65c5ab4e02b42bed24cebc90"
+    ]
+  },
+  {
+    "id": "WHU-051_n5_0_s11",
+    "scene_id": "WHU-051",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-051_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-051_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/51.jpg",
+    "input_sha256": [
+      "c83924c700df5054f5b1b7a9b9b5fb1152f5b7454b6cf9d15fe8e04519576f58",
+      "9b61e3d58dca54a3ca9a7b5d6216d0dc6d768ecdd69bcbe2f4b3c34ddc3cc287"
+    ]
+  },
+  {
+    "id": "WHU-052_n0_0_s11",
+    "scene_id": "WHU-052",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-052_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-052_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/52.jpg",
+    "input_sha256": [
+      "ae2b913232137dc6dd41528edcf322171e371e2885ae4b4d7a0dbe2b157cdb60",
+      "2f8df61ffe60d744a9d8792ce46bd3d5c7b7b0e87a2a69de961d046290937e15"
+    ]
+  },
+  {
+    "id": "WHU-052_n0_5_s11",
+    "scene_id": "WHU-052",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-052_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-052_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/52.jpg",
+    "input_sha256": [
+      "ae2b913232137dc6dd41528edcf322171e371e2885ae4b4d7a0dbe2b157cdb60",
+      "ab3f79b0f3947466c75dcbe84d927fc4ab1c4e9dc662738562347a74987e98af"
+    ]
+  },
+  {
+    "id": "WHU-052_n5_0_s11",
+    "scene_id": "WHU-052",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-052_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-052_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/52.jpg",
+    "input_sha256": [
+      "d862dabfcb652a4ed49cacb02f15778ddfe6946ada46e5826e9fd733a694dccb",
+      "2f8df61ffe60d744a9d8792ce46bd3d5c7b7b0e87a2a69de961d046290937e15"
+    ]
+  },
+  {
+    "id": "WHU-056_n0_0_s11",
+    "scene_id": "WHU-056",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-056_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-056_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/56.jpg",
+    "input_sha256": [
+      "bec9ef976d4d010afe0f59dcb8e3acafd65d56c51aceabfce14e772ce1198502",
+      "8d27ce62ab17f767ed9c34a46c2212b6b2721fd216614d299e42f8d629948b32"
+    ]
+  },
+  {
+    "id": "WHU-056_n0_5_s11",
+    "scene_id": "WHU-056",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-056_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-056_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/56.jpg",
+    "input_sha256": [
+      "bec9ef976d4d010afe0f59dcb8e3acafd65d56c51aceabfce14e772ce1198502",
+      "4d6bd241c647506874e07c1da09d4127f17f627214e1c5c92efc79123c8de5c0"
+    ]
+  },
+  {
+    "id": "WHU-056_n5_0_s11",
+    "scene_id": "WHU-056",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-056_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-056_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/56.jpg",
+    "input_sha256": [
+      "c219a50b5e2c5dbbc7203fcbc327a6ca13f749b37e48f13beae061951f64452f",
+      "8d27ce62ab17f767ed9c34a46c2212b6b2721fd216614d299e42f8d629948b32"
+    ]
+  },
+  {
+    "id": "WHU-058_n0_0_s11",
+    "scene_id": "WHU-058",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-058_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-058_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/58.jpg",
+    "input_sha256": [
+      "f05c1ba693d412522ecab8283ca13d4d246f367611a19feccafbc7d74f8caeab",
+      "cdd3f6b86c4f5f7f1823e1976b91b6fc798b57f901f7c2540d11d9b2b72de395"
+    ]
+  },
+  {
+    "id": "WHU-058_n0_5_s11",
+    "scene_id": "WHU-058",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-058_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-058_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/58.jpg",
+    "input_sha256": [
+      "f05c1ba693d412522ecab8283ca13d4d246f367611a19feccafbc7d74f8caeab",
+      "f24fad58ec6f099f52735673e4d0054d13ed15422dde3ef3adb36d5c582bd386"
+    ]
+  },
+  {
+    "id": "WHU-058_n5_0_s11",
+    "scene_id": "WHU-058",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-058_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-058_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/58.jpg",
+    "input_sha256": [
+      "016810e64bee4cedd2c1b8157d6d0a4bdeb5dd8e5fa7c6112fb4fa8b4a743d6f",
+      "cdd3f6b86c4f5f7f1823e1976b91b6fc798b57f901f7c2540d11d9b2b72de395"
+    ]
+  },
+  {
+    "id": "WHU-060_n0_0_s11",
+    "scene_id": "WHU-060",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-060_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-060_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/60.jpg",
+    "input_sha256": [
+      "b7de5ff57fed7b287d30766b127706020338ae4b594053be9b21538d5e74973e",
+      "18249a3e011f473c3b3cc93e54682b3809a0532d78b7051e50cb12984dac4efd"
+    ]
+  },
+  {
+    "id": "WHU-060_n0_5_s11",
+    "scene_id": "WHU-060",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-060_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-060_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/60.jpg",
+    "input_sha256": [
+      "b7de5ff57fed7b287d30766b127706020338ae4b594053be9b21538d5e74973e",
+      "8341f1a46156c53c0a33f4ec87ab42f26c5bf23c7333fb0ef3bf679bdf176033"
+    ]
+  },
+  {
+    "id": "WHU-060_n5_0_s11",
+    "scene_id": "WHU-060",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-060_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-060_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/60.jpg",
+    "input_sha256": [
+      "a0e73c866e81395d134ed93b338c057bb6a83f097b910b2aac103553e6b87127",
+      "18249a3e011f473c3b3cc93e54682b3809a0532d78b7051e50cb12984dac4efd"
+    ]
+  },
+  {
+    "id": "WHU-067_n0_0_s11",
+    "scene_id": "WHU-067",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-067_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-067_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/67.jpg",
+    "input_sha256": [
+      "04990516c05b964e4359bbf84d513ebda4bbd75b335ee2631a7657f780721db2",
+      "8212c0ed1d264b8558ffc042299fcb031cbddf5d3ced65b38fa60cf1532c6fdb"
+    ]
+  },
+  {
+    "id": "WHU-067_n0_5_s11",
+    "scene_id": "WHU-067",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-067_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-067_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/67.jpg",
+    "input_sha256": [
+      "04990516c05b964e4359bbf84d513ebda4bbd75b335ee2631a7657f780721db2",
+      "b4ae5594c80b61b592c36924a7c53d6d4a0f163f6c883a34b3b56d124bc51be1"
+    ]
+  },
+  {
+    "id": "WHU-067_n5_0_s11",
+    "scene_id": "WHU-067",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-067_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-067_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/67.jpg",
+    "input_sha256": [
+      "e4c6967b6343cae39dff9263ffa2fd3f4db39770c9152b2a5738f9cf2df2c186",
+      "8212c0ed1d264b8558ffc042299fcb031cbddf5d3ced65b38fa60cf1532c6fdb"
+    ]
+  },
+  {
+    "id": "WHU-071_n0_0_s11",
+    "scene_id": "WHU-071",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-071_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-071_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/71.jpg",
+    "input_sha256": [
+      "02047d163e89817dea34a7d8ea6b0c63e813cd5fa48061952e2321f2532e36e6",
+      "86b75f58673f11fc882a924d8b50397f274a2c7c4f1807f8dab7c5b97036a8e4"
+    ]
+  },
+  {
+    "id": "WHU-071_n0_5_s11",
+    "scene_id": "WHU-071",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-071_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-071_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/71.jpg",
+    "input_sha256": [
+      "02047d163e89817dea34a7d8ea6b0c63e813cd5fa48061952e2321f2532e36e6",
+      "aac77ff26f7e2d16ac9d33f628ab60c15e8fc8a0b032e1e1a59c0e5ff3fda00d"
+    ]
+  },
+  {
+    "id": "WHU-071_n5_0_s11",
+    "scene_id": "WHU-071",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-071_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-071_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/71.jpg",
+    "input_sha256": [
+      "79a7d692f4575d9e7fc0c46fef46875a186f593938b2d536cbe53dc20ef529e5",
+      "86b75f58673f11fc882a924d8b50397f274a2c7c4f1807f8dab7c5b97036a8e4"
+    ]
+  },
+  {
+    "id": "WHU-073_n0_0_s11",
+    "scene_id": "WHU-073",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-073_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-073_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/73.jpg",
+    "input_sha256": [
+      "f42e8059978af6cdd32526263d92e640d8eef3fe5dcec99d7468544ac8937786",
+      "486625c6d09be9705d35522bd3e5e3716b5f342b8743e27d0c821e9f7db4437c"
+    ]
+  },
+  {
+    "id": "WHU-073_n0_5_s11",
+    "scene_id": "WHU-073",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-073_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-073_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/73.jpg",
+    "input_sha256": [
+      "f42e8059978af6cdd32526263d92e640d8eef3fe5dcec99d7468544ac8937786",
+      "24b7a0e35eae9fb2cdf7f7b5fa9d90c7d04339c55105529e46cb80a073d43545"
+    ]
+  },
+  {
+    "id": "WHU-073_n5_0_s11",
+    "scene_id": "WHU-073",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-073_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-073_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/73.jpg",
+    "input_sha256": [
+      "2a74b9bf504f59e974a25f17da74e868de1608bf0ae81a9e98bab5db3959ff9e",
+      "486625c6d09be9705d35522bd3e5e3716b5f342b8743e27d0c821e9f7db4437c"
+    ]
+  },
+  {
+    "id": "WHU-077_n0_0_s11",
+    "scene_id": "WHU-077",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-077_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-077_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/77.jpg",
+    "input_sha256": [
+      "b1b7ef79364e0f118f798013642274180fc06ea517f3a45910ea5346408cf072",
+      "26a1f505475a9bd1954c313bf921a596d774a674c8dd5c74c8e66e39b9165a85"
+    ]
+  },
+  {
+    "id": "WHU-077_n0_5_s11",
+    "scene_id": "WHU-077",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-077_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-077_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/77.jpg",
+    "input_sha256": [
+      "b1b7ef79364e0f118f798013642274180fc06ea517f3a45910ea5346408cf072",
+      "773b8bbc5d39bfb28167230ff9f746ffe27a8330c1c0c0326fdb2a41c6d531e2"
+    ]
+  },
+  {
+    "id": "WHU-077_n5_0_s11",
+    "scene_id": "WHU-077",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-077_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-077_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/77.jpg",
+    "input_sha256": [
+      "d42984ca0d28e7572c2b00c275c7aea7587fd70c4daacf36ad020539fb067812",
+      "26a1f505475a9bd1954c313bf921a596d774a674c8dd5c74c8e66e39b9165a85"
+    ]
+  },
+  {
+    "id": "WHU-079_n0_0_s11",
+    "scene_id": "WHU-079",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-079_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-079_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/79.jpg",
+    "input_sha256": [
+      "a8e9222c6ff2d1611dcaf736fb98b3f253b88864bbdbacaf6042aadcea0429b0",
+      "35570a7695390a8a22033f9a762ad82a844c3671a9a3c84c58b4100cde80b830"
+    ]
+  },
+  {
+    "id": "WHU-079_n0_5_s11",
+    "scene_id": "WHU-079",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-079_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-079_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/79.jpg",
+    "input_sha256": [
+      "a8e9222c6ff2d1611dcaf736fb98b3f253b88864bbdbacaf6042aadcea0429b0",
+      "b446269ad9b31a9166d443617b118b28253ce7f556fa16bbf231eaedbbc6fdfb"
+    ]
+  },
+  {
+    "id": "WHU-079_n5_0_s11",
+    "scene_id": "WHU-079",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-079_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-079_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/79.jpg",
+    "input_sha256": [
+      "022d8b9604c4bbc0319da3bebd2fef095e9ff703a30db53630cfd593aeecb193",
+      "35570a7695390a8a22033f9a762ad82a844c3671a9a3c84c58b4100cde80b830"
+    ]
+  },
+  {
+    "id": "WHU-080_n0_0_s11",
+    "scene_id": "WHU-080",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-080_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-080_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/80.jpg",
+    "input_sha256": [
+      "f0eca0e21d12c69c2eb556feab72eb00fc52553e6f95b269b9ea1bbb55422dff",
+      "0b639a7552770e8a7112ea55a97faccf38d62de0ca5d9910dd3e1742bee2fbbc"
+    ]
+  },
+  {
+    "id": "WHU-080_n0_5_s11",
+    "scene_id": "WHU-080",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-080_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-080_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/80.jpg",
+    "input_sha256": [
+      "f0eca0e21d12c69c2eb556feab72eb00fc52553e6f95b269b9ea1bbb55422dff",
+      "7b7e112a8e79ebfeaf88d2567e9ac5672cec80fb7e7dc5c19a0f27e735861a98"
+    ]
+  },
+  {
+    "id": "WHU-080_n5_0_s11",
+    "scene_id": "WHU-080",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-080_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-080_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/80.jpg",
+    "input_sha256": [
+      "9209aa25b188af50be29afaf08f154db692b31f263e2cac1b319d28b4cac940a",
+      "0b639a7552770e8a7112ea55a97faccf38d62de0ca5d9910dd3e1742bee2fbbc"
+    ]
+  },
+  {
+    "id": "WHU-083_n0_0_s11",
+    "scene_id": "WHU-083",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-083_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-083_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/83.jpg",
+    "input_sha256": [
+      "1347904e6bc2e6d2a60289b15eb9e678dcbb024735545b00b4fd04957a00dc82",
+      "a06a33ec1b7f19e2744509b0ec50f0f0b5621482b879bba0c09a6d9ac00b080b"
+    ]
+  },
+  {
+    "id": "WHU-083_n0_5_s11",
+    "scene_id": "WHU-083",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-083_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-083_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/83.jpg",
+    "input_sha256": [
+      "1347904e6bc2e6d2a60289b15eb9e678dcbb024735545b00b4fd04957a00dc82",
+      "f1e32d35af1bb0e9fcae627c5586df640cc586cc9a282209303b48b027ccfb75"
+    ]
+  },
+  {
+    "id": "WHU-083_n5_0_s11",
+    "scene_id": "WHU-083",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-083_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-083_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/83.jpg",
+    "input_sha256": [
+      "a9b2b6605007b5235a0e4610e93e5216dc0c2ce4b9717eb1528cf6bcdff9e454",
+      "a06a33ec1b7f19e2744509b0ec50f0f0b5621482b879bba0c09a6d9ac00b080b"
+    ]
+  },
+  {
+    "id": "WHU-085_n0_0_s11",
+    "scene_id": "WHU-085",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-085_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-085_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/85.jpg",
+    "input_sha256": [
+      "6dbc10724430de2b899e1a446acfb702a0e8ec02efe82f49218d999507772f72",
+      "77d9b02ddd9b38341a295db1c21041fb50e047f90f867c1d5de7326fa245c501"
+    ]
+  },
+  {
+    "id": "WHU-085_n0_5_s11",
+    "scene_id": "WHU-085",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-085_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-085_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/85.jpg",
+    "input_sha256": [
+      "6dbc10724430de2b899e1a446acfb702a0e8ec02efe82f49218d999507772f72",
+      "781fdf5c80a287c8c663041520fd892eb44b61c7c359eb8f0db458ce3ea963df"
+    ]
+  },
+  {
+    "id": "WHU-085_n5_0_s11",
+    "scene_id": "WHU-085",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-085_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-085_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/85.jpg",
+    "input_sha256": [
+      "61c5b8dc078b74129fb4eb582c5a4e03c6dbb88e9bfe7d8e4087a279a97b08ce",
+      "77d9b02ddd9b38341a295db1c21041fb50e047f90f867c1d5de7326fa245c501"
+    ]
+  },
+  {
+    "id": "WHU-091_n0_0_s11",
+    "scene_id": "WHU-091",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-091_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-091_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/91.jpg",
+    "input_sha256": [
+      "3a553e89ac8a998b50c0904f6d3fc34190d14bd07aafe0e219de7198e5d060d9",
+      "b1fd6f7e352128eb87032e310e7623ce12133db37d8cc124caa3b2ba5324fb65"
+    ]
+  },
+  {
+    "id": "WHU-091_n0_5_s11",
+    "scene_id": "WHU-091",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-091_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-091_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/91.jpg",
+    "input_sha256": [
+      "3a553e89ac8a998b50c0904f6d3fc34190d14bd07aafe0e219de7198e5d060d9",
+      "e04d401c8910bc51e2f2aff5b9e18529f6f2b450bf9be35492b0527a43f4a152"
+    ]
+  },
+  {
+    "id": "WHU-091_n5_0_s11",
+    "scene_id": "WHU-091",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-091_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-091_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/91.jpg",
+    "input_sha256": [
+      "2726a18dfab7425a59fcdd849cff8f9e874dcc085205ac2ac204b0c7e318df12",
+      "b1fd6f7e352128eb87032e310e7623ce12133db37d8cc124caa3b2ba5324fb65"
+    ]
+  },
+  {
+    "id": "WHU-097_n0_0_s11",
+    "scene_id": "WHU-097",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-097_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-097_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/97.jpg",
+    "input_sha256": [
+      "261d1c8d7991e738664ea8caa88b33b6cbade38c0f9a2d28872a91915c70846c",
+      "980ea0e6b922ae62acc63ebcaff5dfeb8ecd1a0f10e453515b0ebc6949384902"
+    ]
+  },
+  {
+    "id": "WHU-097_n0_5_s11",
+    "scene_id": "WHU-097",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-097_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-097_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/97.jpg",
+    "input_sha256": [
+      "261d1c8d7991e738664ea8caa88b33b6cbade38c0f9a2d28872a91915c70846c",
+      "425a465c533140cca78b1f9f59c34bf8baf88cb333ac643049baf043764b4857"
+    ]
+  },
+  {
+    "id": "WHU-097_n5_0_s11",
+    "scene_id": "WHU-097",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-097_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-097_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/97.jpg",
+    "input_sha256": [
+      "af1db8eb903f695fb3c99bfb2d587e840ca0d428e5ff81561ff33d94cba83091",
+      "980ea0e6b922ae62acc63ebcaff5dfeb8ecd1a0f10e453515b0ebc6949384902"
+    ]
+  },
+  {
+    "id": "WHU-098_n0_0_s11",
+    "scene_id": "WHU-098",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-098_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-098_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/98.jpg",
+    "input_sha256": [
+      "1c850c76ba3aefd12cd99627bc761d7e28b9fa6d37a9d7860a8c59278379a622",
+      "14fc1616009b24c61aebcbd3b0bc52f6245b67c454e9bade420b47f83a9b5af4"
+    ]
+  },
+  {
+    "id": "WHU-098_n0_5_s11",
+    "scene_id": "WHU-098",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-098_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-098_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/98.jpg",
+    "input_sha256": [
+      "1c850c76ba3aefd12cd99627bc761d7e28b9fa6d37a9d7860a8c59278379a622",
+      "699a1842d9769eaddd6de4b095a1b0e61876760c816b251bf0bc26de4792ed19"
+    ]
+  },
+  {
+    "id": "WHU-098_n5_0_s11",
+    "scene_id": "WHU-098",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-098_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-098_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/98.jpg",
+    "input_sha256": [
+      "5fe5232665097da4e15c79434c0fc9d751cdc273c65969e65a447784555b4ee9",
+      "14fc1616009b24c61aebcbd3b0bc52f6245b67c454e9bade420b47f83a9b5af4"
+    ]
+  },
+  {
+    "id": "WHU-105_n0_0_s11",
+    "scene_id": "WHU-105",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-105_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-105_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/105.jpg",
+    "input_sha256": [
+      "c5a3c544c220b500673bdf844450f443037591924e9c1b7af64b9caa2b6176cb",
+      "6781b7be15e0aa4a5687058975bfc9fda13c26a6fd5ec7d9db68b8073afa86c8"
+    ]
+  },
+  {
+    "id": "WHU-105_n0_5_s11",
+    "scene_id": "WHU-105",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-105_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-105_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/105.jpg",
+    "input_sha256": [
+      "c5a3c544c220b500673bdf844450f443037591924e9c1b7af64b9caa2b6176cb",
+      "a99bc9ac8f542aec83cfc60c02160e94c8b273e37c853fb5a35e2189fea8aba2"
+    ]
+  },
+  {
+    "id": "WHU-105_n5_0_s11",
+    "scene_id": "WHU-105",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-105_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-105_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/105.jpg",
+    "input_sha256": [
+      "3b82369c4e963691ab388485e9f6ee27c3cfac419b3cbd7a7978e5179621e231",
+      "6781b7be15e0aa4a5687058975bfc9fda13c26a6fd5ec7d9db68b8073afa86c8"
+    ]
+  },
+  {
+    "id": "WHU-118_n0_0_s11",
+    "scene_id": "WHU-118",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-118_n0_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-118_n0_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/118.jpg",
+    "input_sha256": [
+      "0b9951c5cabbab4a14ee92629aba9b1003ae61d57f215961fe6beaafcd83c654",
+      "6dabdf6e20a790e0475f8c78aa7772c2c842442cbd7ca5e034fa717f47355b8a"
+    ]
+  },
+  {
+    "id": "WHU-118_n0_5_s11",
+    "scene_id": "WHU-118",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-118_n0_5_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-118_n0_5_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/118.jpg",
+    "input_sha256": [
+      "0b9951c5cabbab4a14ee92629aba9b1003ae61d57f215961fe6beaafcd83c654",
+      "66853010b5e7a61d771695cf154f07399cf1d78f3207c0865bcfca8c551bdb27"
+    ]
+  },
+  {
+    "id": "WHU-118_n5_0_s11",
+    "scene_id": "WHU-118",
+    "noise_a_255": 5,
+    "noise_b_255": 0,
+    "seed": 11,
+    "a": "baselines/gff_author/pilot/inputs/WHU-118_n5_0_s11_A.png",
+    "b": "baselines/gff_author/pilot/inputs/WHU-118_n5_0_s11_B.png",
+    "gt": "data/MFI-WHU/MFI-WHU/full_clear/118.jpg",
+    "input_sha256": [
+      "6f45c3634154ff5ff787875d4f17af032b27040aef5c68f62545fa8d92e57e74",
+      "6dabdf6e20a790e0475f8c78aa7772c2c842442cbd7ca5e034fa717f47355b8a"
+    ]
+  }
+]
