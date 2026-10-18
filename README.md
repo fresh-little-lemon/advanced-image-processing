@@ -101,3 +101,5 @@ PYTHONPATH=src OPENBLAS_NUM_THREADS=1 python scripts/evaluate_manifest.py \
 下一阶段优先验证噪声估计偏差、补充受控退化与可靠性校准，再固定方法并启用留出测试。完整文献比较与研究设计见 [研究方案](docs/research_plan.md)。
 
 第一轮实验的完整范围、负结果与噪声机制诊断见 [实验记录](docs/first_experiments.md)。固定依赖版本见 `requirements-repro.txt`。当前环境还验证了复用已安装科学计算依赖的安装路径：`python -m venv --system-site-packages .venv`，随后 `.venv/bin/python -m pip install --no-deps --no-build-isolation -e .`；生成的 `reliable-focus --help` 入口正常。
+
+第二阶段未随快照保存的结果可在新目录安全重算；范围、指标口径和命令见 [第二阶段重建说明](docs/phase2_rebuild.md)。
