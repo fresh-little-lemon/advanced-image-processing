@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "GFF.m",
+      "expected_sha256": "a59db450fd83d2d079001642aba65e445d0ae2d1a95967ab2e992e1bc7ae8107",
+      "actual_sha256": "a59db450fd83d2d079001642aba65e445d0ae2d1a95967ab2e992e1bc7ae8107",
+      "unchanged": true
+    },
+    {
+      "file": "load_images.m",
+      "expected_sha256": "4647fa9e6eed2df31781e4fa6f69ead5f814a9df4ed8e4dde296d37262791806",
+      "actual_sha256": "4647fa9e6eed2df31781e4fa6f69ead5f814a9df4ed8e4dde296d37262791806",
+      "unchanged": true
+    },
+    {
+      "file": "Script.m",
+      "expected_sha256": "c9509b7e7ad2f4b1e65c1a6c783b6bade9eb34c30991d60b81c371c981adc1f8",
+      "actual_sha256": "c9509b7e7ad2f4b1e65c1a6c783b6bade9eb34c30991d60b81c371c981adc1f8",
+      "unchanged": true
+    },
+    {
+      "file": "LICENSE.txt",
+      "expected_sha256": "6fe91fec10eb5945cf6c1e23f30269d66919541488e96847b930bf61cd9b303b",
+      "actual_sha256": "6fe91fec10eb5945cf6c1e23f30269d66919541488e96847b930bf61cd9b303b",
+      "unchanged": true
+    },
+    {
+      "file": "guidedfilter.m",
+      "expected_sha256": "2a58decaccc68ddf1b44f944583b9592f21efdddb2f319b99df202cdacbe39b7",
+      "actual_sha256": "2a58decaccc68ddf1b44f944583b9592f21efdddb2f319b99df202cdacbe39b7",
+      "unchanged": true
+    },
+    {
+      "file": "boxfilter.m",
+      "expected_sha256": "c3357c6e7e78ea273da3c43007ab493e7b5324e56b7df3a9f4964662d95d03cb",
+      "actual_sha256": "c3357c6e7e78ea273da3c43007ab493e7b5324e56b7df3a9f4964662d95d03cb",
+      "unchanged": true
+    }
+  ],
+  "all_match": true,
+  "runtime": "not_run",
+  "matlab_native": "pending_school_login",
+  "octave_78_case": "compatibility_only"
+}

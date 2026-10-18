@@ -28,6 +28,27 @@ def diagnostics(a,b,f):
             "laplacian_energy":float(np.mean(laplace(y,mode="reflect")**2)),
             "source_envelope_violation":float(np.mean(np.maximum(np.minimum(a,b)-f,0)+np.maximum(f-np.maximum(a,b),0)))}
 
+def normalized_metric_pair(reference, test):
+    """Reject implicit broadcasting, integer arithmetic and invalid unit range.
+
+    Accept HxW luminance or HxWx3 RGB. No clipping, normalization, color
+    conversion or crop is implicit. Existing float64 [0,1] results are unchanged.
+    """
+    reference, test = np.asarray(reference), np.asarray(test)
+    if reference.shape != test.shape:
+        raise ValueError("Metric images must have exactly equal dimensions")
+    if (reference.ndim not in (2, 3) or reference.size == 0 or
+            (reference.ndim == 3 and reference.shape[2] != 3)):
+        raise ValueError("Metric images must be nonempty HxW or HxWx3")
+    for x in (reference, test):
+        if not np.issubdtype(x.dtype, np.floating):
+            raise ValueError("Pass explicitly normalized floating-point metric images")
+        if not np.isfinite(x).all() or x.min() < 0 or x.max() > 1:
+            raise ValueError("Metric images must be finite and in [0,1]")
+    return reference.astype(np.float64, copy=False), test.astype(np.float64, copy=False)
+
+
 def psnr(reference,test):
+    reference,test = normalized_metric_pair(reference,test)
     mse=float(np.mean((reference-test)**2))
-    return float("inf") if mse==0 else -10*np.log10(mse)
+    return float("inf") if mse==0 else float(-10*np.log10(mse))

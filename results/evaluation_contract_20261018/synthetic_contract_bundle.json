@@ -1,0 +1,145 @@
+{
+  "manifest": [
+    {
+      "scene_id": "synthetic-schema-fixture",
+      "group_id": "synthetic-schema-group",
+      "split": "exploration",
+      "files": [
+        {
+          "role": "A",
+          "path": "synthetic/A.f64",
+          "sha256": "746d25348e47dfcc3cbd9f99c23e7a1a7e12b3a47cd9a607bcc488c33daec6d9",
+          "bytes": 6144,
+          "height": 16,
+          "width": 16,
+          "mode": "RGB"
+        },
+        {
+          "role": "B",
+          "path": "synthetic/B.f64",
+          "sha256": "6a237bbe2a54ba4e547b8b4ada7df73b05a9eac096eb231c701e963e7efd4d8d",
+          "bytes": 6144,
+          "height": 16,
+          "width": 16,
+          "mode": "RGB"
+        },
+        {
+          "role": "GT",
+          "path": "synthetic/GT.f64",
+          "sha256": "746d25348e47dfcc3cbd9f99c23e7a1a7e12b3a47cd9a607bcc488c33daec6d9",
+          "bytes": 6144,
+          "height": 16,
+          "width": 16,
+          "mode": "RGB"
+        }
+      ]
+    }
+  ],
+  "manifest_hash_encoding": "canonical-json",
+  "run": {
+    "schema_version": "fusion-evaluation-contract/1",
+    "protocol_id": "formal-draft-20261018",
+    "evidence_level": "synthetic_contract_only",
+    "manifest_sha256": "8bc99a1b4989cf7b40a483d3f1331344f227bcf9eec54eda35c54b2bedf4152c",
+    "protocol_sha256": "e6b2eb80b60fad06da32a151c00c4cdb44b7198d06d2a4efcb333362e9b7025c",
+    "code": {
+      "base_commit": "a9a8aec964999cfc2475be786561efa4635a238c",
+      "source_sha256": {
+        "src/reliable_focus/metrics.py": "3dced776070ab8dfed22ba28d981d05b95fa07bcb69895041ca968e229d9e9c6",
+        "src/reliable_focus/metric_contract.py": "2400bb6697d91832ccbd56bd003e98fb2a7da0f681257be0b38c490d52ca354a",
+        "src/reliable_focus/evaluation_contract.py": "ddb6614c848dcea91f5c77321e7870e2defca398a364744147523486b6c036a1",
+        "scripts/check_evaluation_contract.py": "da7b319f28c412836e2429d6b39e87ef539f943e09ba84850743b7430aef4aa8"
+      },
+      "worktree": "local_contract_patch"
+    },
+    "model": {
+      "kind": "non_learned",
+      "artifact_sha256": null,
+      "configs": {
+        "synthetic_average": {
+          "weight_a": 0.5,
+          "purpose": "schema_selftest_only"
+        }
+      }
+    },
+    "runtime": {
+      "engine": "python",
+      "version": "3.12.14",
+      "execution_label": "python_execution",
+      "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "Pillow": "12.3.0"
+      }
+    },
+    "cases": [
+      {
+        "case_id": "synthetic-0",
+        "scene_id": "synthetic-schema-fixture",
+        "group_id": "synthetic-schema-group",
+        "split": "exploration",
+        "seed": 20261018,
+        "noise_a_255": 0,
+        "noise_b_255": 0,
+        "input_order": [
+          "A",
+          "B"
+        ],
+        "input_sha256": {
+          "A": "746d25348e47dfcc3cbd9f99c23e7a1a7e12b3a47cd9a607bcc488c33daec6d9",
+          "B": "6a237bbe2a54ba4e547b8b4ada7df73b05a9eac096eb231c701e963e7efd4d8d"
+        },
+        "shape": [
+          16,
+          16,
+          3
+        ]
+      }
+    ],
+    "results": [
+      {
+        "case_id": "synthetic-0",
+        "method_id": "synthetic_average",
+        "seed": 20261018,
+        "input_sha256": {
+          "A": "746d25348e47dfcc3cbd9f99c23e7a1a7e12b3a47cd9a607bcc488c33daec6d9",
+          "B": "6a237bbe2a54ba4e547b8b4ada7df73b05a9eac096eb231c701e963e7efd4d8d"
+        },
+        "status": "ok",
+        "output_sha256": "3a792eea2fb3cfe4b67a23d2e9433e1b60ced9d1101f7d0c616ba99e85090121",
+        "output_shape": [
+          16,
+          16,
+          3
+        ],
+        "metrics": {
+          "color_domain": "linear_rgb",
+          "data_range": 1,
+          "crop_border": 0,
+          "psnr_rgb": 15.672179750244624,
+          "psnr_status": "finite",
+          "mae_rgb": 0.134000978811133,
+          "ssim_y_rec709_local": 0.7410466863782117,
+          "ssim_spec": {
+            "window": 11,
+            "sigma": 1.5,
+            "K1": 0.01,
+            "K2": 0.03,
+            "data_range": 1,
+            "covariance": "population",
+            "boundary": "valid",
+            "luma": "Rec.709",
+            "validation": "local_formula_tests_only"
+          },
+          "valid_pixels": 256,
+          "ssim_valid_centers": 36
+        }
+      }
+    ],
+    "notes": "Pure synthetic schema fixture. No dataset image, MATLAB execution or quality comparison.",
+    "code_sha256": "0716615da7af4118ff538b9d6b9a205e8f05a0a7ead16a3fabc82303ffcc6fdc",
+    "model_sha256": "482bec734b57d6f49a6f8c2240b7177910c6f9350c50d99d1fe431d31c46bcce",
+    "runtime_sha256": "feaab0418e9a0fd609f332651c385ea8b217b3b1f051d900ba3522b945af0e14"
+  }
+}

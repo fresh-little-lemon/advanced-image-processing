@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "scope": "metadata_only_no_dataset_pixels_loaded",
+  "manifests": {
+    "scenes": 133,
+    "groups": 133,
+    "splits": {
+      "test": 94,
+      "validation": 26,
+      "external_test": 13
+    }
+  },
+  "manifest_files": [
+    {
+      "path": "data/manifests/archive_sha256.json",
+      "sha256": "404cf91b26e7f5e4331d056fd1b1febb3c107c28ff794f2539fef3fc17d3db23"
+    },
+    {
+      "path": "data/manifests/exploration_v1.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "data/manifests/external_test_v1.json",
+      "sha256": "fa82553b9566e8cdff21f1aa82031b7dfb130b80fa95a2b70640811c2b7bd306"
+    },
+    {
+      "path": "data/manifests/licenses.json",
+      "sha256": "e0619a30e2466be414ef93f6999e0b0119f0fd248cbcf20dfa38beaf075fd3dc"
+    },
+    {
+      "path": "data/manifests/manifest_v1.json",
+      "sha256": "ee7d94e48c4e356bb531fc93813c024c07187b184f7a3a02314b5614d0872917"
+    },
+    {
+      "path": "data/manifests/test_v1.json",
+      "sha256": "1b774803325cb7ca01ea10959da42ff632ce09cd9b476b9b0d48fdf39e874a61"
+    },
+    {
+      "path": "data/manifests/validation_v1.json",
+      "sha256": "307dea2fa5e966c56879054dba9cdeb2a74a0a936d04ec8171c2fc55444a6fc2"
+    }
+  ],
+  "legacy_runs": [
+    {
+      "path": "results/residual_floor_20261018/crossfit/run.json",
+      "status": "complete",
+      "missing_new_contract_fields": [
+        "schema_version",
+        "code_sha256",
+        "model_sha256",
+        "runtime_sha256"
+      ],
+      "interpretation": "legacy exploratory evidence; not retrospectively certified"
+    },
+    {
+      "path": "results/residual_floor_20261018/run/run.json",
+      "status": "complete",
+      "missing_new_contract_fields": [
+        "schema_version",
+        "code_sha256",
+        "model_sha256",
+        "runtime_sha256"
+      ],
+      "interpretation": "legacy exploratory evidence; not retrospectively certified"
+    },
+    {
+      "path": "results/residual_floor_20261018/transfer/run.json",
+      "status": "complete",
+      "missing_new_contract_fields": [
+        "schema_version",
+        "code_sha256",
+        "model_sha256",
+        "runtime_sha256"
+      ],
+      "interpretation": "legacy exploratory evidence; not retrospectively certified"
+    },
+    {
+      "path": "results/residual_floor_20261018/validation/run.json",
+      "status": "complete",
+      "missing_new_contract_fields": [
+        "schema_version",
+        "code_sha256",
+        "model_sha256",
+        "runtime_sha256"
+      ],
+      "interpretation": "legacy exploratory evidence; not retrospectively certified"
+    }
+  ],
+  "limitations": [
+    "Group/hash checks do not certify semantic scene deduplication or historical tuning isolation.",
+    "No training split exists in this classical pipeline; validation is the development set.",
+    "SSIM is a locally formula-tested diagnostic, not official/reference-library validation.",
+    "MATLAB native author-baseline acceptance is still pending; Octave is compatibility only.",
+    "This checker does not enable test/external_test algorithm execution."
+  ],
+  "selftest": {
+    "cases": 1,
+    "methods": 1,
+    "rows": 1,
+    "failed": 0,
+    "positive_infinity_psnr": 0
+  }
+}
