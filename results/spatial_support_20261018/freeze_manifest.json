@@ -1,0 +1,22 @@
+[
+  {
+    "name": "protocol_frozen.json",
+    "sha256": "30712a16650bf13a3427b2a168d33cccb23c618dc154c4bceb13f2e57805af68"
+  },
+  {
+    "name": "probe_spatial_support.py",
+    "sha256": "04222e14123c5cc71cfc032cfbe2dc49b3f0c8fd56384367de9fe852ee53a0d4"
+  },
+  {
+    "name": "probe_shared_support.py",
+    "sha256": "7414931f35418df896c001727e7b4d3127f64f183ad35dc14fac3e0ff67eabe4"
+  },
+  {
+    "name": "run_phase2_diagnostics.py",
+    "sha256": "1ae54e96cd6d0f8210688127975c0b74d3d1105a91214be424d7e3a503cfbb25"
+  },
+  {
+    "name": "test_spatial_support_probe.py",
+    "sha256": "a30cda63912aab2f672c62c3492bde3f1ce26d3e49ad2543fe2c82c6dcc8ee31"
+  }
+]

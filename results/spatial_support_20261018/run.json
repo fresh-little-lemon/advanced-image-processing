@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "protocol_sha256": "30712a16650bf13a3427b2a168d33cccb23c618dc154c4bceb13f2e57805af68",
+  "source_sha256": "04222e14123c5cc71cfc032cfbe2dc49b3f0c8fd56384367de9fe852ee53a0d4",
+  "working_domain": "Procedurally generated linear RGB; all quality errors use full RGB samples",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "architecture": "x86_64",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "timing_note": "Shared cloud CPU, one call per condition after warmup; includes estimator and fusion; not edge-device timing",
+  "metric_rows": 1152,
+  "source_swap_cases": 144,
+  "max_swap_rgb_error": 4.246603069191224e-15
+}
