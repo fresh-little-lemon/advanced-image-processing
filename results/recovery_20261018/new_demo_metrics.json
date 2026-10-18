@@ -1,0 +1,44 @@
+[
+  {
+    "scene": "WHU-018",
+    "condition": "0_5",
+    "method": "GFF paper baseline*",
+    "psnr": 36.123602264643786,
+    "mae_linear_rgb": 0.010491113516499201
+  },
+  {
+    "scene": "WHU-018",
+    "condition": "0_5",
+    "method": "Current crossfit method",
+    "psnr": 45.051230628221994,
+    "mae_linear_rgb": 0.002497223396719377
+  },
+  {
+    "scene": "WHU-077",
+    "condition": "0_5",
+    "method": "GFF paper baseline*",
+    "psnr": 32.91378499902707,
+    "mae_linear_rgb": 0.01460682061014219
+  },
+  {
+    "scene": "WHU-077",
+    "condition": "0_5",
+    "method": "Current crossfit method",
+    "psnr": 29.384818881883533,
+    "mae_linear_rgb": 0.010664442884017902
+  },
+  {
+    "scene": "WHU-097",
+    "condition": "0_0",
+    "method": "GFF paper baseline*",
+    "psnr": 40.11707662603846,
+    "mae_linear_rgb": 0.0025583387759066955
+  },
+  {
+    "scene": "WHU-097",
+    "condition": "0_0",
+    "method": "Current crossfit method",
+    "psnr": 36.59179124998389,
+    "mae_linear_rgb": 0.0026284156339778414
+  }
+]

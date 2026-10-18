@@ -1,0 +1,3253 @@
+{
+  "scope": "crossfit noise estimator only; reconstructed 2026-10-18",
+  "total_cases": 59,
+  "passed_cases": 59,
+  "max_sigma_abs_error": 6.245004513516506e-17,
+  "max_fold_variance_abs_error": 2.7755575615628914e-17,
+  "tolerances": {
+    "rtol": 1e-12,
+    "atol": 2e-14
+  },
+  "invariants": {
+    "source_swap": true,
+    "affine_half": true
+  },
+  "reference_sha256": {
+    "reference/core.py": "12ca99755393abb0527d70c2d224a0ac22b48dce3de72d3b9435d8950e6d7321",
+    "reference/crossfit_floor.py": "8ad1084bf053c909fe1d114b2da606663527c3eee841015314b452c612f1af2a",
+    "reference/diagnostic.py": "0274cfd8ab6087777aa8743c3e2de1f805284b9c7f6ddcd255406ac4168618ce",
+    "reference/residual_floor.py": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea"
+  },
+  "cases": [
+    {
+      "name": "uniform_12x12",
+      "shape": [
+        12,
+        12,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.1111111111111111,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.1111111111111111,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "constant_12x12",
+      "shape": [
+        12,
+        12,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.1111111111111111,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.1111111111111111,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "uniform_18x18",
+      "shape": [
+        18,
+        18,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.30864197530864196,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.30864197530864196,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "constant_18x18",
+      "shape": [
+        18,
+        18,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.30864197530864196,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.30864197530864196,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "uniform_26x26",
+      "shape": [
+        26,
+        26,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 1,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.47928994082840237,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 1,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.47928994082840237,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "constant_26x26",
+      "shape": [
+        26,
+        26,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 1,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.47928994082840237,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 1,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.47928994082840237,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "uniform_34x34",
+      "shape": [
+        34,
+        34,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 4,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.5847750865051903,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 4,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.5847750865051903,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "constant_34x34",
+      "shape": [
+        34,
+        34,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 4,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.5847750865051903,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 4,
+        "selected_blocks_per_source_per_fold": 1,
+        "available": false,
+        "valid_pixel_fraction": 0.5847750865051903,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "uniform_35x50",
+      "shape": [
+        35,
+        50,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 6.938893903907228e-18,
+      "python": {
+        "sigmas": [
+          0.13014178064859078,
+          0.14236623693955305
+        ],
+        "eligible_blocks": 8,
+        "selected_blocks_per_source_per_fold": 2,
+        "available": true,
+        "valid_pixel_fraction": 0.648,
+        "fold_variances": [
+          [
+            0.01940763493320271,
+            0.014466131207569125
+          ],
+          [
+            0.013971071169721376,
+            0.02656521967093655
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13014178064859075,
+          0.14236623693955305
+        ],
+        "eligible_blocks": 8,
+        "selected_blocks_per_source_per_fold": 2,
+        "available": true,
+        "valid_pixel_fraction": 0.648,
+        "fold_variances": [
+          [
+            0.019407634933202703,
+            0.014466131207569118
+          ],
+          [
+            0.01397107116972137,
+            0.02656521967093655
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_35x50",
+      "shape": [
+        35,
+        50,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 8,
+        "selected_blocks_per_source_per_fold": 2,
+        "available": true,
+        "valid_pixel_fraction": 0.648,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 8,
+        "selected_blocks_per_source_per_fold": 2,
+        "available": true,
+        "valid_pixel_fraction": 0.648,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uniform_48x48",
+      "shape": [
+        48,
+        48,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 4.163336342344337e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.11797385022465266,
+          0.12453913415395892
+        ],
+        "eligible_blocks": 16,
+        "selected_blocks_per_source_per_fold": 4,
+        "available": true,
+        "valid_pixel_fraction": 0.6944444444444444,
+        "fold_variances": [
+          [
+            0.0173654716616421,
+            0.010470187012015457
+          ],
+          [
+            0.0148277642451168,
+            0.016192227626518757
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.1179738502246527,
+          0.12453913415395894
+        ],
+        "eligible_blocks": 16,
+        "selected_blocks_per_source_per_fold": 4,
+        "available": true,
+        "valid_pixel_fraction": 0.6944444444444444,
+        "fold_variances": [
+          [
+            0.017365471661642106,
+            0.010470187012015474
+          ],
+          [
+            0.01482776424511681,
+            0.016192227626518757
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_48x48",
+      "shape": [
+        48,
+        48,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 16,
+        "selected_blocks_per_source_per_fold": 4,
+        "available": true,
+        "valid_pixel_fraction": 0.6944444444444444,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 16,
+        "selected_blocks_per_source_per_fold": 4,
+        "available": true,
+        "valid_pixel_fraction": 0.6944444444444444,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uniform_63x65",
+      "shape": [
+        63,
+        65,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.1281817911417606,
+          0.15579737790007814
+        ],
+        "eligible_blocks": 36,
+        "selected_blocks_per_source_per_fold": 8,
+        "available": true,
+        "valid_pixel_fraction": 0.7655677655677655,
+        "fold_variances": [
+          [
+            0.011687687189416334,
+            0.021173455971203542
+          ],
+          [
+            0.025443190242091022,
+            0.0231024556789885
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.12818179114176062,
+          0.1557973779000781
+        ],
+        "eligible_blocks": 36,
+        "selected_blocks_per_source_per_fold": 8,
+        "available": true,
+        "valid_pixel_fraction": 0.7655677655677655,
+        "fold_variances": [
+          [
+            0.011687687189416335,
+            0.021173455971203552
+          ],
+          [
+            0.025443190242091022,
+            0.02310245567898848
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_63x65",
+      "shape": [
+        63,
+        65,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 36,
+        "selected_blocks_per_source_per_fold": 8,
+        "available": true,
+        "valid_pixel_fraction": 0.7655677655677655,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 36,
+        "selected_blocks_per_source_per_fold": 8,
+        "available": true,
+        "valid_pixel_fraction": 0.7655677655677655,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uniform_64x80",
+      "shape": [
+        64,
+        80,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 2.42861286636753e-17,
+      "python": {
+        "sigmas": [
+          0.14985696546854047,
+          0.1341702010667191
+        ],
+        "eligible_blocks": 48,
+        "selected_blocks_per_source_per_fold": 10,
+        "available": true,
+        "valid_pixel_fraction": 0.7875,
+        "fold_variances": [
+          [
+            0.02335308520096995,
+            0.021561134997908703
+          ],
+          [
+            0.015732266779720797,
+            0.020271018928846866
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.1498569654685405,
+          0.1341702010667191
+        ],
+        "eligible_blocks": 48,
+        "selected_blocks_per_source_per_fold": 10,
+        "available": true,
+        "valid_pixel_fraction": 0.7875,
+        "fold_variances": [
+          [
+            0.023353085200969945,
+            0.021561134997908727
+          ],
+          [
+            0.015732266779720797,
+            0.020271018928846855
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_64x80",
+      "shape": [
+        64,
+        80,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 48,
+        "selected_blocks_per_source_per_fold": 10,
+        "available": true,
+        "valid_pixel_fraction": 0.7875,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 48,
+        "selected_blocks_per_source_per_fold": 10,
+        "available": true,
+        "valid_pixel_fraction": 0.7875,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uniform_96x96",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 2.7755575615628914e-17,
+      "python": {
+        "sigmas": [
+          0.13459200675705568,
+          0.1644204030921721
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.014919106211237487,
+            0.021310910354545156
+          ],
+          [
+            0.026706910505233484,
+            0.027361227400751226
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13459200675705568,
+          0.16442040309217212
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.014919106211237479,
+            0.021310910354545166
+          ],
+          [
+            0.026706910505233467,
+            0.027361227400751253
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_96x96",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uniform_128x160",
+      "shape": [
+        128,
+        160,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 2.0816681711721685e-17,
+      "python": {
+        "sigmas": [
+          0.13390716904677086,
+          0.14105275435254702
+        ],
+        "eligible_blocks": 252,
+        "selected_blocks_per_source_per_fold": 51,
+        "available": true,
+        "valid_pixel_fraction": 0.890625,
+        "fold_variances": [
+          [
+            0.01775026399189227,
+            0.018111995852348663
+          ],
+          [
+            0.01819751252124164,
+            0.021594246499638307
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13390716904677089,
+          0.14105275435254702
+        ],
+        "eligible_blocks": 252,
+        "selected_blocks_per_source_per_fold": 51,
+        "available": true,
+        "valid_pixel_fraction": 0.890625,
+        "fold_variances": [
+          [
+            0.01775026399189227,
+            0.018111995852348683
+          ],
+          [
+            0.01819751252124164,
+            0.021594246499638307
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_128x160",
+      "shape": [
+        128,
+        160,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 252,
+        "selected_blocks_per_source_per_fold": 51,
+        "available": true,
+        "valid_pixel_fraction": 0.890625,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 252,
+        "selected_blocks_per_source_per_fold": 51,
+        "available": true,
+        "valid_pixel_fraction": 0.890625,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uniform_192x192",
+      "shape": [
+        192,
+        192,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.13668167243832338,
+          0.1408617797786913
+        ],
+        "eligible_blocks": 484,
+        "selected_blocks_per_source_per_fold": 97,
+        "available": true,
+        "valid_pixel_fraction": 0.9184027777777778,
+        "fold_variances": [
+          [
+            0.018282205628730508,
+            0.019081553532343757
+          ],
+          [
+            0.01918125828686291,
+            0.020502823717978146
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13668167243832335,
+          0.1408617797786913
+        ],
+        "eligible_blocks": 484,
+        "selected_blocks_per_source_per_fold": 97,
+        "available": true,
+        "valid_pixel_fraction": 0.9184027777777778,
+        "fold_variances": [
+          [
+            0.018282205628730508,
+            0.01908155353234374
+          ],
+          [
+            0.01918125828686291,
+            0.02050282371797814
+          ]
+        ]
+      }
+    },
+    {
+      "name": "constant_192x192",
+      "shape": [
+        192,
+        192,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 484,
+        "selected_blocks_per_source_per_fold": 97,
+        "available": true,
+        "valid_pixel_fraction": 0.9184027777777778,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 484,
+        "selected_blocks_per_source_per_fold": 97,
+        "available": true,
+        "valid_pixel_fraction": 0.9184027777777778,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_0",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 1.734723475976807e-18,
+      "max_fold_variance_abs_error": 1.0570971181733668e-18,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.012601800779074666
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.00014181625500320493,
+            0.00017579451074776874
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.012601800779074664
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.00014181625500320593,
+            0.00017579451074776768
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_1",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 1.1275702593849246e-17,
+      "max_fold_variance_abs_error": 1.1096131609031334e-19,
+      "python": {
+        "sigmas": [
+          0.002559539145164926,
+          0.015628965782210003
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            7.362286541034032e-06,
+            5.7401947302291705e-06
+          ],
+          [
+            0.00027595830400729316,
+            0.00021257083883568915
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.0025595391451649374,
+          0.015628965782210003
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            7.362286541034143e-06,
+            5.7401947302291705e-06
+          ],
+          [
+            0.00027595830400729316,
+            0.00021257083883568915
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_2",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 8.673617379884035e-19,
+      "max_fold_variance_abs_error": 1.463672932855431e-18,
+      "python": {
+        "sigmas": [
+          0.005167397793785274,
+          0.01674804604215003
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            2.8474096380856054e-05,
+            2.492990353757779e-05
+          ],
+          [
+            0.00024303041230204972,
+            0.00031796368015790487
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.005167397793785273,
+          0.01674804604215003
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            2.8474096380855833e-05,
+            2.4929903537577996e-05
+          ],
+          [
+            0.00024303041230205102,
+            0.0003179636801579034
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_3",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 1.9949319973733282e-17,
+      "max_fold_variance_abs_error": 1.5720931501039814e-18,
+      "python": {
+        "sigmas": [
+          0.007044546104567782,
+          0.01974054121412953
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            4.765671079532851e-05,
+            5.15945488434337e-05
+          ],
+          [
+            0.0004096764834958573,
+            0.0003697014513576359
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.007044546104567802,
+          0.019740541214129523
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            4.76567107953288e-05,
+            5.1594548843434e-05
+          ],
+          [
+            0.0004096764834958582,
+            0.0003697014513576343
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_4",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 4.163336342344337e-17,
+      "max_fold_variance_abs_error": 1.0570971181733668e-18,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.012543195483628264
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.00016391095331317983,
+            0.00015075255256784514
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.012543195483628223
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.00016391095331317877,
+            0.0001507525525678441
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_5",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 5.204170427930421e-17,
+      "max_fold_variance_abs_error": 1.7889335846010823e-18,
+      "python": {
+        "sigmas": [
+          0.002544528929937875,
+          0.014935302207337362
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            8.045071500065917e-06,
+            4.904183450515656e-06
+          ],
+          [
+            0.00022664890036689552,
+            0.00021947760368209705
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.0025445289299378584,
+          0.014935302207337414
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            8.045071500065566e-06,
+            4.904183450515838e-06
+          ],
+          [
+            0.0002266489003668968,
+            0.00021947760368209884
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_6",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 6.245004513516506e-17,
+      "max_fold_variance_abs_error": 2.8731357570865868e-18,
+      "python": {
+        "sigmas": [
+          0.005486539450814488,
+          0.016923837750282125
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            3.1109101892823954e-05,
+            2.9095128397863517e-05
+          ],
+          [
+            0.0002833918607030637,
+            0.00028944070769268513
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.005486539450814467,
+          0.016923837750282063
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            3.1109101892823724e-05,
+            2.909512839786329e-05
+          ],
+          [
+            0.0002833918607030623,
+            0.00028944070769268225
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_7",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.0816681711721685e-17,
+      "max_fold_variance_abs_error": 1.463672932855431e-18,
+      "python": {
+        "sigmas": [
+          0.007697513271642653,
+          0.019748724999475647
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            5.678844338968071e-05,
+            6.171497774454886e-05
+          ],
+          [
+            0.0003064083117042182,
+            0.00047361596650561045
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.007697513271642664,
+          0.019748724999475626
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            5.6788443389680093e-05,
+            6.17149777445498e-05
+          ],
+          [
+            0.00030640831170421673,
+            0.00047361596650561045
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_8",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 4.336808689942018e-17,
+      "max_fold_variance_abs_error": 2.168404344971009e-18,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.012737037856596174
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0001535916565128494,
+            0.00017087261020787875
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.012737037856596217
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.0001535916565128494,
+            0.00017087261020788091
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_9",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.0816681711721685e-17,
+      "max_fold_variance_abs_error": 2.1141942363467336e-18,
+      "python": {
+        "sigmas": [
+          0.0025286741341108633,
+          0.016690251460136515
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            6.520842615163203e-06,
+            6.267543137879444e-06
+          ],
+          [
+            0.0002637868387320463,
+            0.00029334214887313196
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.002528674134110843,
+          0.016690251460136536
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            6.5208426151633075e-06,
+            6.267543137879135e-06
+          ],
+          [
+            0.0002637868387320456,
+            0.0002933421488731341
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_10",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 3.469446951953614e-18,
+      "max_fold_variance_abs_error": 8.131516293641283e-19,
+      "python": {
+        "sigmas": [
+          0.004635776288613226,
+          0.01821286372666595
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            1.9211793748701213e-05,
+            2.3769049847436016e-05
+          ],
+          [
+            0.00027058017949539693,
+            0.00039283663075681145
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.004635776288613227,
+          0.018212863726665945
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            1.9211793748701037e-05,
+            2.376904984743622e-05
+          ],
+          [
+            0.00027058017949539763,
+            0.00039283663075681064
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_11",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 6.245004513516506e-17,
+      "max_fold_variance_abs_error": 4.553649124439119e-18,
+      "python": {
+        "sigmas": [
+          0.0078098801247902605,
+          0.021799954606684237
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            6.556791020999524e-05,
+            5.642054491719263e-05
+          ],
+          [
+            0.0005245044057239432,
+            0.0004259716359830434
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.007809880124790261,
+          0.0217999546066843
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            6.556791020999494e-05,
+            5.6420544917192944e-05
+          ],
+          [
+            0.0005245044057239478,
+            0.00042597163598304425
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_12",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.6020852139652106e-17,
+      "max_fold_variance_abs_error": 1.870248747537495e-18,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.013395312930392436
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.00023662618655394187,
+            0.00012224263045233574
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.013395312930392462
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.00023662618655394374,
+            0.00012224263045233528
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_13",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 1.2576745200831851e-17,
+      "max_fold_variance_abs_error": 6.2341624917916505e-19,
+      "python": {
+        "sigmas": [
+          0.0022701624801010445,
+          0.01460968610120663
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            4.292659228114624e-06,
+            6.014616144002427e-06
+          ],
+          [
+            0.0002221640996460156,
+            0.00020472175630556475
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.002270162480101057,
+          0.01460968610120663
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            4.292659228114538e-06,
+            6.0146161440026284e-06
+          ],
+          [
+            0.00022216409964601622,
+            0.00020472175630556415
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_14",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.0816681711721685e-17,
+      "max_fold_variance_abs_error": 1.5178830414797062e-18,
+      "python": {
+        "sigmas": [
+          0.005163561192825117,
+          0.018612797390171583
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            2.466605224885376e-05,
+            2.865867613524532e-05
+          ],
+          [
+            0.00035687671014289127,
+            0.0003359957432322648
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.005163561192825127,
+          0.018612797390171562
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            2.466605224885376e-05,
+            2.8658676135245532e-05
+          ],
+          [
+            0.00035687671014289127,
+            0.0003359957432322633
+          ]
+        ]
+      }
+    },
+    {
+      "name": "awgn_15",
+      "shape": [
+        96,
+        96,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 3.122502256758253e-17,
+      "max_fold_variance_abs_error": 2.710505431213761e-18,
+      "python": {
+        "sigmas": [
+          0.007402076775128993,
+          0.02038170589340605
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            5.4430585788193315e-05,
+            5.515089538161474e-05
+          ],
+          [
+            0.0004684967940177551,
+            0.0003623310762328508
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.0074020767751289615,
+          0.020381705893406064
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.8402777777777778,
+        "fold_variances": [
+          [
+            5.4430585788193024e-05,
+            5.515089538161412e-05
+          ],
+          [
+            0.0004684967940177578,
+            0.00036233107623284916
+          ]
+        ]
+      }
+    },
+    {
+      "name": "sources_original",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.13927155411885023,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ],
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13927155411885025,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ],
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ]
+        ]
+      }
+    },
+    {
+      "name": "sources_swapped",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.1462446905738662,
+          0.13927155411885023
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ],
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.1462446905738662,
+          0.13927155411885025
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ],
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ]
+        ]
+      }
+    },
+    {
+      "name": "affine_original",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.13927155411885023,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ],
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13927155411885025,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ],
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ]
+        ]
+      }
+    },
+    {
+      "name": "affine_half_plus_point_two",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 5.204170427930421e-18,
+      "python": {
+        "sigmas": [
+          0.0696357770594251,
+          0.07312234528693308
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.005833111487883957,
+            0.0038651714054559506
+          ],
+          [
+            0.005461090055528892,
+            0.005232664704994037
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.06963577705942507,
+          0.07312234528693307
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.005833111487883957,
+            0.0038651714054559454
+          ],
+          [
+            0.005461090055528888,
+            0.005232664704994037
+          ]
+        ]
+      }
+    },
+    {
+      "name": "all_zero",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.0,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "all_one",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.0,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "one_zero_channel",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.0,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "one_one_channel",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.0,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "single_hole",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.14062827293949853,
+          0.14858847209663933
+        ],
+        "eligible_blocks": 116,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8436569940476191,
+        "fold_variances": [
+          [
+            0.02333244595153587,
+            0.01622017634835632
+          ],
+          [
+            0.023226409260051387,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.14062827293949856,
+          0.14858847209663936
+        ],
+        "eligible_blocks": 116,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8436569940476191,
+        "fold_variances": [
+          [
+            0.02333244595153589,
+            0.01622017634835632
+          ],
+          [
+            0.023226409260051397,
+            0.020930658819976147
+          ]
+        ]
+      }
+    },
+    {
+      "name": "one_saturated_block",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.13927155411885023,
+          0.14842501295102448
+        ],
+        "eligible_blocks": 116,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8273809523809523,
+        "fold_variances": [
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ],
+          [
+            0.02268930750514493,
+            0.021370661433878644
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13927155411885025,
+          0.14842501295102448
+        ],
+        "eligible_blocks": 116,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8273809523809523,
+        "fold_variances": [
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ],
+          [
+            0.02268930750514493,
+            0.021370661433878644
+          ]
+        ]
+      }
+    },
+    {
+      "name": "border_zero",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.13927155411885023,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8415178571428571,
+        "fold_variances": [
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ],
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13927155411885025,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8415178571428571,
+        "fold_variances": [
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ],
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ]
+        ]
+      }
+    },
+    {
+      "name": "last_row_one",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.13927155411885023,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8415178571428571,
+        "fold_variances": [
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ],
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.13927155411885025,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8415178571428571,
+        "fold_variances": [
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ],
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stripe_zero",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 6.938893903907228e-18,
+      "python": {
+        "sigmas": [
+          0.15348212728670493,
+          0.15586681040606443
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.7775297619047619,
+        "fold_variances": [
+          [
+            0.02691614778220008,
+            0.020197379010704515
+          ],
+          [
+            0.02518307305948772,
+            0.02340585211283235
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.15348212728670493,
+          0.15586681040606443
+        ],
+        "eligible_blocks": 100,
+        "selected_blocks_per_source_per_fold": 20,
+        "available": true,
+        "valid_pixel_fraction": 0.7775297619047619,
+        "fold_variances": [
+          [
+            0.026916147782200073,
+            0.020197379010704515
+          ],
+          [
+            0.02518307305948772,
+            0.023405852112832342
+          ]
+        ]
+      }
+    },
+    {
+      "name": "clipped_awgn_0.01",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.0,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "clipped_awgn_0.45",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 4.336808689942018e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-18,
+      "python": {
+        "sigmas": [
+          0.012511208426498544,
+          0.013691934514691865
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.0001642189241671393,
+            0.00014884174841543708
+          ],
+          [
+            0.0001804833897247788,
+            0.00019445475178444187
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.012511208426498544,
+          0.013691934514691822
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.00016421892416713875,
+            0.00014884174841543757
+          ],
+          [
+            0.00018048338972477822,
+            0.00019445475178444014
+          ]
+        ]
+      }
+    },
+    {
+      "name": "clipped_awgn_0.995",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0.0,
+        "fold_variances": []
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 0,
+        "selected_blocks_per_source_per_fold": 0,
+        "available": false,
+        "valid_pixel_fraction": 0,
+        "fold_variances": []
+      }
+    },
+    {
+      "name": "stable_ties_checker",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.0
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stable_ties_blocks",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 2.7755575615628914e-17,
+      "max_fold_variance_abs_error": 1.734723475976807e-17,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.13927155411885023
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.02333244595153587,
+            0.015460685621823792
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.13927155411885025
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.02333244595153589,
+            0.015460685621823785
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stable_ties_varying_heldout",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 0.0,
+      "python": {
+        "sigmas": [
+          0.02866604131856532,
+          0.026618466938667783
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.001643483849755388,
+            0.0
+          ],
+          [
+            0.0,
+            0.0014170855643298997
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0.02866604131856532,
+          0.026618466938667783
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.001643483849755388,
+            0
+          ],
+          [
+            0,
+            0.0014170855643298997
+          ]
+        ]
+      }
+    },
+    {
+      "name": "near_zero",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 6.938893903907228e-18,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ]
+        ]
+      }
+    },
+    {
+      "name": "near_one",
+      "shape": [
+        96,
+        112,
+        3
+      ],
+      "passed": true,
+      "checks": {
+        "eligible_blocks": true,
+        "selected_blocks_per_source_per_fold": true,
+        "available": true,
+        "valid_pixel_fraction": true,
+        "sigmas_close": true,
+        "fold_variances_close": true
+      },
+      "max_sigma_abs_error": 0.0,
+      "max_fold_variance_abs_error": 6.938893903907228e-18,
+      "python": {
+        "sigmas": [
+          0.0,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.021844360222115587,
+            0.02093065881997614
+          ]
+        ]
+      },
+      "cpp": {
+        "sigmas": [
+          0,
+          0.1462446905738662
+        ],
+        "eligible_blocks": 120,
+        "selected_blocks_per_source_per_fold": 24,
+        "available": true,
+        "valid_pixel_fraction": 0.8511904761904762,
+        "fold_variances": [
+          [
+            0,
+            0
+          ],
+          [
+            0.021844360222115587,
+            0.020930658819976147
+          ]
+        ]
+      }
+    }
+  ],
+  "passed": true
+}

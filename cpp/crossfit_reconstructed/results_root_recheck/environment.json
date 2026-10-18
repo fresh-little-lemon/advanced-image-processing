@@ -1,0 +1,30 @@
+{
+  "measured_utc": "2026-10-18T10:37:13.110052+00:00",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "architecture": "x86_64",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpus_visible": 9,
+  "affinity_cpu_count": 9,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "release_flags": "-std=c++17 -Wall -Wextra -Wpedantic -Werror -ffp-contract=off -O3 -DNDEBUG",
+  "sanitizer_flags": "-std=c++17 -Wall -Wextra -Wpedantic -Werror -ffp-contract=off -O1 -g -fno-omit-frame-pointer -fsanitize=address,undefined",
+  "hardware_context": "shared cloud x86 CPU, unpinned process, single-thread estimator; no ARM hardware measurement",
+  "source_sha256": {
+    "bench/benchmark.cpp": "94ad5e1166ea270eb7f4927eee28fda60eaa4b32922e228ea8d5725615336a7e",
+    "build_and_test.sh": "84b5a30dbd7773efa75666d39f604d51879c2d2d8e851ad61c2daa2dd2c133cd",
+    "include/crossfit.hpp": "e46c9a947d1efb094ad18e893a05d7df38ace9536865c5745d1b9afefa174b6c",
+    "reference/core.py": "12ca99755393abb0527d70c2d224a0ac22b48dce3de72d3b9435d8950e6d7321",
+    "reference/crossfit_floor.py": "8ad1084bf053c909fe1d114b2da606663527c3eee841015314b452c612f1af2a",
+    "reference/diagnostic.py": "0274cfd8ab6087777aa8743c3e2de1f805284b9c7f6ddcd255406ac4168618ce",
+    "reference/residual_floor.py": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea",
+    "src/crossfit.cpp": "d2f75c38cf0247ab09d6e340c3beaf21a3c23bff5fa1a68c10ea79bbb32e9d72",
+    "src/crossfit_cli.cpp": "fca7fd465606fe306d6f597ee85e4969eae33368772e63214fe8bc780a0ce600",
+    "tests/cli_validation.py": "1447c408ddf13b8bb83bd82d21b5f06198eefa2d22c597898d6dbe621d89a184",
+    "tests/native_tests.cpp": "fe06459575ba024811b15016ff56eb0865308075919b019e9f68c892db1bbbc2",
+    "tests/parity.py": "426e174919205b481e7bc23e5f2185b68567db31f0da1cb9db92873b59f40843",
+    "tests/record_environment.py": "3ded08693f64463d1935d1c869a82b862d244f3deb4b2e33f022948af318f5d8"
+  }
+}

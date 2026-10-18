@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "reconstructed C++17 crossfit noise estimator only",
+  "python_parity_cases": 59,
+  "python_parity_total": 59,
+  "max_sigma_abs_error": 6.245004513516506e-17,
+  "max_fold_variance_abs_error": 2.7755575615628914e-17,
+  "native_passed": 25,
+  "native_total": 25,
+  "cli_validation_passed": 10,
+  "cli_validation_total": 10,
+  "asan_ubsan_passed": true,
+  "leak_detection": "not run in successful sanitizer pass; runtime ptrace incompatibility, see leak_sanitizer_unavailable.txt",
+  "benchmark_median_ms": {
+    "640x480": 11.646276499999999,
+    "1280x720": 43.063219000000004,
+    "1920x1080": 76.6408205
+  },
+  "full_fusion_cpp_validated": false,
+  "arm_hardware_tested": false
+}

@@ -1,0 +1,432 @@
+{
+  "original42": {
+    "commit": "9ea683ab997eee26e8d972ad35a7761c2663f1f4",
+    "checks": [
+      {
+        "path": "README.md",
+        "sha": "17acf112ce777065582009bedff54a419183b43c",
+        "remote": "17acf112ce777065582009bedff54a419183b43c",
+        "match": true
+      },
+      {
+        "path": "scripts/probe_crossfit_floor.py",
+        "sha": "482519d570be19af2ccfc889c426a422bc7433a0",
+        "remote": "482519d570be19af2ccfc889c426a422bc7433a0",
+        "match": true
+      },
+      {
+        "path": "scripts/make_residual_floor_demos.py",
+        "sha": "981df549cb91753372a314fed8bd52f4788500a5",
+        "remote": "981df549cb91753372a314fed8bd52f4788500a5",
+        "match": true
+      },
+      {
+        "path": "scripts/probe_crossfit_transfer.py",
+        "sha": "80face4ae7a2b30ad0d1c5ec2a46ddc478484160",
+        "remote": "80face4ae7a2b30ad0d1c5ec2a46ddc478484160",
+        "match": true
+      },
+      {
+        "path": "scripts/analyze_residual_floor.py",
+        "sha": "f3b29b7f386b2d18eb7c4cd5b4667e5265124e29",
+        "remote": "f3b29b7f386b2d18eb7c4cd5b4667e5265124e29",
+        "match": true
+      },
+      {
+        "path": "scripts/measure_residual_selection_bias.py",
+        "sha": "06ea468cde9c91c2f474d36a009e9d5500d016dd",
+        "remote": "06ea468cde9c91c2f474d36a009e9d5500d016dd",
+        "match": true
+      },
+      {
+        "path": "scripts/measure_crossfit_stationary.py",
+        "sha": "decbff284dd96996145728fd25b217f8560ce949",
+        "remote": "decbff284dd96996145728fd25b217f8560ce949",
+        "match": true
+      },
+      {
+        "path": "scripts/validate_residual_floor.py",
+        "sha": "85b1555420af7527ebe9e0fb067190157d2c374b",
+        "remote": "85b1555420af7527ebe9e0fb067190157d2c374b",
+        "match": true
+      },
+      {
+        "path": "scripts/summarize_crossfit_floor.py",
+        "sha": "8d0d737a64fb145af3c0ae7a77603ebf09649d66",
+        "remote": "8d0d737a64fb145af3c0ae7a77603ebf09649d66",
+        "match": true
+      },
+      {
+        "path": "scripts/probe_residual_floor.py",
+        "sha": "98ff2f69332e84909e3edb805f9ca3f469c0d24e",
+        "remote": "98ff2f69332e84909e3edb805f9ca3f469c0d24e",
+        "match": true
+      },
+      {
+        "path": "tests/test_residual_floor.py",
+        "sha": "d8424154b1aab2244ce4fcb1990569a38e5607f6",
+        "remote": "d8424154b1aab2244ce4fcb1990569a38e5607f6",
+        "match": true
+      },
+      {
+        "path": "tests/test_crossfit_floor.py",
+        "sha": "1b90ce63ad42b9db7d526bca40db711263f00360",
+        "remote": "1b90ce63ad42b9db7d526bca40db711263f00360",
+        "match": true
+      },
+      {
+        "path": "docs/crossfit_residual_reliability.md",
+        "sha": "928dd15b5425fb012a1f1a2a4061b2395937e596",
+        "remote": "928dd15b5425fb012a1f1a2a4061b2395937e596",
+        "match": true
+      },
+      {
+        "path": "src/reliable_focus/crossfit_floor.py",
+        "sha": "02f069c642b64faeba6e7a4b58fafa80109f8c20",
+        "remote": "02f069c642b64faeba6e7a4b58fafa80109f8c20",
+        "match": true
+      },
+      {
+        "path": "src/reliable_focus/residual_floor.py",
+        "sha": "6791a3c294256548cd81d1a884218c4b757507e5",
+        "remote": "6791a3c294256548cd81d1a884218c4b757507e5",
+        "match": true
+      },
+      {
+        "path": "src/reliable_focus/crossfit_fusion.py",
+        "sha": "58bfdbb3fce5596f276f6fc55701d9733b60678c",
+        "remote": "58bfdbb3fce5596f276f6fc55701d9733b60678c",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/paired_analysis.json",
+        "sha": "6c8ba1014cfad1601924905effb1f3d1cc8d6b98",
+        "remote": "6c8ba1014cfad1601924905effb1f3d1cc8d6b98",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/crossfit_protocol_frozen.json",
+        "sha": "06a30ca976bf995040c2f9592805fa77951bf939",
+        "remote": "06a30ca976bf995040c2f9592805fa77951bf939",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/protocol_frozen.json",
+        "sha": "b512587307d09fb8aecf73114d5e4ec194d2592b",
+        "remote": "b512587307d09fb8aecf73114d5e4ec194d2592b",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/combined_analysis.json",
+        "sha": "242ff8abd69b1dcf427eca01c01cd33c0a1ffbc3",
+        "remote": "242ff8abd69b1dcf427eca01c01cd33c0a1ffbc3",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/crossfit_stationary.csv",
+        "sha": "61c5d8e2ce1847c8ac9ae9d02844aff4ca3dff5e",
+        "remote": "61c5d8e2ce1847c8ac9ae9d02844aff4ca3dff5e",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/tests.txt",
+        "sha": "6a26d0d79f7d3e52c8546efee8afbe8677ab4b27",
+        "remote": "6a26d0d79f7d3e52c8546efee8afbe8677ab4b27",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/demo_manifest.json",
+        "sha": "5a168e1a0473944e96c8bbd307ccaee8378b494a",
+        "remote": "5a168e1a0473944e96c8bbd307ccaee8378b494a",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/transfer_protocol_frozen.json",
+        "sha": "1517f708a0744a20ece7665ac6495dc9ad3e7f21",
+        "remote": "1517f708a0744a20ece7665ac6495dc9ad3e7f21",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/artifact_manifest.json",
+        "sha": "844a8b163d5c0590773c99a8e040a4bb17637a41",
+        "remote": "844a8b163d5c0590773c99a8e040a4bb17637a41",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/crossfit/source_swap.csv",
+        "sha": "ed65685a4ba2ebe0e95d689b18fc89b775b47e7e",
+        "remote": "ed65685a4ba2ebe0e95d689b18fc89b775b47e7e",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/crossfit/validation_metrics.csv",
+        "sha": "1c7ff42da3b08d7a02524ab3fc460b86c8bb0419",
+        "remote": "1c7ff42da3b08d7a02524ab3fc460b86c8bb0419",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/crossfit/run.json",
+        "sha": "5e720b2e3a22221b45cde7182cb36975c2b100ad",
+        "remote": "5e720b2e3a22221b45cde7182cb36975c2b100ad",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/crossfit/procedural_metrics.csv",
+        "sha": "575f3240bceef08ba57e9364d5509dd6bebd6bc8",
+        "remote": "575f3240bceef08ba57e9364d5509dd6bebd6bc8",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/validation/metrics.csv",
+        "sha": "b2c11c473a8f2f8fa6dc7fe873b2ed0c7c1c69f7",
+        "remote": "b2c11c473a8f2f8fa6dc7fe873b2ed0c7c1c69f7",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/validation/summary.json",
+        "sha": "718969f7331b1a28a70b5189a5333358044c81da",
+        "remote": "718969f7331b1a28a70b5189a5333358044c81da",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/validation/run.json",
+        "sha": "85e08cd343988f7c267a3e69697bc35152d77223",
+        "remote": "85e08cd343988f7c267a3e69697bc35152d77223",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/transfer/metrics.csv",
+        "sha": "bded17b6e7a08ce71edf8dcfe7c8e631ba97ac4d",
+        "remote": "bded17b6e7a08ce71edf8dcfe7c8e631ba97ac4d",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/transfer/summary_nonconstant.json",
+        "sha": "ad033f15b455ebbd6fe2a5c648abd06c963e0bfc",
+        "remote": "ad033f15b455ebbd6fe2a5c648abd06c963e0bfc",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/transfer/run.json",
+        "sha": "2ab260dbc537ee71602b740aed127fccf38b5411",
+        "remote": "2ab260dbc537ee71602b740aed127fccf38b5411",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/selection_bias/protocol.json",
+        "sha": "2d0dc36322937e71484ce95d85f8f5fc3d2a6451",
+        "remote": "2d0dc36322937e71484ce95d85f8f5fc3d2a6451",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/selection_bias/metrics.csv",
+        "sha": "a8764b131e2fa15b87a102a8670418e564d4f1c8",
+        "remote": "a8764b131e2fa15b87a102a8670418e564d4f1c8",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/selection_bias/summary.json",
+        "sha": "bc278c721837b522f3b8ab89843c73fbf4ae41c5",
+        "remote": "bc278c721837b522f3b8ab89843c73fbf4ae41c5",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/run/source_swap.csv",
+        "sha": "dad3fb293c75949ffe9aa67caee13f538add5cb1",
+        "remote": "dad3fb293c75949ffe9aa67caee13f538add5cb1",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/run/metrics.csv",
+        "sha": "6581698f93bf53df90399cdd56c228c7510d20db",
+        "remote": "6581698f93bf53df90399cdd56c228c7510d20db",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/run/summary.json",
+        "sha": "2675c317bbd5e7487c3477505fa0b61f7da012d4",
+        "remote": "2675c317bbd5e7487c3477505fa0b61f7da012d4",
+        "match": true
+      },
+      {
+        "path": "results/residual_floor_20261018/run/run.json",
+        "sha": "934e884754ee93f2de6f9f5326f22f00dc2b9bed",
+        "remote": "934e884754ee93f2de6f9f5326f22f00dc2b9bed",
+        "match": true
+      }
+    ]
+  },
+  "cpp28": {
+    "commit": "51d78b88da55a79ef0a11a79bad165beaa676bcf",
+    "checks": [
+      {
+        "path": "cpp/crossfit_reconstructed/RESULTS_zh.md",
+        "sha": "bea531652d8ca072f86c6abe1828f0b641fb3173",
+        "remote": "bea531652d8ca072f86c6abe1828f0b641fb3173",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/build_and_test.sh",
+        "sha": "40ce25b048e00bfa52be0997a3549c8043b245a7",
+        "remote": "40ce25b048e00bfa52be0997a3549c8043b245a7",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/.gitignore",
+        "sha": "9024ea25afa482cda8f418ef0f8017d5b89ce48d",
+        "remote": "9024ea25afa482cda8f418ef0f8017d5b89ce48d",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/README.md",
+        "sha": "e451a34044ab15c7fb23b66beb1231d7c8303444",
+        "remote": "e451a34044ab15c7fb23b66beb1231d7c8303444",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/MANIFEST.sha256",
+        "sha": "e4f637dfee5d105681dcd65f98b65a1968803038",
+        "remote": "e4f637dfee5d105681dcd65f98b65a1968803038",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/reference/crossfit_floor.py",
+        "sha": "02f069c642b64faeba6e7a4b58fafa80109f8c20",
+        "remote": "02f069c642b64faeba6e7a4b58fafa80109f8c20",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/reference/diagnostic.py",
+        "sha": "f99408a840888de9a0f669b047094694efa3527d",
+        "remote": "f99408a840888de9a0f669b047094694efa3527d",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/reference/residual_floor.py",
+        "sha": "6791a3c294256548cd81d1a884218c4b757507e5",
+        "remote": "6791a3c294256548cd81d1a884218c4b757507e5",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/reference/core.py",
+        "sha": "735aa9241f50fcfed5609e82bba609845681f4de",
+        "remote": "735aa9241f50fcfed5609e82bba609845681f4de",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/reference/provenance.json",
+        "sha": "e21e330469fffa11733bef8036ce05d4be9c996b",
+        "remote": "e21e330469fffa11733bef8036ce05d4be9c996b",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/bench/benchmark.cpp",
+        "sha": "3cccfff96518723d67738eefd3ab45df2a6c7acc",
+        "remote": "3cccfff96518723d67738eefd3ab45df2a6c7acc",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/include/crossfit.hpp",
+        "sha": "e61db7c92db0fb1ccd4eb0f436c14284437a2863",
+        "remote": "e61db7c92db0fb1ccd4eb0f436c14284437a2863",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/src/crossfit.cpp",
+        "sha": "8826c687497766094e5484a0593b93ac6b716db6",
+        "remote": "8826c687497766094e5484a0593b93ac6b716db6",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/src/crossfit_cli.cpp",
+        "sha": "8d4d922b96cdea00609e7273015481a352544eb8",
+        "remote": "8d4d922b96cdea00609e7273015481a352544eb8",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/tests/parity.py",
+        "sha": "1c0470e1cdc8701a7e29bd0b89134d84de54f4c1",
+        "remote": "1c0470e1cdc8701a7e29bd0b89134d84de54f4c1",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/tests/native_tests.cpp",
+        "sha": "d26e45666129554f18f965db920131a36f393a05",
+        "remote": "d26e45666129554f18f965db920131a36f393a05",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/tests/cli_validation.py",
+        "sha": "2d4a636f3d9fbf8c600231d674a14f1f9c54994b",
+        "remote": "2d4a636f3d9fbf8c600231d674a14f1f9c54994b",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/tests/record_environment.py",
+        "sha": "163ceae66e14c169e9b449feab09471eefaecc0d",
+        "remote": "163ceae66e14c169e9b449feab09471eefaecc0d",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/sanitizer_stderr.txt",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "remote": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/native_sanitized.json",
+        "sha": "4f39037f67ca85b999304afe684f1b6ef5f1d780",
+        "remote": "4f39037f67ca85b999304afe684f1b6ef5f1d780",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/parity_summary.txt",
+        "sha": "4c7893585701cb31a57ee381aa97ecec7f22f101",
+        "remote": "4c7893585701cb31a57ee381aa97ecec7f22f101",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/native_tests.json",
+        "sha": "4f39037f67ca85b999304afe684f1b6ef5f1d780",
+        "remote": "4f39037f67ca85b999304afe684f1b6ef5f1d780",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/python_parity.json",
+        "sha": "01b4aa98924d87f58b463881c6581c239b8144dc",
+        "remote": "01b4aa98924d87f58b463881c6581c239b8144dc",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/cli_validation.json",
+        "sha": "f6771711a709c100ed0c28cc1882466692aa64c3",
+        "remote": "f6771711a709c100ed0c28cc1882466692aa64c3",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/benchmark.json",
+        "sha": "cb0252d48e31c78aaac61582a888c9b8c4b1ddfa",
+        "remote": "cb0252d48e31c78aaac61582a888c9b8c4b1ddfa",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/summary.json",
+        "sha": "babdc2830f53b70a2c1e4ac84509d2190de9ed05",
+        "remote": "babdc2830f53b70a2c1e4ac84509d2190de9ed05",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/leak_sanitizer_unavailable.txt",
+        "sha": "cd71bd17eeea1c24a8c77899fe435a68a0ce46be",
+        "remote": "cd71bd17eeea1c24a8c77899fe435a68a0ce46be",
+        "match": true
+      },
+      {
+        "path": "cpp/crossfit_reconstructed/results/environment.json",
+        "sha": "defe98f7181172746aaaeefd214a61fae2500d26",
+        "remote": "defe98f7181172746aaaeefd214a61fae2500d26",
+        "match": true
+      }
+    ]
+  }
+}
