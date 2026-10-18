@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "scope": "26 frozen validation scenes only; exploratory mechanism probe, not final benchmark",
+  "conditions": [
+    {
+      "name": "original",
+      "added_noise_rgb_a": 0,
+      "added_noise_rgb_b": 0
+    },
+    {
+      "name": "added_asymmetric_0_5",
+      "added_noise_rgb_a": 0,
+      "added_noise_rgb_b": 0.0196078431372549
+    }
+  ],
+  "seed": 11,
+  "shared_support": "8x8 blocks, valid_support excluding saturation; lowest 20% ranked by maximum A/B smoothed guide gradient energy",
+  "noise_delta": "pooled MAD sigmaA squared minus sigmaB squared on the same selected blocks",
+  "uncertainty": "64 block bootstrap replicates on fixed selected spatial support; seed 7281; not calibrated independent-noise confidence",
+  "shrink": "alpha=max(0,1-bootstrap_variance/delta_squared); shrunk_delta=alpha*delta; delta=0 gives alpha=0",
+  "controlled_change": "replace only the differential mean energy correction by 20*delta; retain original global-sigma variance model, sigmoid, median and guided filter",
+  "fallback": "fewer than two eligible blocks gives zero differential correction",
+  "oracle": "oracle_added_only knows injected RGB noise variance and assumes no residual baseline noise; NOT a true total-noise oracle for original photos",
+  "selection": "No parameter search, no heldout access, no GT used in candidate estimator",
+  "rows": 390,
+  "source_sha256": "1739eee41297010366a107b45fe518ff52fb9bec97254bc920fcf195e6cb32f5"
+}

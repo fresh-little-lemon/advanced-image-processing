@@ -1,0 +1,12 @@
+{
+  "original": {
+    "valid_fraction": 0.8331564695550351,
+    "saturated_fraction": 0.017311914519906324,
+    "eligible_blocks_before_lowest_20_percent": 3023
+  },
+  "added_asymmetric_0_5": {
+    "valid_fraction": 0.016587382903981266,
+    "saturated_fraction": 0.15363729508196722,
+    "eligible_blocks_before_lowest_20_percent": 10
+  }
+}

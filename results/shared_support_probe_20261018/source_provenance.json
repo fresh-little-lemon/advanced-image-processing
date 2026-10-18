@@ -1,0 +1,33 @@
+{
+  "base_commit": "1ef7a86737f556010680be1501cb6e161bc76daa",
+  "historical_research_archive_sha256": "67d61107bfbc9cf5a782e5d3094585b570785c8522a075af338404f5cc9f50b0",
+  "publication_changes": "Only portable repository discovery, CLI data/output paths, fresh-output protection, test import paths, and document links. Numerical outputs and recorded protocol copied byte for byte. No experiment rerun for publication.",
+  "candidate_kernel_equivalence": "paired_delta and candidate ASTs are identical to the recorded experiment source",
+  "linear_rgb_verification": "Both analysis and probe call decode_srgb(read_rgb(..., profile_policy=encoded_ignore)) before fusion. decode_srgb applies the sRGB inverse transfer function; RGB PSNR uses all decoded channels. This is an assumed sRGB decoding convention, without camera/ICC colorimetric calibration.",
+  "scripts": [
+    {
+      "original_name": "failure_analysis_20261018/analyze.py",
+      "original_sha256": "5e1fdd0cf5bf97c763d9bc0f69b6cefe18817b8c934a58c3567979265a9a56e8",
+      "published_path": "scripts/analyze_phase2_failures.py",
+      "published_sha256": "60263c69fb7bb70545d0b9b97b9d8eee0067b42aa8b92acea09bf2e789a712d5"
+    },
+    {
+      "original_name": "failure_analysis_20261018/procedural_oracle_gap.py",
+      "original_sha256": "9eb24931255ad5ebdb75d6f3dcaea8451a9725e1141f76b0a48834a9a4052864",
+      "published_path": "scripts/summarize_procedural_oracle.py",
+      "published_sha256": "2b2231b53eb361b49c91140f00c521d116f61b2a0fd5a2801b00a817f4cb9c97"
+    },
+    {
+      "original_name": "differential_shrink_probe_20261018/probe.py",
+      "original_sha256": "1739eee41297010366a107b45fe518ff52fb9bec97254bc920fcf195e6cb32f5",
+      "published_path": "scripts/probe_shared_support.py",
+      "published_sha256": "7414931f35418df896c001727e7b4d3127f64f183ad35dc14fac3e0ff67eabe4"
+    },
+    {
+      "original_name": "differential_shrink_probe_20261018/test_probe.py",
+      "original_sha256": "40d6c6c66e6034e6bc47a8af7e19ba4a196e31ca996816d0126b60cf56222e77",
+      "published_path": "tests/test_shared_support_probe.py",
+      "published_sha256": "a32d72ea317bc3015882bac291aa3ad0edd142e681be7d4d3a3a1ec87bf252d4"
+    }
+  ]
+}

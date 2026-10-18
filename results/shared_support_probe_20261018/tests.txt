@@ -1,0 +1,9 @@
+test_constant (__main__.ProbeTests.test_constant) ... ok
+test_no_support (__main__.ProbeTests.test_no_support) ... ok
+test_source_swap (__main__.ProbeTests.test_source_swap) ... ok
+test_zero_delta_equals_no_mean (__main__.ProbeTests.test_zero_delta_equals_no_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.032s
+
+OK

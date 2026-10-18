@@ -1,0 +1,92 @@
+{
+  "original": {
+    "shared_delta minus global_full": {
+      "mean_db": 0.5404941519355302,
+      "wins": 24,
+      "losses": 2,
+      "min_db": -0.007609075615018668,
+      "max_db": 2.765282807507205
+    },
+    "shared_delta minus guided": {
+      "mean_db": 0.008721004993081722,
+      "wins": 15,
+      "losses": 11,
+      "min_db": -0.7706660630185382,
+      "max_db": 0.6520560043190002
+    },
+    "shared_delta minus flat_full": {
+      "mean_db": -0.03482585440828095,
+      "wins": 14,
+      "losses": 12,
+      "min_db": -0.77643963280061,
+      "max_db": 0.28731990091745985
+    },
+    "shared_delta_shrink minus shared_delta": {
+      "mean_db": 0.0009603990793908023,
+      "wins": 16,
+      "losses": 1,
+      "min_db": -0.0003170737362552245,
+      "max_db": 0.012755307555089246
+    },
+    "estimator": {
+      "mean_alpha": 0.5050975958695683,
+      "median_alpha": 0.7507029867316799,
+      "min_blocks": 120,
+      "mean_abs_global_delta": 0.00022128539192150121,
+      "mean_abs_shared_delta": 2.0624984009274695e-05
+    }
+  },
+  "added_asymmetric_0_5": {
+    "shared_delta minus global_full": {
+      "mean_db": 0.22392640197439329,
+      "wins": 16,
+      "losses": 10,
+      "min_db": -1.2144295003769798,
+      "max_db": 3.0413960787379253
+    },
+    "shared_delta minus guided": {
+      "mean_db": 1.3940467042267601,
+      "wins": 25,
+      "losses": 1,
+      "min_db": -1.3607164607252926,
+      "max_db": 8.274637236931248
+    },
+    "shared_delta minus flat_full": {
+      "mean_db": 0.05467378433524249,
+      "wins": 19,
+      "losses": 7,
+      "min_db": -0.5705642555883159,
+      "max_db": 0.8090147299566013
+    },
+    "shared_delta_shrink minus shared_delta": {
+      "mean_db": -0.002920195140470483,
+      "wins": 13,
+      "losses": 13,
+      "min_db": -0.06346365832559542,
+      "max_db": 0.009400839681056539
+    },
+    "estimator": {
+      "mean_alpha": 0.9959264557034806,
+      "median_alpha": 0.9988498864141935,
+      "min_blocks": 2,
+      "mean_abs_global_delta": 0.0004481774070106065,
+      "mean_abs_shared_delta": 0.00027822808922626537
+    }
+  },
+  "added_noise_contrast_increment": {
+    "known_preclipping_delta_sigma2": -0.00017184390618992694,
+    "caveat": "Increment of estimated noisy minus original delta; clipping and support selection still affect this diagnostic",
+    "global_delta_sigma2": {
+      "mean_error": -7.251232757607317e-05,
+      "mean_absolute_error": 7.907522271287123e-05
+    },
+    "shared_delta_sigma2": {
+      "mean_error": 5.7376884075486105e-05,
+      "mean_absolute_error": 0.00011552454825858679
+    },
+    "shrunk_delta_sigma2": {
+      "mean_error": 5.688455032615726e-05,
+      "mean_absolute_error": 0.00011407368364881696
+    }
+  }
+}
