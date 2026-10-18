@@ -1,0 +1,1100 @@
+{
+  "status": "78 outputs present and structural checks passed; numerical MATLAB equivalence not checked",
+  "runtime": "GNU Octave 10.3.0 + image 2.20.1",
+  "source": "author functions unchanged; exported public source text",
+  "count": 78,
+  "records": [
+    {
+      "id": "WHU-004_n0_0_s11",
+      "size": [
+        558,
+        374
+      ],
+      "mode": "RGB",
+      "bytes": 523969,
+      "output_sha256": "9f8250b91ded69e7eb5a72a92f9c91e2f8b4c88d046c997c4580fbbb8bbb4b84",
+      "input_sha256": [
+        "cc4e926bdc82e8af4fa1cdd40bf714ccf232212743fea335db67fef8a0ec0dc6",
+        "3efbe648dd73e17c78e5a40dcf1aa896b4bad0a17385bbcbaaa7454515511a8f"
+      ]
+    },
+    {
+      "id": "WHU-004_n0_5_s11",
+      "size": [
+        558,
+        374
+      ],
+      "mode": "RGB",
+      "bytes": 532892,
+      "output_sha256": "ccb1a6d97f1cf58bffcf950a35c62d998f4eebdb9328bcb5cd4ce50672d45c00",
+      "input_sha256": [
+        "cc4e926bdc82e8af4fa1cdd40bf714ccf232212743fea335db67fef8a0ec0dc6",
+        "829ecc07ea4c69eb42f5f6a2d4e79f350fd7342a5a921d323a6c30d96fbcd9f5"
+      ]
+    },
+    {
+      "id": "WHU-004_n5_0_s11",
+      "size": [
+        558,
+        374
+      ],
+      "mode": "RGB",
+      "bytes": 526766,
+      "output_sha256": "a558e4912e1fd2786e02e313c8296123d3b664b67a1970ba7e4b78da8b815402",
+      "input_sha256": [
+        "36efd63fd26026b3ed2cd914b24dda9e604df4e433b1c38ee2907b6331a5bafe",
+        "3efbe648dd73e17c78e5a40dcf1aa896b4bad0a17385bbcbaaa7454515511a8f"
+      ]
+    },
+    {
+      "id": "WHU-008_n0_0_s11",
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 490416,
+      "output_sha256": "6ee4c4a237e4d31eebd940f6fd8f3af2a6679a59e5087038aba0b3121c1ddca2",
+      "input_sha256": [
+        "b658b044a760642b80f96a53a531ecd68062aa3371e05149e4fd365ea325f368",
+        "73269bdbf8d8b7b194e1a6d320c530dd6c048077df2ba9e04171040fdd22897e"
+      ]
+    },
+    {
+      "id": "WHU-008_n0_5_s11",
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 1099974,
+      "output_sha256": "52825df85f86a71b6e67531cc9a2da370b193e2c952b2d8af0e20c922bbc4549",
+      "input_sha256": [
+        "b658b044a760642b80f96a53a531ecd68062aa3371e05149e4fd365ea325f368",
+        "3a98251371407db161442a64f944396533aad9e7e4c633e715bff19eda702333"
+      ]
+    },
+    {
+      "id": "WHU-008_n5_0_s11",
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 1062989,
+      "output_sha256": "5917c9be0110a59d321468d44881f752a38c168a2a5fe671c8e369fd0b93de4e",
+      "input_sha256": [
+        "e47cd4e28cbb8fac815d89722889536f6b8235f1a02d57c540c2774260c64c00",
+        "73269bdbf8d8b7b194e1a6d320c530dd6c048077df2ba9e04171040fdd22897e"
+      ]
+    },
+    {
+      "id": "WHU-011_n0_0_s11",
+      "size": [
+        856,
+        521
+      ],
+      "mode": "RGB",
+      "bytes": 596430,
+      "output_sha256": "8535f6ceb22228a4f6f50edc8a79d5d4555649c0f8148f6b9d09e65fca060081",
+      "input_sha256": [
+        "d2b9eafa62fa80f91ad28db885ac27172d7c31243153b8133b8967460a243c56",
+        "b62bde02e7e1214c2a9cfb719c1b60e0da53aef44bd51fd46ebbc4da8be24310"
+      ]
+    },
+    {
+      "id": "WHU-011_n0_5_s11",
+      "size": [
+        856,
+        521
+      ],
+      "mode": "RGB",
+      "bytes": 985105,
+      "output_sha256": "36fa962ed1d91a47009b726fe25fb8d59ac3a2abb1bbed7b07d880781872ac93",
+      "input_sha256": [
+        "d2b9eafa62fa80f91ad28db885ac27172d7c31243153b8133b8967460a243c56",
+        "4a5e7d7a9c3f464ec35a11d4e4438378d80695d9d0678f98bd09aa12d21653c8"
+      ]
+    },
+    {
+      "id": "WHU-011_n5_0_s11",
+      "size": [
+        856,
+        521
+      ],
+      "mode": "RGB",
+      "bytes": 977173,
+      "output_sha256": "59c235faeb88a6d6ffa934ee6eb8a7bb3c54f8830e6b674d37a9d33cad8d68de",
+      "input_sha256": [
+        "d8c7f177b78f14c595dcdd99dbb1d6eccbe63b9c113dea7ef973df2982cc49ce",
+        "b62bde02e7e1214c2a9cfb719c1b60e0da53aef44bd51fd46ebbc4da8be24310"
+      ]
+    },
+    {
+      "id": "WHU-018_n0_0_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 217555,
+      "output_sha256": "fe7fadb7ecfcee74fd0e03ef2e639210cf73ba4e4acaeab75cc30a5dd432b576",
+      "input_sha256": [
+        "a779dafd9cd86264b26b6af6dac374ad762ebe625fe731bd62701cbdd1884106",
+        "fbdb3d2a110a634b17894beb7b81cc316c46afbac185db24bc602214130b4915"
+      ]
+    },
+    {
+      "id": "WHU-018_n0_5_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 609000,
+      "output_sha256": "08b3d6d7419cc7ed34cfe81d3e8b33289ffea5c120f259aa9700d14a34b8e961",
+      "input_sha256": [
+        "a779dafd9cd86264b26b6af6dac374ad762ebe625fe731bd62701cbdd1884106",
+        "c4a196a9b6c61bed72b55f4072dc240783b2cf240390cf73a4b14950673e9662"
+      ]
+    },
+    {
+      "id": "WHU-018_n5_0_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 619783,
+      "output_sha256": "d757977a2422f9e14e415fef0186faf8d633f1e48e44eb2abacae0b75a2d6135",
+      "input_sha256": [
+        "8ca0295d16825aeaa129bf35500e171c091318fa5ac515656457504a256de290",
+        "fbdb3d2a110a634b17894beb7b81cc316c46afbac185db24bc602214130b4915"
+      ]
+    },
+    {
+      "id": "WHU-020_n0_0_s11",
+      "size": [
+        637,
+        423
+      ],
+      "mode": "RGB",
+      "bytes": 492483,
+      "output_sha256": "827633a23bbf878eca513c265168088c2b3eafb618d59152a71aeba4c83f1d48",
+      "input_sha256": [
+        "5d59db58e3a4d17b085b7b13fca1dc7c8f34291c3f608447ad24aecff8413627",
+        "6d88f792d7d58b1d9b10edcc5fe94936c3450aefbbf0328ac8507c0390b06220"
+      ]
+    },
+    {
+      "id": "WHU-020_n0_5_s11",
+      "size": [
+        637,
+        423
+      ],
+      "mode": "RGB",
+      "bytes": 592689,
+      "output_sha256": "258627e9bb373ad2f4d6c9433121368c01763c7d1a9838bcdb31721a4905ed2e",
+      "input_sha256": [
+        "5d59db58e3a4d17b085b7b13fca1dc7c8f34291c3f608447ad24aecff8413627",
+        "ab33e08f3fe8c54207cbe81a834299eb9420299951d4eed795878e39c17f4d77"
+      ]
+    },
+    {
+      "id": "WHU-020_n5_0_s11",
+      "size": [
+        637,
+        423
+      ],
+      "mode": "RGB",
+      "bytes": 584450,
+      "output_sha256": "f1ba4c7a0c443031e513d81a490750172469cfa133f09cf8c75ccb11091a08dd",
+      "input_sha256": [
+        "71266717fdeb887366a8b3f83a68d809bffc8c60c677c11f71f5f033438ddcea",
+        "6d88f792d7d58b1d9b10edcc5fe94936c3450aefbbf0328ac8507c0390b06220"
+      ]
+    },
+    {
+      "id": "WHU-021_n0_0_s11",
+      "size": [
+        584,
+        389
+      ],
+      "mode": "RGB",
+      "bytes": 189239,
+      "output_sha256": "5113d05313962ec5dc8b4c5539bbcf01806103a8e91b3d5795e1bac2bb2902ec",
+      "input_sha256": [
+        "2e13cbd24e7d5384add933a9debda8893da2fdeeee1dcd3bea602b2d870d4b19",
+        "4ebfcb625ebb7339fd2e34d243270985ceb23752fa3833089efe86f24b8abfbd"
+      ]
+    },
+    {
+      "id": "WHU-021_n0_5_s11",
+      "size": [
+        584,
+        389
+      ],
+      "mode": "RGB",
+      "bytes": 472990,
+      "output_sha256": "65b24e20a304e978e7f60f126531cf7b25f70b43e6bbd2f46e10cfc6688d9a7b",
+      "input_sha256": [
+        "2e13cbd24e7d5384add933a9debda8893da2fdeeee1dcd3bea602b2d870d4b19",
+        "afe85d815dcbfd98bcdf7f603b0180a1cac022757441352e24c76743e9a6a15e"
+      ]
+    },
+    {
+      "id": "WHU-021_n5_0_s11",
+      "size": [
+        584,
+        389
+      ],
+      "mode": "RGB",
+      "bytes": 477716,
+      "output_sha256": "f074767541325b9c6ef17f7fe2e72960760cc837c12e87a52187c2d052f29ad7",
+      "input_sha256": [
+        "be0098b0b4f5f8a42cfeb83f39c9589e4a6795294fbe93fa112d8271382080b5",
+        "4ebfcb625ebb7339fd2e34d243270985ceb23752fa3833089efe86f24b8abfbd"
+      ]
+    },
+    {
+      "id": "WHU-022_n0_0_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 580263,
+      "output_sha256": "640145e72e4f8fb053bc92c75dca870201c0ee6bf986b0414ad7d0f5e3c6a4a1",
+      "input_sha256": [
+        "729df0d58fd10c689d389760d99cab9f1f128c405a7515ff179482a61038c578",
+        "a9ab0536acebffbc5ee7c5d53997df0e5cdd2db4c8e7862d664763480792e858"
+      ]
+    },
+    {
+      "id": "WHU-022_n0_5_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 603839,
+      "output_sha256": "334811d78ffc6440b10614716d2b159cc6453d3cf5f804abaf215416fd79f7e3",
+      "input_sha256": [
+        "729df0d58fd10c689d389760d99cab9f1f128c405a7515ff179482a61038c578",
+        "3251d748db75b289e58f762f3dfa92efc8301bd724540eab05770be16c8f88a5"
+      ]
+    },
+    {
+      "id": "WHU-022_n5_0_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 639022,
+      "output_sha256": "80901d8a95a5dd0b4bb72338760e8dc2ca7a2f00d755e5cf132f4cdeb5149edb",
+      "input_sha256": [
+        "4b498696dab8f2b1b797e29be11f58e5d9c1e90b8cbfc4b120f0cabb407f7f87",
+        "a9ab0536acebffbc5ee7c5d53997df0e5cdd2db4c8e7862d664763480792e858"
+      ]
+    },
+    {
+      "id": "WHU-044_n0_0_s11",
+      "size": [
+        843,
+        562
+      ],
+      "mode": "RGB",
+      "bytes": 757073,
+      "output_sha256": "03a498cdfa69b3f535a3348a08ab521ee52283824155218aa9994b4ce3d80d21",
+      "input_sha256": [
+        "14071db52d4ad78afb0da1ac5de2c66af7a711757cedb368d0089378bcef7f1f",
+        "bd5cc5dc815696acf63b617e2fd73c76f2ce64af7924b13c0e160ef83ed619c7"
+      ]
+    },
+    {
+      "id": "WHU-044_n0_5_s11",
+      "size": [
+        843,
+        562
+      ],
+      "mode": "RGB",
+      "bytes": 1040399,
+      "output_sha256": "c391201549c8dac6d6d485f4a71ade704b105bd9a04114d48f6df3839665292a",
+      "input_sha256": [
+        "14071db52d4ad78afb0da1ac5de2c66af7a711757cedb368d0089378bcef7f1f",
+        "c64de88775506a917fc99410e36c854ae17518f3a3878422da1357e46f87bc0d"
+      ]
+    },
+    {
+      "id": "WHU-044_n5_0_s11",
+      "size": [
+        843,
+        562
+      ],
+      "mode": "RGB",
+      "bytes": 1026650,
+      "output_sha256": "8b892eb9642b86f24fc705a0cba36da3d3ea5f3dcf3e363624b95d857b07f79e",
+      "input_sha256": [
+        "aed73e6f88bce14e66768c4119d6d03fe50cb550c3383236213f41a411fb3f58",
+        "bd5cc5dc815696acf63b617e2fd73c76f2ce64af7924b13c0e160ef83ed619c7"
+      ]
+    },
+    {
+      "id": "WHU-051_n0_0_s11",
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 1011582,
+      "output_sha256": "dc3f27934d1d831bcc4c7307831f634616c3f7ad5822ebe69d87718b9523cb2d",
+      "input_sha256": [
+        "adcffd728a2dda54b742f8eff356c8bed5eeacac225b88213f0091415ae9bae0",
+        "9b61e3d58dca54a3ca9a7b5d6216d0dc6d768ecdd69bcbe2f4b3c34ddc3cc287"
+      ]
+    },
+    {
+      "id": "WHU-051_n0_5_s11",
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 1253095,
+      "output_sha256": "6092a4eef921a2c5343f496cbb511236a66cef9e2d37810a225f8bf9e902a7bf",
+      "input_sha256": [
+        "adcffd728a2dda54b742f8eff356c8bed5eeacac225b88213f0091415ae9bae0",
+        "9702e2ccd6b64083f98af8cfa34658710622e64e65c5ab4e02b42bed24cebc90"
+      ]
+    },
+    {
+      "id": "WHU-051_n5_0_s11",
+      "size": [
+        900,
+        600
+      ],
+      "mode": "RGB",
+      "bytes": 1180967,
+      "output_sha256": "c7d5058204cf0a7e7c3e1d9852ad28b030abc653a149bcb8939235c82ca07382",
+      "input_sha256": [
+        "c83924c700df5054f5b1b7a9b9b5fb1152f5b7454b6cf9d15fe8e04519576f58",
+        "9b61e3d58dca54a3ca9a7b5d6216d0dc6d768ecdd69bcbe2f4b3c34ddc3cc287"
+      ]
+    },
+    {
+      "id": "WHU-052_n0_0_s11",
+      "size": [
+        740,
+        490
+      ],
+      "mode": "RGB",
+      "bytes": 451894,
+      "output_sha256": "ba0be68288901f7f2971e26671826567d8ab67c21b94005eca160a529dc981e1",
+      "input_sha256": [
+        "ae2b913232137dc6dd41528edcf322171e371e2885ae4b4d7a0dbe2b157cdb60",
+        "2f8df61ffe60d744a9d8792ce46bd3d5c7b7b0e87a2a69de961d046290937e15"
+      ]
+    },
+    {
+      "id": "WHU-052_n0_5_s11",
+      "size": [
+        740,
+        490
+      ],
+      "mode": "RGB",
+      "bytes": 777449,
+      "output_sha256": "765d6af4cdb351fee6ec30565cad324db6349b2a079500ebac24f5e2a2597417",
+      "input_sha256": [
+        "ae2b913232137dc6dd41528edcf322171e371e2885ae4b4d7a0dbe2b157cdb60",
+        "ab3f79b0f3947466c75dcbe84d927fc4ab1c4e9dc662738562347a74987e98af"
+      ]
+    },
+    {
+      "id": "WHU-052_n5_0_s11",
+      "size": [
+        740,
+        490
+      ],
+      "mode": "RGB",
+      "bytes": 777134,
+      "output_sha256": "b5d24c2fd510692ce11e7806cc87bc6003642a9f4017d7f874148116a7e722bd",
+      "input_sha256": [
+        "d862dabfcb652a4ed49cacb02f15778ddfe6946ada46e5826e9fd733a694dccb",
+        "2f8df61ffe60d744a9d8792ce46bd3d5c7b7b0e87a2a69de961d046290937e15"
+      ]
+    },
+    {
+      "id": "WHU-056_n0_0_s11",
+      "size": [
+        428,
+        644
+      ],
+      "mode": "RGB",
+      "bytes": 648703,
+      "output_sha256": "8cac0d876263ba277ae926a6e3b1afce21962904fa2c5aad8bd89af2d1480513",
+      "input_sha256": [
+        "bec9ef976d4d010afe0f59dcb8e3acafd65d56c51aceabfce14e772ce1198502",
+        "8d27ce62ab17f767ed9c34a46c2212b6b2721fd216614d299e42f8d629948b32"
+      ]
+    },
+    {
+      "id": "WHU-056_n0_5_s11",
+      "size": [
+        428,
+        644
+      ],
+      "mode": "RGB",
+      "bytes": 679214,
+      "output_sha256": "f47d702f04f4f1579519af7d0a8ee6c53a1157586effa8446ff8b37fb598b246",
+      "input_sha256": [
+        "bec9ef976d4d010afe0f59dcb8e3acafd65d56c51aceabfce14e772ce1198502",
+        "4d6bd241c647506874e07c1da09d4127f17f627214e1c5c92efc79123c8de5c0"
+      ]
+    },
+    {
+      "id": "WHU-056_n5_0_s11",
+      "size": [
+        428,
+        644
+      ],
+      "mode": "RGB",
+      "bytes": 664294,
+      "output_sha256": "e7ad1e00fc823285c58da98a3049cb87417f5db5b3e864f1c0cb4af10b8b5a8f",
+      "input_sha256": [
+        "c219a50b5e2c5dbbc7203fcbc327a6ca13f749b37e48f13beae061951f64452f",
+        "8d27ce62ab17f767ed9c34a46c2212b6b2721fd216614d299e42f8d629948b32"
+      ]
+    },
+    {
+      "id": "WHU-058_n0_0_s11",
+      "size": [
+        637,
+        423
+      ],
+      "mode": "RGB",
+      "bytes": 386525,
+      "output_sha256": "91f1d46279052ca846f5042a461c89ed006762faf39609c04d13e88837b5c309",
+      "input_sha256": [
+        "f05c1ba693d412522ecab8283ca13d4d246f367611a19feccafbc7d74f8caeab",
+        "cdd3f6b86c4f5f7f1823e1976b91b6fc798b57f901f7c2540d11d9b2b72de395"
+      ]
+    },
+    {
+      "id": "WHU-058_n0_5_s11",
+      "size": [
+        637,
+        423
+      ],
+      "mode": "RGB",
+      "bytes": 652027,
+      "output_sha256": "371df0ef94013ee60d8f439e5b8c6106706aea843100d9b7ebcc1acbd15f7948",
+      "input_sha256": [
+        "f05c1ba693d412522ecab8283ca13d4d246f367611a19feccafbc7d74f8caeab",
+        "f24fad58ec6f099f52735673e4d0054d13ed15422dde3ef3adb36d5c582bd386"
+      ]
+    },
+    {
+      "id": "WHU-058_n5_0_s11",
+      "size": [
+        637,
+        423
+      ],
+      "mode": "RGB",
+      "bytes": 633607,
+      "output_sha256": "3ed4db61c3ffd73556a73ef909721b4148ffc997e48449903a104e372435137f",
+      "input_sha256": [
+        "016810e64bee4cedd2c1b8157d6d0a4bdeb5dd8e5fa7c6112fb4fa8b4a743d6f",
+        "cdd3f6b86c4f5f7f1823e1976b91b6fc798b57f901f7c2540d11d9b2b72de395"
+      ]
+    },
+    {
+      "id": "WHU-060_n0_0_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 636793,
+      "output_sha256": "83e1c15934191858357ba1da01f907767a1a59edaa894d78ecc750dcd5f52411",
+      "input_sha256": [
+        "b7de5ff57fed7b287d30766b127706020338ae4b594053be9b21538d5e74973e",
+        "18249a3e011f473c3b3cc93e54682b3809a0532d78b7051e50cb12984dac4efd"
+      ]
+    },
+    {
+      "id": "WHU-060_n0_5_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 686894,
+      "output_sha256": "63bc8b1ef971be29aa0b05cc3f783b29f1d911b692ee944cfa3b35639f60538c",
+      "input_sha256": [
+        "b7de5ff57fed7b287d30766b127706020338ae4b594053be9b21538d5e74973e",
+        "8341f1a46156c53c0a33f4ec87ab42f26c5bf23c7333fb0ef3bf679bdf176033"
+      ]
+    },
+    {
+      "id": "WHU-060_n5_0_s11",
+      "size": [
+        644,
+        428
+      ],
+      "mode": "RGB",
+      "bytes": 670386,
+      "output_sha256": "2405cc3fdacf77bacf768df7bf64f959e8383a7ccc6ffc681d620e8cec0cae06",
+      "input_sha256": [
+        "a0e73c866e81395d134ed93b338c057bb6a83f097b910b2aac103553e6b87127",
+        "18249a3e011f473c3b3cc93e54682b3809a0532d78b7051e50cb12984dac4efd"
+      ]
+    },
+    {
+      "id": "WHU-067_n0_0_s11",
+      "size": [
+        640,
+        505
+      ],
+      "mode": "RGB",
+      "bytes": 536920,
+      "output_sha256": "020eb6fe4d51649e9bef1706f0c65a2823242f7018eda4f5df45cabfc4954aea",
+      "input_sha256": [
+        "04990516c05b964e4359bbf84d513ebda4bbd75b335ee2631a7657f780721db2",
+        "8212c0ed1d264b8558ffc042299fcb031cbddf5d3ced65b38fa60cf1532c6fdb"
+      ]
+    },
+    {
+      "id": "WHU-067_n0_5_s11",
+      "size": [
+        640,
+        505
+      ],
+      "mode": "RGB",
+      "bytes": 816094,
+      "output_sha256": "5e9a7f6b13a76310e45c976132b26ae6460c656c0d0b558571bd121a7b87ee46",
+      "input_sha256": [
+        "04990516c05b964e4359bbf84d513ebda4bbd75b335ee2631a7657f780721db2",
+        "b4ae5594c80b61b592c36924a7c53d6d4a0f163f6c883a34b3b56d124bc51be1"
+      ]
+    },
+    {
+      "id": "WHU-067_n5_0_s11",
+      "size": [
+        640,
+        505
+      ],
+      "mode": "RGB",
+      "bytes": 803184,
+      "output_sha256": "c39470d1b5319208beefe0bac971035168734eb9574e8c869003d56c7881f947",
+      "input_sha256": [
+        "e4c6967b6343cae39dff9263ffa2fd3f4db39770c9152b2a5738f9cf2df2c186",
+        "8212c0ed1d264b8558ffc042299fcb031cbddf5d3ced65b38fa60cf1532c6fdb"
+      ]
+    },
+    {
+      "id": "WHU-071_n0_0_s11",
+      "size": [
+        640,
+        444
+      ],
+      "mode": "RGB",
+      "bytes": 408735,
+      "output_sha256": "1e493c247781acc3c4b61d85b1379a9d5039dd392adaac95cd070b8a5f2058c3",
+      "input_sha256": [
+        "02047d163e89817dea34a7d8ea6b0c63e813cd5fa48061952e2321f2532e36e6",
+        "86b75f58673f11fc882a924d8b50397f274a2c7c4f1807f8dab7c5b97036a8e4"
+      ]
+    },
+    {
+      "id": "WHU-071_n0_5_s11",
+      "size": [
+        640,
+        444
+      ],
+      "mode": "RGB",
+      "bytes": 667255,
+      "output_sha256": "aa2c289fe73da7f7f4c7dfb2e14aae612110b86ba2311ab7f7db1301b336eb45",
+      "input_sha256": [
+        "02047d163e89817dea34a7d8ea6b0c63e813cd5fa48061952e2321f2532e36e6",
+        "aac77ff26f7e2d16ac9d33f628ab60c15e8fc8a0b032e1e1a59c0e5ff3fda00d"
+      ]
+    },
+    {
+      "id": "WHU-071_n5_0_s11",
+      "size": [
+        640,
+        444
+      ],
+      "mode": "RGB",
+      "bytes": 640215,
+      "output_sha256": "efd4bf6338aaa29ee1fe8677658a7f5cde89844c4c9953ccda0703446e98d184",
+      "input_sha256": [
+        "79a7d692f4575d9e7fc0c46fef46875a186f593938b2d536cbe53dc20ef529e5",
+        "86b75f58673f11fc882a924d8b50397f274a2c7c4f1807f8dab7c5b97036a8e4"
+      ]
+    },
+    {
+      "id": "WHU-073_n0_0_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 528710,
+      "output_sha256": "1d851735ff42d09179e1de01041452861041ab5e6f7a7d5d55b9305bb5ad9061",
+      "input_sha256": [
+        "f42e8059978af6cdd32526263d92e640d8eef3fe5dcec99d7468544ac8937786",
+        "486625c6d09be9705d35522bd3e5e3716b5f342b8743e27d0c821e9f7db4437c"
+      ]
+    },
+    {
+      "id": "WHU-073_n0_5_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 643916,
+      "output_sha256": "88367b10e89c6da32cfb5689cf831ca944df17e2f18786fcca521b44dae1d18f",
+      "input_sha256": [
+        "f42e8059978af6cdd32526263d92e640d8eef3fe5dcec99d7468544ac8937786",
+        "24b7a0e35eae9fb2cdf7f7b5fa9d90c7d04339c55105529e46cb80a073d43545"
+      ]
+    },
+    {
+      "id": "WHU-073_n5_0_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 603584,
+      "output_sha256": "66eb3493daeb46bdfed935e1f26d2e4eba9f21cba3251ddf326c254c765763e2",
+      "input_sha256": [
+        "2a74b9bf504f59e974a25f17da74e868de1608bf0ae81a9e98bab5db3959ff9e",
+        "486625c6d09be9705d35522bd3e5e3716b5f342b8743e27d0c821e9f7db4437c"
+      ]
+    },
+    {
+      "id": "WHU-077_n0_0_s11",
+      "size": [
+        500,
+        375
+      ],
+      "mode": "RGB",
+      "bytes": 299157,
+      "output_sha256": "60eb99daeb20fd33aa978a2691e088e62652695c9d6286d8986bd5b8bda99d6a",
+      "input_sha256": [
+        "b1b7ef79364e0f118f798013642274180fc06ea517f3a45910ea5346408cf072",
+        "26a1f505475a9bd1954c313bf921a596d774a674c8dd5c74c8e66e39b9165a85"
+      ]
+    },
+    {
+      "id": "WHU-077_n0_5_s11",
+      "size": [
+        500,
+        375
+      ],
+      "mode": "RGB",
+      "bytes": 414821,
+      "output_sha256": "0ad0bf93991df0f2ab34cfe3115f57f7db4ade65f30d532d8cf772c5d389ce19",
+      "input_sha256": [
+        "b1b7ef79364e0f118f798013642274180fc06ea517f3a45910ea5346408cf072",
+        "773b8bbc5d39bfb28167230ff9f746ffe27a8330c1c0c0326fdb2a41c6d531e2"
+      ]
+    },
+    {
+      "id": "WHU-077_n5_0_s11",
+      "size": [
+        500,
+        375
+      ],
+      "mode": "RGB",
+      "bytes": 411962,
+      "output_sha256": "e815fbe889db6d3fede354d45192c230f0b23813d8accb36558fc6a547c6da69",
+      "input_sha256": [
+        "d42984ca0d28e7572c2b00c275c7aea7587fd70c4daacf36ad020539fb067812",
+        "26a1f505475a9bd1954c313bf921a596d774a674c8dd5c74c8e66e39b9165a85"
+      ]
+    },
+    {
+      "id": "WHU-079_n0_0_s11",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 647716,
+      "output_sha256": "511d80b74bdd313ae7947ccab5a998cc38644e1aa2624fae882e11f27dddab7a",
+      "input_sha256": [
+        "a8e9222c6ff2d1611dcaf736fb98b3f253b88864bbdbacaf6042aadcea0429b0",
+        "35570a7695390a8a22033f9a762ad82a844c3671a9a3c84c58b4100cde80b830"
+      ]
+    },
+    {
+      "id": "WHU-079_n0_5_s11",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 953982,
+      "output_sha256": "0b81fbb64316ad1583abe32a7c31b034692e506a156ba54de20b7a6966d1003e",
+      "input_sha256": [
+        "a8e9222c6ff2d1611dcaf736fb98b3f253b88864bbdbacaf6042aadcea0429b0",
+        "b446269ad9b31a9166d443617b118b28253ce7f556fa16bbf231eaedbbc6fdfb"
+      ]
+    },
+    {
+      "id": "WHU-079_n5_0_s11",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 881675,
+      "output_sha256": "c31f78b34a1a5d28d209085624a482057102c5f5eae080744be876b81f134b42",
+      "input_sha256": [
+        "022d8b9604c4bbc0319da3bebd2fef095e9ff703a30db53630cfd593aeecb193",
+        "35570a7695390a8a22033f9a762ad82a844c3671a9a3c84c58b4100cde80b830"
+      ]
+    },
+    {
+      "id": "WHU-080_n0_0_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 376706,
+      "output_sha256": "78348f2e35c0fdb5420ed75112f9c055d20ec7f61850ff9490bc3be68483ea9a",
+      "input_sha256": [
+        "f0eca0e21d12c69c2eb556feab72eb00fc52553e6f95b269b9ea1bbb55422dff",
+        "0b639a7552770e8a7112ea55a97faccf38d62de0ca5d9910dd3e1742bee2fbbc"
+      ]
+    },
+    {
+      "id": "WHU-080_n0_5_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 638605,
+      "output_sha256": "515adfe2bc4cd9bdfb7602bf559c0df16477f36e33c40bcf056d5ade98ce929b",
+      "input_sha256": [
+        "f0eca0e21d12c69c2eb556feab72eb00fc52553e6f95b269b9ea1bbb55422dff",
+        "7b7e112a8e79ebfeaf88d2567e9ac5672cec80fb7e7dc5c19a0f27e735861a98"
+      ]
+    },
+    {
+      "id": "WHU-080_n5_0_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 625931,
+      "output_sha256": "d7d8f543a3e0236528995bf5fb825bba14ef71fbcaedf77fa52c94a82d420bf7",
+      "input_sha256": [
+        "9209aa25b188af50be29afaf08f154db692b31f263e2cac1b319d28b4cac940a",
+        "0b639a7552770e8a7112ea55a97faccf38d62de0ca5d9910dd3e1742bee2fbbc"
+      ]
+    },
+    {
+      "id": "WHU-083_n0_0_s11",
+      "size": [
+        500,
+        375
+      ],
+      "mode": "RGB",
+      "bytes": 270334,
+      "output_sha256": "dcc0d9c3084215cb04324b5bde76303c013c6da77b195e940e2532f7140d32e7",
+      "input_sha256": [
+        "1347904e6bc2e6d2a60289b15eb9e678dcbb024735545b00b4fd04957a00dc82",
+        "a06a33ec1b7f19e2744509b0ec50f0f0b5621482b879bba0c09a6d9ac00b080b"
+      ]
+    },
+    {
+      "id": "WHU-083_n0_5_s11",
+      "size": [
+        500,
+        375
+      ],
+      "mode": "RGB",
+      "bytes": 408608,
+      "output_sha256": "dc3372b19921852905b3f31100ef9830173ce014ad8ea578f8055eab1a5828ca",
+      "input_sha256": [
+        "1347904e6bc2e6d2a60289b15eb9e678dcbb024735545b00b4fd04957a00dc82",
+        "f1e32d35af1bb0e9fcae627c5586df640cc586cc9a282209303b48b027ccfb75"
+      ]
+    },
+    {
+      "id": "WHU-083_n5_0_s11",
+      "size": [
+        500,
+        375
+      ],
+      "mode": "RGB",
+      "bytes": 403466,
+      "output_sha256": "0b2ec6fd211fe4ee6ba4701c0f6eaed43dd1d03ef5e82472df47f01b5466ddf0",
+      "input_sha256": [
+        "a9b2b6605007b5235a0e4610e93e5216dc0c2ce4b9717eb1528cf6bcdff9e454",
+        "a06a33ec1b7f19e2744509b0ec50f0f0b5621482b879bba0c09a6d9ac00b080b"
+      ]
+    },
+    {
+      "id": "WHU-085_n0_0_s11",
+      "size": [
+        640,
+        480
+      ],
+      "mode": "RGB",
+      "bytes": 756898,
+      "output_sha256": "2bb9aa203fe47385034506db767db444dee086abd249fc9ae6f1b25cc9f182a8",
+      "input_sha256": [
+        "6dbc10724430de2b899e1a446acfb702a0e8ec02efe82f49218d999507772f72",
+        "77d9b02ddd9b38341a295db1c21041fb50e047f90f867c1d5de7326fa245c501"
+      ]
+    },
+    {
+      "id": "WHU-085_n0_5_s11",
+      "size": [
+        640,
+        480
+      ],
+      "mode": "RGB",
+      "bytes": 804023,
+      "output_sha256": "41cef12bc6b0acf7c441a42b044376e1abaecbe8f09894153c6194be702af421",
+      "input_sha256": [
+        "6dbc10724430de2b899e1a446acfb702a0e8ec02efe82f49218d999507772f72",
+        "781fdf5c80a287c8c663041520fd892eb44b61c7c359eb8f0db458ce3ea963df"
+      ]
+    },
+    {
+      "id": "WHU-085_n5_0_s11",
+      "size": [
+        640,
+        480
+      ],
+      "mode": "RGB",
+      "bytes": 777257,
+      "output_sha256": "ef9e2d7775916cc8f46c67f75389d7914b256712a0d93f5334fe009bef8b97a6",
+      "input_sha256": [
+        "61c5b8dc078b74129fb4eb582c5a4e03c6dbb88e9bfe7d8e4087a279a97b08ce",
+        "77d9b02ddd9b38341a295db1c21041fb50e047f90f867c1d5de7326fa245c501"
+      ]
+    },
+    {
+      "id": "WHU-091_n0_0_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 518095,
+      "output_sha256": "531aa7cbcbf6778887e060e9fd61030f8e140e47c986a7e1165937c513fce4e2",
+      "input_sha256": [
+        "3a553e89ac8a998b50c0904f6d3fc34190d14bd07aafe0e219de7198e5d060d9",
+        "b1fd6f7e352128eb87032e310e7623ce12133db37d8cc124caa3b2ba5324fb65"
+      ]
+    },
+    {
+      "id": "WHU-091_n0_5_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 699871,
+      "output_sha256": "9d8104a613698509957cf288be842612d5dc05906a4bb9979086eaf088833506",
+      "input_sha256": [
+        "3a553e89ac8a998b50c0904f6d3fc34190d14bd07aafe0e219de7198e5d060d9",
+        "e04d401c8910bc51e2f2aff5b9e18529f6f2b450bf9be35492b0527a43f4a152"
+      ]
+    },
+    {
+      "id": "WHU-091_n5_0_s11",
+      "size": [
+        427,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 697134,
+      "output_sha256": "3916d3a6cbe8463a2bd2177898b0e481b839920f0c1eaf60f6d40124d1af62be",
+      "input_sha256": [
+        "2726a18dfab7425a59fcdd849cff8f9e874dcc085205ac2ac204b0c7e318df12",
+        "b1fd6f7e352128eb87032e310e7623ce12133db37d8cc124caa3b2ba5324fb65"
+      ]
+    },
+    {
+      "id": "WHU-097_n0_0_s11",
+      "size": [
+        640,
+        480
+      ],
+      "mode": "RGB",
+      "bytes": 315563,
+      "output_sha256": "c8c5802f24de491fa8a97882fa6c9b5720e1c6915fc7d53055e1e8da1c33b498",
+      "input_sha256": [
+        "261d1c8d7991e738664ea8caa88b33b6cbade38c0f9a2d28872a91915c70846c",
+        "980ea0e6b922ae62acc63ebcaff5dfeb8ecd1a0f10e453515b0ebc6949384902"
+      ]
+    },
+    {
+      "id": "WHU-097_n0_5_s11",
+      "size": [
+        640,
+        480
+      ],
+      "mode": "RGB",
+      "bytes": 619542,
+      "output_sha256": "9848551d389e75b2f66925782ecaeaed02d9e779aeca53e0f040f0e0f483a6dc",
+      "input_sha256": [
+        "261d1c8d7991e738664ea8caa88b33b6cbade38c0f9a2d28872a91915c70846c",
+        "425a465c533140cca78b1f9f59c34bf8baf88cb333ac643049baf043764b4857"
+      ]
+    },
+    {
+      "id": "WHU-097_n5_0_s11",
+      "size": [
+        640,
+        480
+      ],
+      "mode": "RGB",
+      "bytes": 602964,
+      "output_sha256": "15b02e7e8fc45b60db167289ee7964019104c9bf583838896aab5a2c6431a709",
+      "input_sha256": [
+        "af1db8eb903f695fb3c99bfb2d587e840ca0d428e5ff81561ff33d94cba83091",
+        "980ea0e6b922ae62acc63ebcaff5dfeb8ecd1a0f10e453515b0ebc6949384902"
+      ]
+    },
+    {
+      "id": "WHU-098_n0_0_s11",
+      "size": [
+        640,
+        427
+      ],
+      "mode": "RGB",
+      "bytes": 383118,
+      "output_sha256": "217459827b785bb9669454d74f65f9b2ed4951dece3202effec6ef122f590ec8",
+      "input_sha256": [
+        "1c850c76ba3aefd12cd99627bc761d7e28b9fa6d37a9d7860a8c59278379a622",
+        "14fc1616009b24c61aebcbd3b0bc52f6245b67c454e9bade420b47f83a9b5af4"
+      ]
+    },
+    {
+      "id": "WHU-098_n0_5_s11",
+      "size": [
+        640,
+        427
+      ],
+      "mode": "RGB",
+      "bytes": 617188,
+      "output_sha256": "7d01976b42b22dc44038a7c8c794ccdc4ec3c315066f62a108a3a86bd525d128",
+      "input_sha256": [
+        "1c850c76ba3aefd12cd99627bc761d7e28b9fa6d37a9d7860a8c59278379a622",
+        "699a1842d9769eaddd6de4b095a1b0e61876760c816b251bf0bc26de4792ed19"
+      ]
+    },
+    {
+      "id": "WHU-098_n5_0_s11",
+      "size": [
+        640,
+        427
+      ],
+      "mode": "RGB",
+      "bytes": 603585,
+      "output_sha256": "e03ab24aa93cfeab69bc5c8425b97df9cc7ac81849fea94305f722ea4b7e8d41",
+      "input_sha256": [
+        "5fe5232665097da4e15c79434c0fc9d751cdc273c65969e65a447784555b4ee9",
+        "14fc1616009b24c61aebcbd3b0bc52f6245b67c454e9bade420b47f83a9b5af4"
+      ]
+    },
+    {
+      "id": "WHU-105_n0_0_s11",
+      "size": [
+        480,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 649008,
+      "output_sha256": "ce4377549e2d863069db59080969c9f6f2ba5d6e8f7702d59b8964f6c8e4ca07",
+      "input_sha256": [
+        "c5a3c544c220b500673bdf844450f443037591924e9c1b7af64b9caa2b6176cb",
+        "6781b7be15e0aa4a5687058975bfc9fda13c26a6fd5ec7d9db68b8073afa86c8"
+      ]
+    },
+    {
+      "id": "WHU-105_n0_5_s11",
+      "size": [
+        480,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 800573,
+      "output_sha256": "6bee945eae5528707a1f047ead48496730e01c32d72353a17ea6f393d8ed26e7",
+      "input_sha256": [
+        "c5a3c544c220b500673bdf844450f443037591924e9c1b7af64b9caa2b6176cb",
+        "a99bc9ac8f542aec83cfc60c02160e94c8b273e37c853fb5a35e2189fea8aba2"
+      ]
+    },
+    {
+      "id": "WHU-105_n5_0_s11",
+      "size": [
+        480,
+        640
+      ],
+      "mode": "RGB",
+      "bytes": 758876,
+      "output_sha256": "6ce9ace0137235994a9671ca640ab588cc4ee8bb513eca17af6cf6fcdf94bf4a",
+      "input_sha256": [
+        "3b82369c4e963691ab388485e9f6ee27c3cfac419b3cbd7a7978e5179621e231",
+        "6781b7be15e0aa4a5687058975bfc9fda13c26a6fd5ec7d9db68b8073afa86c8"
+      ]
+    },
+    {
+      "id": "WHU-118_n0_0_s11",
+      "size": [
+        333,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 310546,
+      "output_sha256": "dd996e1ac97940b22bfe9b63be67cfdc7097bc4316fde10f8ffbe6416e7751a0",
+      "input_sha256": [
+        "0b9951c5cabbab4a14ee92629aba9b1003ae61d57f215961fe6beaafcd83c654",
+        "6dabdf6e20a790e0475f8c78aa7772c2c842442cbd7ca5e034fa717f47355b8a"
+      ]
+    },
+    {
+      "id": "WHU-118_n0_5_s11",
+      "size": [
+        333,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 406030,
+      "output_sha256": "47092d17d7ad4b1a7b4098e1b3b2a85d7365a2bce3cbab836ebb4a849e3309fa",
+      "input_sha256": [
+        "0b9951c5cabbab4a14ee92629aba9b1003ae61d57f215961fe6beaafcd83c654",
+        "66853010b5e7a61d771695cf154f07399cf1d78f3207c0865bcfca8c551bdb27"
+      ]
+    },
+    {
+      "id": "WHU-118_n5_0_s11",
+      "size": [
+        333,
+        500
+      ],
+      "mode": "RGB",
+      "bytes": 394937,
+      "output_sha256": "9183213c1ff4c7d597dcc5a9a90e7b0bc80bf579fc3a7b18f4d04fe1a2fc8db6",
+      "input_sha256": [
+        "6f45c3634154ff5ff787875d4f17af032b27040aef5c68f62545fa8d92e57e74",
+        "6dabdf6e20a790e0475f8c78aa7772c2c842442cbd7ca5e034fa717f47355b8a"
+      ]
+    }
+  ]
+}

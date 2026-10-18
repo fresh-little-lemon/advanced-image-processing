@@ -1,0 +1,14 @@
+{
+  "purpose": "author baseline input/runtime validation pilot; not final 3-seed ablation",
+  "cases": 78,
+  "source_scenes": 26,
+  "input": "common quantized uint8 sRGB; added noise in linear RGB before encoding; all methods consume identical pixels",
+  "seed": 11,
+  "author_defaults": {
+    "r1": 45,
+    "eps1": 0.3,
+    "r2": 7,
+    "eps2": 1e-06
+  },
+  "state": "inputs_prepared"
+}
