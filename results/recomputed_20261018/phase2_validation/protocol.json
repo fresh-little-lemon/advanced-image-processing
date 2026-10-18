@@ -1,0 +1,63 @@
+{
+  "manifest_sha256": "307dea2fa5e966c56879054dba9cdeb2a74a0a936d04ec8171c2fc55444a6fc2",
+  "domain": "sRGB code values decoded to linear; nominal source exposure unchanged",
+  "sigma_zero": "assumes zero residual noise as diagnostic, not verified camera-noise ground truth",
+  "configs": {
+    "global_full": {
+      "sigma_mode": "estimated_global",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 1e-08,
+      "window": 7
+    },
+    "flat_full": {
+      "sigma_mode": "estimated_flat",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 1e-08,
+      "window": 7
+    },
+    "flat_fallback": {
+      "sigma_mode": "estimated_flat",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": true,
+      "kappa": 4.0,
+      "epsilon_variance": 1e-08,
+      "window": 7
+    },
+    "global_no_mean": {
+      "sigma_mode": "estimated_global",
+      "subtract_mean": false,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 1e-08,
+      "window": 7
+    },
+    "global_no_variance": {
+      "sigma_mode": "estimated_global",
+      "subtract_mean": true,
+      "normalize_variance": false,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 1e-08,
+      "window": 7
+    },
+    "zero": {
+      "sigma_mode": "zero",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 1e-08,
+      "window": 7
+    }
+  },
+  "status": "complete",
+  "rows": 182
+}

@@ -1,0 +1,20 @@
+{
+  "global_full": {
+    "wins_rgb_psnr_vs_guided": 10,
+    "ties": 0,
+    "losses": 16,
+    "mean_delta_db": -0.5317731469424485
+  },
+  "flat_full": {
+    "wins_rgb_psnr_vs_guided": 16,
+    "ties": 0,
+    "losses": 10,
+    "mean_delta_db": 0.04354685940136267
+  },
+  "gff_continuous_shared_gray": {
+    "wins_rgb_psnr_vs_guided": 18,
+    "ties": 0,
+    "losses": 8,
+    "mean_delta_db": 0.925820040176302
+  }
+}

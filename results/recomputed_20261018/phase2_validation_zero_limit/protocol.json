@@ -1,0 +1,36 @@
+{
+  "manifest_sha256": "307dea2fa5e966c56879054dba9cdeb2a74a0a936d04ec8171c2fc55444a6fc2",
+  "domain": "sRGB code values decoded to linear; nominal source exposure unchanged",
+  "sigma_zero": "assumes zero residual noise as diagnostic, not verified camera-noise ground truth",
+  "configs": {
+    "global_limit": {
+      "sigma_mode": "estimated_global",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 0,
+      "window": 7
+    },
+    "flat_limit": {
+      "sigma_mode": "estimated_flat",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 0,
+      "window": 7
+    },
+    "zero_limit": {
+      "sigma_mode": "zero",
+      "subtract_mean": true,
+      "normalize_variance": true,
+      "fallback_quantization": false,
+      "kappa": 4.0,
+      "epsilon_variance": 0,
+      "window": 7
+    }
+  },
+  "status": "complete",
+  "rows": 104
+}

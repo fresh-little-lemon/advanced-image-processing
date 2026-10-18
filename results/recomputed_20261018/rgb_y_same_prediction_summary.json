@@ -1,0 +1,37 @@
+{
+  "kind": "fresh recomputation, same prediction evaluated in two metric domains",
+  "scenes": 26,
+  "manifest_sha256": "307dea2fa5e966c56879054dba9cdeb2a74a0a936d04ec8171c2fc55444a6fc2",
+  "rgb_psnr": "-10log10(mean over H,W,RGB squared error), range=1",
+  "y_psnr": "-10log10(mean over H,W squared error after Y=0.299R+0.587G+0.114B in linear RGB), range=1",
+  "mae": "mean absolute error over H,W,RGB",
+  "ssim": "not computed",
+  "tracked_gff_max_absolute_discrepancy": {
+    "psnr_linear": 0.0,
+    "mae_linear": 0.0
+  },
+  "privacy": "raw and derived images private; source-photo redistribution rights unverified",
+  "holdouts": "not opened or evaluated",
+  "summary": {
+    "guided": {
+      "psnr_linear_rgb": 37.768743645837986,
+      "psnr_linear_y": 38.66973575860088,
+      "mae_linear_rgb": 0.0022544243329280264
+    },
+    "global_full": {
+      "psnr_linear_rgb": 37.23697049889554,
+      "psnr_linear_y": 38.05877467187805,
+      "mae_linear_rgb": 0.003934972832852237
+    },
+    "flat_full": {
+      "psnr_linear_rgb": 37.812290505239346,
+      "psnr_linear_y": 38.7018079829884,
+      "mae_linear_rgb": 0.002486895615439399
+    },
+    "gff_continuous_shared_gray": {
+      "psnr_linear_rgb": 38.694563686014284,
+      "psnr_linear_y": 39.509941061590474,
+      "mae_linear_rgb": 0.0029346479751515787
+    }
+  }
+}
