@@ -1,0 +1,16 @@
+{
+  "status": "frozen_before_run",
+  "date": "2026-10-18",
+  "methods": [
+    "calibrated_residual_mean",
+    "crossfit_residual_mean",
+    "crossfit_residual_full"
+  ],
+  "fixed_variance_ratio": 0.6255813533858501,
+  "ratio_source": "stationary constant0.45 iidRGB noise5/255;128 seeds;96x96; no fusion-quality tuning",
+  "crossfit": "nonoverlapping2x2 stencils inside8x8 blocks;4x4 parity split8 training/8 test;select bottom20percent independently per source and fold;mean of two held-out MAD variance estimates;at least2blocks",
+  "motivation": "first residual probe improves focus-contaminated procedural noise estimates but biased lower on homogeneous noise and regresses on natural noisy images",
+  "comparison": "same144 procedural conditions and26scene x3noise conditions; same seeds/metrics as prior residual probe;no heldout use",
+  "primary_new_candidate": "crossfit_residual_mean",
+  "extra_test": "stationary noise128 seeds and source exchange before publication"
+}

@@ -1,0 +1,521 @@
+{
+  "normal": {
+    "clean": {
+      "guided": {
+        "psnr_linear_rgb": 42.76280428480305,
+        "mae_linear_rgb": 0.002207933492479242,
+        "seconds_pipeline": 0.0017258980002831474
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 40.85504252283044,
+        "mae_linear_rgb": 0.0037535365805911537,
+        "seconds_pipeline": 0.004499894750248738
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 41.112792387785646,
+        "mae_linear_rgb": 0.004333364609863781,
+        "seconds_pipeline": 0.0060936713337772135
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 32.45605945639579,
+        "mae_linear_rgb": 0.015833112650145614,
+        "seconds_pipeline": 0.007941146416669653
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 38.581843178994745,
+        "mae_linear_rgb": 0.008854458642538837,
+        "seconds_pipeline": 0.008007651332870106
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 35.842861068237234,
+        "mae_linear_rgb": 0.00987841052549675,
+        "seconds_pipeline": 0.008795092083043224
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 40.652490146266565,
+        "mae_linear_rgb": 0.0050301306379558685,
+        "seconds_pipeline": 0.008046913083793092
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 41.112103621388194,
+        "mae_linear_rgb": 0.004334554679961588,
+        "seconds_pipeline": 0.008157316750536362
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 42.408087870576765,
+        "mae_linear_rgb": 0.002747487648773837,
+        "seconds_pipeline": 0.005121918749864562
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 42.40823368906504,
+        "mae_linear_rgb": 0.0027474819295776475,
+        "seconds_pipeline": 0.005505582833999749
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 42.40354774368649,
+        "mae_linear_rgb": 0.0027478188575605724,
+        "seconds_pipeline": 0.0029153728328310535
+      }
+    },
+    "equal_noise": {
+      "guided": {
+        "psnr_linear_rgb": 33.52484129133147,
+        "mae_linear_rgb": 0.016493386961328804,
+        "seconds_pipeline": 0.0021434699998887177
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 33.406303978012154,
+        "mae_linear_rgb": 0.016658082193419268,
+        "seconds_pipeline": 0.0046020302503772354
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 33.70279117717793,
+        "mae_linear_rgb": 0.0161837816245826,
+        "seconds_pipeline": 0.0077111582498522084
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 29.981378079440972,
+        "mae_linear_rgb": 0.02459054995538752,
+        "seconds_pipeline": 0.009591222083145112
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 32.74074778375151,
+        "mae_linear_rgb": 0.018364528324371163,
+        "seconds_pipeline": 0.0096734533332589
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 31.26254761363518,
+        "mae_linear_rgb": 0.021685889855436527,
+        "seconds_pipeline": 0.010220490249290984
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 33.57074866042065,
+        "mae_linear_rgb": 0.016443730559291197,
+        "seconds_pipeline": 0.009665719499632056
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 33.71069476547323,
+        "mae_linear_rgb": 0.016167645545322035,
+        "seconds_pipeline": 0.009505137833608993
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 33.72638162235085,
+        "mae_linear_rgb": 0.016152425550174754,
+        "seconds_pipeline": 0.009369848999388827
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 33.74786126823728,
+        "mae_linear_rgb": 0.01610864042647933,
+        "seconds_pipeline": 0.009311385166256514
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 33.726771800635085,
+        "mae_linear_rgb": 0.016153880923646422,
+        "seconds_pipeline": 0.007134009167202748
+      }
+    },
+    "asymmetric": {
+      "guided": {
+        "psnr_linear_rgb": 34.79819832647513,
+        "mae_linear_rgb": 0.01221633615905125,
+        "seconds_pipeline": 0.0020511242914835748
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 34.5043970955568,
+        "mae_linear_rgb": 0.012848322309845188,
+        "seconds_pipeline": 0.005080247208297806
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 35.397178242118514,
+        "mae_linear_rgb": 0.011610758313628206,
+        "seconds_pipeline": 0.007435340624700378
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 30.959867586166325,
+        "mae_linear_rgb": 0.02019116336300907,
+        "seconds_pipeline": 0.009332926291942082
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 33.840088207138656,
+        "mae_linear_rgb": 0.014981916851868837,
+        "seconds_pipeline": 0.009531171000010849
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 32.912339907278465,
+        "mae_linear_rgb": 0.016016781900900345,
+        "seconds_pipeline": 0.010095233833302094
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 35.62722978008342,
+        "mae_linear_rgb": 0.011474366540451942,
+        "seconds_pipeline": 0.009438554666909718
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 35.819804033077666,
+        "mae_linear_rgb": 0.011045892052094905,
+        "seconds_pipeline": 0.009781020917065083
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 35.193592415895914,
+        "mae_linear_rgb": 0.011580308975946136,
+        "seconds_pipeline": 0.007967931166907269
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 35.91044792503857,
+        "mae_linear_rgb": 0.010493668410182408,
+        "seconds_pipeline": 0.007903026208017158
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 36.150045127661066,
+        "mae_linear_rgb": 0.010195271240538551,
+        "seconds_pipeline": 0.0066632728333691675
+      }
+    }
+  },
+  "dark": {
+    "clean": {
+      "guided": {
+        "psnr_linear_rgb": 61.46281700398931,
+        "mae_linear_rgb": 0.00027168025421382425,
+        "seconds_pipeline": 0.001792614083266623
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 59.27210088591545,
+        "mae_linear_rgb": 0.0004505112766813465,
+        "seconds_pipeline": 0.004504290583099646
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 58.10375867719761,
+        "mae_linear_rgb": 0.0006777484278708022,
+        "seconds_pipeline": 0.007195062500007528
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 50.92576646721367,
+        "mae_linear_rgb": 0.0018980172539773549,
+        "seconds_pipeline": 0.009754110916522526
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 55.58113603653621,
+        "mae_linear_rgb": 0.0012197756620253967,
+        "seconds_pipeline": 0.00940904016594383
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 53.98914068595449,
+        "mae_linear_rgb": 0.0012557472020025705,
+        "seconds_pipeline": 0.010136152083456787
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 57.64217050740245,
+        "mae_linear_rgb": 0.0007615621910088563,
+        "seconds_pipeline": 0.009851053416847813
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 58.103058017063994,
+        "mae_linear_rgb": 0.0006778917496184675,
+        "seconds_pipeline": 0.009605115583629717
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 58.56694812402438,
+        "mae_linear_rgb": 0.000534685445353,
+        "seconds_pipeline": 0.008169738332981069
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 58.566995718335896,
+        "mae_linear_rgb": 0.0005346855383916471,
+        "seconds_pipeline": 0.008307687083591494
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 58.5670454149404,
+        "mae_linear_rgb": 0.0005346687337167902,
+        "seconds_pipeline": 0.005904117250186876
+      }
+    },
+    "equal_noise": {
+      "guided": {
+        "psnr_linear_rgb": 34.853459745070744,
+        "mae_linear_rgb": 0.014381464124938148,
+        "seconds_pipeline": 0.002917748834079248
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 34.952588887992114,
+        "mae_linear_rgb": 0.014220551434747904,
+        "seconds_pipeline": 0.0047954573334815604
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 36.52241661618028,
+        "mae_linear_rgb": 0.011914514202034328,
+        "seconds_pipeline": 0.007715585583052113
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 36.547522315283885,
+        "mae_linear_rgb": 0.011883454787517074,
+        "seconds_pipeline": 0.00966750441724192
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 36.52241661618028,
+        "mae_linear_rgb": 0.011914514202034328,
+        "seconds_pipeline": 0.009588933499799168
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 36.50166659848981,
+        "mae_linear_rgb": 0.011950627375985734,
+        "seconds_pipeline": 0.009895228000156445
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 36.52214042878513,
+        "mae_linear_rgb": 0.011920332314735877,
+        "seconds_pipeline": 0.009070397916426979
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 36.535215082562566,
+        "mae_linear_rgb": 0.011901524384346515,
+        "seconds_pipeline": 0.008918001916451127
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 36.387250601795614,
+        "mae_linear_rgb": 0.012100002411384725,
+        "seconds_pipeline": 0.009111928333671434
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 36.41173965970065,
+        "mae_linear_rgb": 0.012071165266797848,
+        "seconds_pipeline": 0.008893276416832427
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 36.4448480580349,
+        "mae_linear_rgb": 0.012020080014317452,
+        "seconds_pipeline": 0.007082024500656796
+      }
+    },
+    "asymmetric": {
+      "guided": {
+        "psnr_linear_rgb": 34.67440789040898,
+        "mae_linear_rgb": 0.014526939986836901,
+        "seconds_pipeline": 0.0025298721666331403
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 34.644172564652514,
+        "mae_linear_rgb": 0.014659936457763608,
+        "seconds_pipeline": 0.004721928458820912
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 36.301925858946284,
+        "mae_linear_rgb": 0.012137854726949124,
+        "seconds_pipeline": 0.00817561158313159
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 38.74840176030603,
+        "mae_linear_rgb": 0.00890926819749061,
+        "seconds_pipeline": 0.009827081083130906
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 36.45434672015824,
+        "mae_linear_rgb": 0.011927250136687722,
+        "seconds_pipeline": 0.009637025333631755
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 39.7937250383492,
+        "mae_linear_rgb": 0.007733136028481173,
+        "seconds_pipeline": 0.010219702749812617
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 37.85112472536141,
+        "mae_linear_rgb": 0.010036389081974064,
+        "seconds_pipeline": 0.009864635749181616
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 38.80741137543577,
+        "mae_linear_rgb": 0.008835082946723014,
+        "seconds_pipeline": 0.0098526593750042
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 35.84416273337475,
+        "mae_linear_rgb": 0.012772381327536447,
+        "seconds_pipeline": 0.008984760291696148
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 38.61858735709259,
+        "mae_linear_rgb": 0.00880456857105427,
+        "seconds_pipeline": 0.009153082292111018
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 39.914319904632926,
+        "mae_linear_rgb": 0.007602605352979952,
+        "seconds_pipeline": 0.007570184125142987
+      }
+    }
+  },
+  "extreme_white": {
+    "clean": {
+      "guided": {
+        "psnr_linear_rgb": 83.02787889932482,
+        "mae_linear_rgb": 2.2733092017800305e-05,
+        "seconds_pipeline": 0.001730956250867166
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 80.926970617377,
+        "mae_linear_rgb": 3.7865670879499236e-05,
+        "seconds_pipeline": 0.0045112425832485314
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 68.7350986562303,
+        "mae_linear_rgb": 0.00027844917558791444,
+        "seconds_pipeline": 0.007217220084082025
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 68.34984116246312,
+        "mae_linear_rgb": 0.0002881562844559041,
+        "seconds_pipeline": 0.00915466066726367
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 68.61991009945051,
+        "mae_linear_rgb": 0.00028285624864533273,
+        "seconds_pipeline": 0.00915653525013719
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 68.4663336534462,
+        "mae_linear_rgb": 0.000283638655303956,
+        "seconds_pipeline": 0.009758582583344833
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 68.70445312370214,
+        "mae_linear_rgb": 0.0002796528670332118,
+        "seconds_pipeline": 0.009374652666641245
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 68.73503108199147,
+        "mae_linear_rgb": 0.00027845186045700055,
+        "seconds_pipeline": 0.009300389583586366
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 68.73582001129888,
+        "mae_linear_rgb": 0.0002784211405529975,
+        "seconds_pipeline": 0.008863457500410732
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 68.7357521832381,
+        "mae_linear_rgb": 0.0002784238352909444,
+        "seconds_pipeline": 0.008937773583359862
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 68.73582147387206,
+        "mae_linear_rgb": 0.000278421083773929,
+        "seconds_pipeline": 0.006862019000133539
+      }
+    },
+    "equal_noise": {
+      "guided": {
+        "psnr_linear_rgb": 38.37453209895046,
+        "mae_linear_rgb": 0.008714919909587357,
+        "seconds_pipeline": 0.0036192119996485417
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 38.540558226437795,
+        "mae_linear_rgb": 0.008610378559107389,
+        "seconds_pipeline": 0.004685675166607932
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 39.17587286162651,
+        "mae_linear_rgb": 0.008212348973985173,
+        "seconds_pipeline": 0.00748041299933296
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 39.17587286162651,
+        "mae_linear_rgb": 0.008212348973985173,
+        "seconds_pipeline": 0.008609860333308461
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 39.17587286162651,
+        "mae_linear_rgb": 0.008212348973985173,
+        "seconds_pipeline": 0.008938125333164256
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 39.17587286162651,
+        "mae_linear_rgb": 0.008212348973985173,
+        "seconds_pipeline": 0.008281108250230318
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 39.17587286162651,
+        "mae_linear_rgb": 0.008212348973985173,
+        "seconds_pipeline": 0.007881231833077132
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 39.17587286162651,
+        "mae_linear_rgb": 0.008212348973985173,
+        "seconds_pipeline": 0.00797030316607561
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 38.54669185251938,
+        "mae_linear_rgb": 0.008581585796829237,
+        "seconds_pipeline": 0.007589107750087957
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 38.54669185251938,
+        "mae_linear_rgb": 0.008581585796829237,
+        "seconds_pipeline": 0.007577588499771082
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 39.21239653418899,
+        "mae_linear_rgb": 0.008193709678767128,
+        "seconds_pipeline": 0.0068653301665714634
+      }
+    },
+    "asymmetric": {
+      "guided": {
+        "psnr_linear_rgb": 36.79189984616867,
+        "mae_linear_rgb": 0.010451837975994777,
+        "seconds_pipeline": 0.0017651936250331346
+      },
+      "gff_continuous_shared_gray": {
+        "psnr_linear_rgb": 36.79189984617733,
+        "mae_linear_rgb": 0.010451837975984321,
+        "seconds_pipeline": 0.0045029704998948246
+      },
+      "no_mean": {
+        "psnr_linear_rgb": 38.186444490970985,
+        "mae_linear_rgb": 0.008892175319188478,
+        "seconds_pipeline": 0.008147963666791233
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 38.186444490970985,
+        "mae_linear_rgb": 0.008892175319188478,
+        "seconds_pipeline": 0.008848765333368647
+      },
+      "spatial_gate": {
+        "psnr_linear_rgb": 38.186444490970985,
+        "mae_linear_rgb": 0.008892175319188478,
+        "seconds_pipeline": 0.008749792374752966
+      },
+      "independent_guide": {
+        "psnr_linear_rgb": 38.186444490970985,
+        "mae_linear_rgb": 0.008892175319188478,
+        "seconds_pipeline": 0.008351130624911699
+      },
+      "shared_residual": {
+        "psnr_linear_rgb": 38.186444490970985,
+        "mae_linear_rgb": 0.008892175319188478,
+        "seconds_pipeline": 0.00916787862555187
+      },
+      "independent_residual": {
+        "psnr_linear_rgb": 38.186444490970985,
+        "mae_linear_rgb": 0.008892175319188478,
+        "seconds_pipeline": 0.008404494250044081
+      },
+      "residual_variance_no_mean": {
+        "psnr_linear_rgb": 36.7919889866021,
+        "mae_linear_rgb": 0.010451727866102494,
+        "seconds_pipeline": 0.0077182863334807434
+      },
+      "residual_full": {
+        "psnr_linear_rgb": 36.7919889866021,
+        "mae_linear_rgb": 0.010451727866102494,
+        "seconds_pipeline": 0.00765035699987493
+      },
+      "oracle_preclip": {
+        "psnr_linear_rgb": 49.40374909326723,
+        "mae_linear_rgb": 0.0024214530248968147,
+        "seconds_pipeline": 0.007354604375298853
+      }
+    }
+  }
+}

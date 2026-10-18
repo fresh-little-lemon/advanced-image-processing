@@ -1,0 +1,32 @@
+{
+  "48": {
+    "5_5": {
+      "independent_guide": 0.9942452599810363,
+      "independent_residual": 0.6829516695593697
+    },
+    "0_5": {
+      "independent_guide": 0.9942452599810363,
+      "independent_residual": 0.6829516695593697
+    }
+  },
+  "96": {
+    "5_5": {
+      "independent_guide": 0.9813242911490254,
+      "independent_residual": 0.6255813533858501
+    },
+    "0_5": {
+      "independent_guide": 0.9813242911490254,
+      "independent_residual": 0.6255813533858501
+    }
+  },
+  "192": {
+    "5_5": {
+      "independent_guide": 0.9830170887651846,
+      "independent_residual": 0.627143965222053
+    },
+    "0_5": {
+      "independent_guide": 0.9830170887651846,
+      "independent_residual": 0.627143965222053
+    }
+  }
+}

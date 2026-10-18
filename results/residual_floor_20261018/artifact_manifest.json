@@ -1,0 +1,213 @@
+{
+  "base_remote_commit": "bb8ad3033327eb9a85d9378cd2831b304e4e5669",
+  "encoding": "UTF-8, LF canonical line endings",
+  "tests": "59 passed; full unittest suite; Python compileall passed",
+  "images": "only local self-generated procedural demos; no benchmark image publication",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7538,
+      "sha256": "9eac39e076a30b3cb619474b61113f76edaad91546903d19efc6528a1c5f20de"
+    },
+    {
+      "path": "docs/crossfit_residual_reliability.md",
+      "bytes": 11808,
+      "sha256": "f1b1ee44df813af390f705e8ee66ff348dc42fa4d060b709b6b9e2e16291e2b8"
+    },
+    {
+      "path": "src/reliable_focus/residual_floor.py",
+      "bytes": 3967,
+      "sha256": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea"
+    },
+    {
+      "path": "src/reliable_focus/crossfit_floor.py",
+      "bytes": 1897,
+      "sha256": "8ad1084bf053c909fe1d114b2da606663527c3eee841015314b452c612f1af2a"
+    },
+    {
+      "path": "src/reliable_focus/crossfit_fusion.py",
+      "bytes": 1527,
+      "sha256": "c840fbc189f04e6a5f07149038416635c33d3112717a0ebce69c3656010beb9d"
+    },
+    {
+      "path": "tests/test_residual_floor.py",
+      "bytes": 3693,
+      "sha256": "768a3df2364e36c8c4e0b8dc52fdb68fa20c8147753f271f5f2d9d1e0328a4d9"
+    },
+    {
+      "path": "tests/test_crossfit_floor.py",
+      "bytes": 2964,
+      "sha256": "4ca4d5321dc048f6eba696c0a8c9ff32c6e322ed6b81633603aa5b9d2f611d4b"
+    },
+    {
+      "path": "scripts/probe_residual_floor.py",
+      "bytes": 5760,
+      "sha256": "139a3df63d01b3971124d22aea33b10187125c4fbc405dc3d51f1121b30f8064"
+    },
+    {
+      "path": "scripts/validate_residual_floor.py",
+      "bytes": 3425,
+      "sha256": "fe98aa6886cd9229546d7aa6e08b9ad749ba162c177e0db987ac7b1545fe80ba"
+    },
+    {
+      "path": "scripts/analyze_residual_floor.py",
+      "bytes": 2120,
+      "sha256": "94cf5dab0f48ccbf351763c6ad1e3237ed0a92aab312ddae2bd74c14376ac82d"
+    },
+    {
+      "path": "scripts/measure_residual_selection_bias.py",
+      "bytes": 2330,
+      "sha256": "b28fa94d2afb21c9e326024530baaae9ab0b1bf2d707014d18d4c0430355b90c"
+    },
+    {
+      "path": "scripts/measure_crossfit_stationary.py",
+      "bytes": 1117,
+      "sha256": "d5409ac68025ae907fffb60674758f753013d7af1e3f88db094372f9ebda43a1"
+    },
+    {
+      "path": "scripts/make_residual_floor_demos.py",
+      "bytes": 2415,
+      "sha256": "09f17f4236b891b3a426f7a797b1e9b6f09480bdad0444fa2a518bf4202ec705"
+    },
+    {
+      "path": "scripts/probe_crossfit_floor.py",
+      "bytes": 4418,
+      "sha256": "33266c49a36207317805cb8b8b7372ca4d014876090495dd8f420856999e4716"
+    },
+    {
+      "path": "scripts/probe_crossfit_transfer.py",
+      "bytes": 2881,
+      "sha256": "f792d9983adf88b383f435bb5a80ece980e9cfa8ac0bd1631cb6eaca7da72137"
+    },
+    {
+      "path": "scripts/summarize_crossfit_floor.py",
+      "bytes": 2937,
+      "sha256": "15d2acb78bbd43131e2a5de5482f8ccd361291af1772dfa02994e872699c5808"
+    },
+    {
+      "path": "results/residual_floor_20261018/combined_analysis.json",
+      "bytes": 89803,
+      "sha256": "60b264c92793bf6c8b812e8c8db496fc90dbcfa732830c15f649bcc480db36e7"
+    },
+    {
+      "path": "results/residual_floor_20261018/crossfit/procedural_metrics.csv",
+      "bytes": 176862,
+      "sha256": "e7f046e93a7ba26ef8df247078f4cb06150d0e150fb2ddfe420d722e613cfa96"
+    },
+    {
+      "path": "results/residual_floor_20261018/crossfit/run.json",
+      "bytes": 1584,
+      "sha256": "923ceec39362f480bb3469b1faf46a95df8fe1b577e523b71e3cbe1f05fa393d"
+    },
+    {
+      "path": "results/residual_floor_20261018/crossfit/source_swap.csv",
+      "bytes": 43373,
+      "sha256": "0b547bbe1369c05df38332aca67eeb3e685d0bd4068326bc3c8a6bddd4218f9d"
+    },
+    {
+      "path": "results/residual_floor_20261018/crossfit/validation_metrics.csv",
+      "bytes": 94076,
+      "sha256": "8978e8077489d55888bdd4727b657eaf8a7fa4472f1a64a4b9b0e039b23a1b27"
+    },
+    {
+      "path": "results/residual_floor_20261018/crossfit_protocol_frozen.json",
+      "bytes": 980,
+      "sha256": "38d1be9022ffaa8ee4b01edacb6d2968590c2ff1742fe0c65b8181779f721b7a"
+    },
+    {
+      "path": "results/residual_floor_20261018/crossfit_stationary.csv",
+      "bytes": 16953,
+      "sha256": "e51e99fbca83114a82efd8326cbd23014014d211533671c8e088117e44ab7931"
+    },
+    {
+      "path": "results/residual_floor_20261018/demo_manifest.json",
+      "bytes": 2339,
+      "sha256": "fa6166b1e9928e044ac848ff1bedf5d98cd4c2e8cb19c8b9f653dac8ba6f02ea"
+    },
+    {
+      "path": "results/residual_floor_20261018/paired_analysis.json",
+      "bytes": 45261,
+      "sha256": "f8f119397bc564974ca2e1e62b8f3946868309412ca7f3e7ba9967d2d077e731"
+    },
+    {
+      "path": "results/residual_floor_20261018/protocol_frozen.json",
+      "bytes": 1408,
+      "sha256": "21a391a9833a82290362ed018d098e3528243f5bf9dc8a3ea3eee2a1fe9ec135"
+    },
+    {
+      "path": "results/residual_floor_20261018/run/metrics.csv",
+      "bytes": 565433,
+      "sha256": "6a08f62b75767d0e9e18fd22cc03c36a26c2ab1e165a5b78e8ba95b968aab58b"
+    },
+    {
+      "path": "results/residual_floor_20261018/run/run.json",
+      "bytes": 2459,
+      "sha256": "0b753ced419ee40f1eeeb1c931c87a1b7764f1cfdc05e01b990843dc1420bb5c"
+    },
+    {
+      "path": "results/residual_floor_20261018/run/source_swap.csv",
+      "bytes": 63094,
+      "sha256": "237ef6af6049adf8378730e57f7f65982b3699ef9d1f964069a1177aa0838e6d"
+    },
+    {
+      "path": "results/residual_floor_20261018/run/summary.json",
+      "bytes": 18065,
+      "sha256": "70a5458930a6c6c3a77fd223f8f6978d4601b6fe5196ff61133656b68fec3c99"
+    },
+    {
+      "path": "results/residual_floor_20261018/selection_bias/metrics.csv",
+      "bytes": 114946,
+      "sha256": "bcf765c32817a4777156aa2acdf6864d38072152f6de10f8472dba098374fa67"
+    },
+    {
+      "path": "results/residual_floor_20261018/selection_bias/protocol.json",
+      "bytes": 1422,
+      "sha256": "289fd8db0ed5e6051f0f6a9858f57d354885e3b8b8a0cc5a463a4458c4fef7b1"
+    },
+    {
+      "path": "results/residual_floor_20261018/selection_bias/summary.json",
+      "bytes": 739,
+      "sha256": "1f8652511dd79e31d9667e3bfbaa9eda5e104062f63f10642ccd793c1e893b5b"
+    },
+    {
+      "path": "results/residual_floor_20261018/tests.txt",
+      "bytes": 5617,
+      "sha256": "2190cbe2ad66ea28504abad292da781093568ad8a6f82c41bde5f028d88afb03"
+    },
+    {
+      "path": "results/residual_floor_20261018/transfer/metrics.csv",
+      "bytes": 292894,
+      "sha256": "447149ded0017e4279768b9f2bba6cee072dd81d58f872387517cb955d498ff1"
+    },
+    {
+      "path": "results/residual_floor_20261018/transfer/run.json",
+      "bytes": 1839,
+      "sha256": "156ef6849039f33f1859fb8c2850f086196636360f82ff6f80effa5fd9199a69"
+    },
+    {
+      "path": "results/residual_floor_20261018/transfer/summary_nonconstant.json",
+      "bytes": 56627,
+      "sha256": "f024c4ee7bc7b115dc3a8332453ce2782d2e7d9b2c5142eeefddaa4e79d460e9"
+    },
+    {
+      "path": "results/residual_floor_20261018/transfer_protocol_frozen.json",
+      "bytes": 1221,
+      "sha256": "f672cf23ff7cd59e15404b73a18abea2e1f8b435491662d5da5cc80f710b8a35"
+    },
+    {
+      "path": "results/residual_floor_20261018/validation/metrics.csv",
+      "bytes": 232475,
+      "sha256": "d469e90463831fcc79dbe070b9a145ec99795e98c3e64449fcdd800ef9642beb"
+    },
+    {
+      "path": "results/residual_floor_20261018/validation/run.json",
+      "bytes": 1019,
+      "sha256": "4d890e8ab2ec7a62068538e4798def17d79d88b1e894721d588cf5c898b639c6"
+    },
+    {
+      "path": "results/residual_floor_20261018/validation/summary.json",
+      "bytes": 4598,
+      "sha256": "99f5fb33c70e7e7d831d9c030e4f6362eb95c6bc880b09e340770fd68b41a488"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "status": "frozen_before_run",
+  "date": "2026-10-18",
+  "size": 128,
+  "textures": [
+    "constant",
+    "sine",
+    "checker",
+    "step",
+    "stochastic"
+  ],
+  "brightness": [
+    "normal",
+    "dark"
+  ],
+  "sharp_a_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "exposure_b": [
+    0.7,
+    1.3
+  ],
+  "noise_rgb_pairs_255": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "seeds": [
+    211,
+    223
+  ],
+  "methods": [
+    "guided",
+    "gff_continuous_shared_gray",
+    "no_mean",
+    "shared_delta",
+    "crossfit_residual_mean"
+  ],
+  "condition_count": 480,
+  "metric_rows": 2400,
+  "exposure": "known exposure B applied before iidRGB noise and clipping; inverse exposure applied identically to every method; originalGT evaluation",
+  "clip_support_limitation": "estimators see compensated images only; a source clipped at upper capture bound may be interior after inverse exposure; capture clipped fraction retained for analysis",
+  "purpose": "new procedural seeds and resolution plus texture/exposure variation; method frozen before this extension; natural holdouts remain sealed",
+  "domain": "full-image linearRGB"
+}

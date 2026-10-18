@@ -1,0 +1,80 @@
+[
+  {
+    "file": "normal_clean_quarter.png",
+    "type": "self-generated procedural texture",
+    "sharp_a_fraction": 0.25,
+    "brightness": "normal",
+    "noise_a_255": 0,
+    "noise_b_255": 0,
+    "seed": 11,
+    "metrics": {
+      "guided": {
+        "psnr_linear_rgb": 39.938656749517264,
+        "mae_linear_rgb": 0.00285857033984017,
+        "estimated_delta_sigma2": null
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 29.22836403279069,
+        "mae_linear_rgb": 0.023871017400699576,
+        "estimated_delta_sigma2": -0.008409454932601658
+      },
+      "crossfit_residual_mean": {
+        "psnr_linear_rgb": 38.43203091222118,
+        "mae_linear_rgb": 0.006502955542241727,
+        "estimated_delta_sigma2": -3.2193198785624775e-06
+      }
+    }
+  },
+  {
+    "file": "normal_noisy_three_quarters.png",
+    "type": "self-generated procedural texture",
+    "sharp_a_fraction": 0.75,
+    "brightness": "normal",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "metrics": {
+      "guided": {
+        "psnr_linear_rgb": 37.13757135812957,
+        "mae_linear_rgb": 0.006022638252863337,
+        "estimated_delta_sigma2": null
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 30.32222087795372,
+        "mae_linear_rgb": 0.023163742239749235,
+        "estimated_delta_sigma2": 0.0069582884671580076
+      },
+      "crossfit_residual_mean": {
+        "psnr_linear_rgb": 36.319552405031686,
+        "mae_linear_rgb": 0.009407543202924753,
+        "estimated_delta_sigma2": -0.00018629047428207025
+      }
+    }
+  },
+  {
+    "file": "prior_gate_worst_loss.png",
+    "type": "self-generated procedural texture",
+    "sharp_a_fraction": 0.5,
+    "brightness": "dark",
+    "noise_a_255": 0,
+    "noise_b_255": 5,
+    "seed": 11,
+    "metrics": {
+      "guided": {
+        "psnr_linear_rgb": 34.114778004052006,
+        "mae_linear_rgb": 0.015768560250436468,
+        "estimated_delta_sigma2": null
+      },
+      "shared_delta": {
+        "psnr_linear_rgb": 41.335923919154666,
+        "mae_linear_rgb": 0.006270546811576903,
+        "estimated_delta_sigma2": -0.00031516152597886544
+      },
+      "crossfit_residual_mean": {
+        "psnr_linear_rgb": 40.20222887187312,
+        "mae_linear_rgb": 0.007384822369533734,
+        "estimated_delta_sigma2": -0.0002608880917566973
+      }
+    }
+  }
+]

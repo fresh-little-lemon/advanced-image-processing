@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "protocol": {
+    "status": "frozen_before_run",
+    "date": "2026-10-18",
+    "methods": [
+      "calibrated_residual_mean",
+      "crossfit_residual_mean",
+      "crossfit_residual_full"
+    ],
+    "fixed_variance_ratio": 0.6255813533858501,
+    "ratio_source": "stationary constant0.45 iidRGB noise5/255;128 seeds;96x96; no fusion-quality tuning",
+    "crossfit": "nonoverlapping2x2 stencils inside8x8 blocks;4x4 parity split8 training/8 test;select bottom20percent independently per source and fold;mean of two held-out MAD variance estimates;at least2blocks",
+    "motivation": "first residual probe improves focus-contaminated procedural noise estimates but biased lower on homogeneous noise and regresses on natural noisy images",
+    "comparison": "same144 procedural conditions and26scene x3noise conditions; same seeds/metrics as prior residual probe;no heldout use",
+    "primary_new_candidate": "crossfit_residual_mean",
+    "extra_test": "stationary noise128 seeds and source exchange before publication"
+  },
+  "protocol_sha256": "38d1be9022ffaa8ee4b01edacb6d2968590c2ff1742fe0c65b8181779f721b7a",
+  "sources": {
+    "scripts/probe_crossfit_floor.py": "33266c49a36207317805cb8b8b7372ca4d014876090495dd8f420856999e4716",
+    "src/reliable_focus/crossfit_floor.py": "8ad1084bf053c909fe1d114b2da606663527c3eee841015314b452c612f1af2a",
+    "src/reliable_focus/residual_floor.py": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea"
+  },
+  "procedural_rows": 432,
+  "validation_rows": 234,
+  "max_swap_error": 5.88418203051333e-15
+}

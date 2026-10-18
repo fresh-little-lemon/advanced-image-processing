@@ -1,0 +1,60 @@
+{
+  "status": "frozen_before_run",
+  "date": "2026-10-18",
+  "purpose": "separate common-support selection, residual ranking, and mean/variance estimators; retain all outcomes",
+  "textures": [
+    "stochastic",
+    "mixed_sine_left_stochastic_right"
+  ],
+  "size": 96,
+  "sharp_a_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "brightness": [
+    "normal",
+    "dark",
+    "extreme_white"
+  ],
+  "noise_rgb_pairs_255": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "seeds": [
+    11,
+    23
+  ],
+  "methods": [
+    "guided",
+    "gff_continuous_shared_gray",
+    "no_mean",
+    "shared_delta",
+    "spatial_gate",
+    "independent_guide",
+    "shared_residual",
+    "independent_residual",
+    "residual_variance_no_mean",
+    "residual_full",
+    "oracle_preclip"
+  ],
+  "selection": "8x8 blocks; same joint eroded valid support; retain bottom20% independently or shared; at least2; no tuning or bias correction",
+  "primary_candidate": "residual_full",
+  "metrics": "full-image linear RGB PSNR and MAE; preclip noise contrast; swaps; estimator+fusion time",
+  "known_limit": "lower-tail selection underestimates homogeneous noise; no clipping recovery and no guarantee of low-detail blocks",
+  "natural_validation_next": "same frozen26 scenes, originals and both (0,5) and (5,0) added noise, seed11; no holdout access"
+}

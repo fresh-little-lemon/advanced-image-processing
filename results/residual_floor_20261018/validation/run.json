@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "methods": [
+    "guided",
+    "gff_continuous_shared_gray",
+    "no_mean",
+    "shared_delta",
+    "independent_guide",
+    "shared_residual",
+    "independent_residual",
+    "residual_variance_no_mean",
+    "residual_full"
+  ],
+  "conditions": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "seed": 11,
+  "manifest_sha256": "307dea2fa5e966c56879054dba9cdeb2a74a0a936d04ec8171c2fc55444a6fc2",
+  "references": "quality metrics only; original scene noise is unknown",
+  "selection": "same fixed26 validation scenes; no holdout use",
+  "source_sha256": {
+    "validate_residual_floor.py": "fe98aa6886cd9229546d7aa6e08b9ad749ba162c177e0db987ac7b1545fe80ba",
+    "residual_floor.py": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea",
+    "probe_residual_floor.py": "139a3df63d01b3971124d22aea33b10187125c4fbc405dc3d51f1121b30f8064"
+  },
+  "metric_domain": "full-image linear RGB; equally weighted scene means",
+  "rows": 702
+}

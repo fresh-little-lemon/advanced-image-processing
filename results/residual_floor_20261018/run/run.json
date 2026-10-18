@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "protocol": {
+    "status": "frozen_before_run",
+    "date": "2026-10-18",
+    "purpose": "separate common-support selection, residual ranking, and mean/variance estimators; retain all outcomes",
+    "textures": [
+      "stochastic",
+      "mixed_sine_left_stochastic_right"
+    ],
+    "size": 96,
+    "sharp_a_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "brightness": [
+      "normal",
+      "dark",
+      "extreme_white"
+    ],
+    "noise_rgb_pairs_255": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "seeds": [
+      11,
+      23
+    ],
+    "methods": [
+      "guided",
+      "gff_continuous_shared_gray",
+      "no_mean",
+      "shared_delta",
+      "spatial_gate",
+      "independent_guide",
+      "shared_residual",
+      "independent_residual",
+      "residual_variance_no_mean",
+      "residual_full",
+      "oracle_preclip"
+    ],
+    "selection": "8x8 blocks; same joint eroded valid support; retain bottom20% independently or shared; at least2; no tuning or bias correction",
+    "primary_candidate": "residual_full",
+    "metrics": "full-image linear RGB PSNR and MAE; preclip noise contrast; swaps; estimator+fusion time",
+    "known_limit": "lower-tail selection underestimates homogeneous noise; no clipping recovery and no guarantee of low-detail blocks",
+    "natural_validation_next": "same frozen26 scenes, originals and both (0,5) and (5,0) added noise, seed11; no holdout access"
+  },
+  "protocol_sha256": "21a391a9833a82290362ed018d098e3528243f5bf9dc8a3ea3eee2a1fe9ec135",
+  "source_sha256": {
+    "scripts/probe_residual_floor.py": "139a3df63d01b3971124d22aea33b10187125c4fbc405dc3d51f1121b30f8064",
+    "src/reliable_focus/residual_floor.py": "c4a81901a8cca32314f34877658b2527d5a6e54fb5c9ce2cb49df9ab8da577ea",
+    "src/reliable_focus/diagnostic.py": "0274cfd8ab6087777aa8743c3e2de1f805284b9c7f6ddcd255406ac4168618ce",
+    "scripts/probe_spatial_support.py": "04222e14123c5cc71cfc032cfbe2dc49b3f0c8fd56384367de9fe852ee53a0d4",
+    "scripts/probe_shared_support.py": "7414931f35418df896c001727e7b4d3127f64f183ad35dc14fac3e0ff67eabe4"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "timing": "one full estimator+pipeline call, three warmups, shared x86 cloud CPU; not embedded timing",
+  "rows": 1584,
+  "source_swap_cases": 720,
+  "max_swap_error": 6.050715484207103e-15
+}

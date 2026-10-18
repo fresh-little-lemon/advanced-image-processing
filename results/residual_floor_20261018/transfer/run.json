@@ -1,0 +1,70 @@
+{
+  "status": "complete",
+  "protocol": {
+    "status": "frozen_before_run",
+    "date": "2026-10-18",
+    "size": 128,
+    "textures": [
+      "constant",
+      "sine",
+      "checker",
+      "step",
+      "stochastic"
+    ],
+    "brightness": [
+      "normal",
+      "dark"
+    ],
+    "sharp_a_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "exposure_b": [
+      0.7,
+      1.3
+    ],
+    "noise_rgb_pairs_255": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "seeds": [
+      211,
+      223
+    ],
+    "methods": [
+      "guided",
+      "gff_continuous_shared_gray",
+      "no_mean",
+      "shared_delta",
+      "crossfit_residual_mean"
+    ],
+    "condition_count": 480,
+    "metric_rows": 2400,
+    "exposure": "known exposure B applied before iidRGB noise and clipping; inverse exposure applied identically to every method; originalGT evaluation",
+    "clip_support_limitation": "estimators see compensated images only; a source clipped at upper capture bound may be interior after inverse exposure; capture clipped fraction retained for analysis",
+    "purpose": "new procedural seeds and resolution plus texture/exposure variation; method frozen before this extension; natural holdouts remain sealed",
+    "domain": "full-image linearRGB"
+  },
+  "protocol_sha256": "f672cf23ff7cd59e15404b73a18abea2e1f8b435491662d5da5cc80f710b8a35",
+  "sources": {
+    "scripts/probe_crossfit_transfer.py": "f792d9983adf88b383f435bb5a80ece980e9cfa8ac0bd1631cb6eaca7da72137",
+    "src/reliable_focus/crossfit_floor.py": "8ad1084bf053c909fe1d114b2da606663527c3eee841015314b452c612f1af2a",
+    "src/reliable_focus/crossfit_fusion.py": "c840fbc189f04e6a5f07149038416635c33d3112717a0ebce69c3656010beb9d"
+  },
+  "rows": 2400
+}
