@@ -1,13 +1,13 @@
 # 面向曝光差异与噪声的可靠多焦点图像融合
 
-传统多焦点图像融合的 C++ / Python 实验工程，研究曝光差异、噪声和清晰度判定之间的关系。当前版本完成可复现基线、噪声校正原型、数据清单、自动测试和第一轮验证。
+传统多焦点图像融合的 C++ / Python 实验工程，研究曝光差异、噪声和清晰度判定之间的关系。当前版本包含可复现基线、噪声校正原型、数据清单、自动测试，以及分离纹理污染、支持域选择偏差与方差归一化的多轮验证。
 
 ## 已实现
 
 - Python 包与命令行：均值、Laplacian 硬选择、SML 硬选择、引导滤波权重融合
 - 两类实验方法：绝对响应噪声底扣除、平方响应噪声方差校正；配套逐项消融
 - C++17 / OpenCV CPU 基线，与 Python 的 60 组浮点结果对照通过
-- 11 项 Python 单元和命令行集成测试通过
+- 59 项 Python 单元、数值不变性和命令行集成测试通过（2026-10-18）
 - Lytro 20 对、EDMF 20 对探索实验；MFI-WHU 26 组验证实验；完整逐图 CSV 与配置
 - x86-64 / ARM64 构建工作流；ARM64 实机结果待补充
 
@@ -54,7 +54,7 @@ result = fuse(image_a, image_b, Config(method="guided"))
 | experimental | 绝对响应噪声底扣除、局部亮度归一化、软权重与引导平滑 |
 | noise_energy | 有符号 `mean(Laplacian²−20σ²)` 差、方差近似、sigmoid 权重与引导平滑 |
 
-`guided` 是使用引导滤波原语的单尺度工程基线。完整 GFF 的多尺度分解是独立的后续复现项。`noise_energy` 的相关系数固定为 κ=4，可靠性校准尚待实验；绝对响应噪声底近似在纯噪声区域具有明确期望解释，在纹理区域会产生偏差。
+`guided` 是使用引导滤波原语的单尺度工程基线。完整 GFF 的两尺度复现在 `baselines_gff.py`，其中 `continuous_shared_gray` 为本文实验使用的明确实现配置。`noise_energy` 的相关系数固定为 κ=4，可靠性校准尚待实验；绝对响应噪声底近似在纯噪声区域具有明确期望解释，在纹理区域会产生偏差。
 
 ## 实测结果
 
@@ -103,3 +103,14 @@ PYTHONPATH=src OPENBLAS_NUM_THREADS=1 python scripts/evaluate_manifest.py \
 第一轮实验的完整范围、负结果与噪声机制诊断见 [实验记录](docs/first_experiments.md)。固定依赖版本见 `requirements-repro.txt`。当前环境还验证了复用已安装科学计算依赖的安装路径：`python -m venv --system-site-packages .venv`，随后 `.venv/bin/python -m pip install --no-deps --no-build-isolation -e .`；生成的 `reliable-focus --help` 入口正常。
 
 第二阶段未随快照保存的结果可在新目录安全重算；范围、指标口径和命令见 [第二阶段重建说明](docs/phase2_rebuild.md)。
+
+## 交叉拟合残差校正实验
+
+低残差块可减少清晰纹理对噪声估计的污染，直接在入选样本上估计噪声又会引入选择偏差。新增实验在互不重叠的 2×2 高通残差上交叉进行块选择与方差估计，并保留全局方差归一化。26 组 MFI-WHU 验证图像的原始、B 加噪、A 加噪 PSNR 分别为 37.807、34.770、36.265 dB；同轮共享支持基线为 37.777、34.664、36.203 dB。原始图像上的完整 GFF 配置仍较高，为 38.695 dB。
+
+方法、逐项消融、暗区等噪声退化与完整复现命令见[交叉拟合实验报告](docs/crossfit_residual_reliability.md)。新增方法为纯传统 Python 参考实现；C++ / ARM64 当前验证范围仍为已有 CPU 基线。
+
+```python
+from reliable_focus.crossfit_fusion import fuse_crossfit
+fused, diagnostics = fuse_crossfit(linear_rgb_a, linear_rgb_b, return_details=True)
+```
