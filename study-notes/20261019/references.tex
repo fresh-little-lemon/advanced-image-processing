@@ -1,0 +1,50 @@
+\clearpage
+\section{来源与回看位置}
+\subsection{教材：采用用户上传版本的页码}
+Rafael C. Gonzalez and Richard E. Woods, \emph{Digital Image Processing}, Fourth Edition, Global Edition, Pearson, 2018, ISBN 978-1-292-22304-9。\par
+本次上传文件共1022页，\textbf{PDF页码比书内印刷页码大2}。下表列印刷页码，避免与其他版本混用。
+\begin{center}
+\begin{tabular}{p{.60\linewidth}p{.22\linewidth}}
+\toprule
+内容 & 印刷页码\\
+\midrule
+视觉感知、亮度适应、成像 & 48--63\\
+采样、量化、空间与灰度分辨率 & 63--77\\
+邻域、连通、距离 & 79--83\\
+算术运算、平均、相减 & 85--91\\
+灰度变换 & 122--133\\
+直方图均衡化 & 133--140\\
+直方图匹配、局部处理 & 140--153\\
+相关、卷积与边界处理 & 153--164\\
+平滑与中值滤波 & 164--175\\
+微分、拉普拉斯、锐化、梯度 & 175--188\\
+\bottomrule
+\end{tabular}
+\end{center}
+\noindent 频域部分对照教材第4章相应主题及10月12日录音；正文以推导和例题解释，不复制教材整段内容。
+\subsection{课件索引}
+以下页号指实际幻灯片顺序，不是截图中可能出现的旧页脚编号。
+\begin{itemize}
+\item \texttt{Lecture01-Intro-v30.ppt}：56页；第15、35、41--47页涉及处理层次、获取、增强、恢复等。
+\item \texttt{Lecture02-1-Perception.ppt}：29页；第3--19页为眼睛、亮度适应及视觉现象，第20--29页为光与成像。
+\item \texttt{Lecture02-2-Sampling.ppt}：30页；第4--22页采样量化，第24--25页工程需求，第26--28页邻域连通，第29--30页运算。
+\item 《高级图像处理02》：10页；第10页为行驶条件下裂缝检测的成像需求题。
+\item 《传统图像增强202609》：99页；第10--26页灰度变换，第36--53页直方图，第59--65页扩展增强，第68--90页空间滤波，第94页局部统计练习。
+\item \texttt{start.pptx}：6页，工程问题建模与疏浚船监测案例。
+\end{itemize}
+\noindent 原资料入口：\url{https://huggingface.co/datasets/freshlittlelemon/image-processing/}
+\subsection{原始课堂文字记录}
+\begin{itemize}
+\item 9月14日：00:49:40，初步提到不倾向正式笔试。\newline\url{https://lcn6dqn3m0yr.feishu.cn/docx/RLk6dq5PooSxevx8XbOcwfArnRh}
+\item 9月21日第一段：00:42:40，增强与恢复。\newline\url{https://lcn6dqn3m0yr.feishu.cn/docx/YxKodTx9roOPE7x3r2JcIVjhnYg}
+\item 9月21日第二段：00:38:36起采样量化与分辨率；00:51:30起项目要求；00:54:17起小测与计分说明。\newline\url{https://lcn6dqn3m0yr.feishu.cn/docx/SumMddZdyoUQvPxvNEwcVKTOnic}
+\item 9月28日：00:44:18起空间域增强；01:26:21起直方图；02:03:28起空间滤波。\newline\url{https://lcn6dqn3m0yr.feishu.cn/docx/XBLLdizyToULAfxcMuCcgfzknFe}
+\item 10月12日：00:00:00起小测与项目建议书安排；00:17:56起频域处理；01:10:14周期噪声；01:20:48起同态滤波。\newline\url{https://lcn6dqn3m0yr.feishu.cn/docx/HOjcdfnydoZcNpxR8XzcHmxtnAe}
+\end{itemize}
+\subsection{容易被课件实现细节误导的地方}
+\begin{enumerate}
+\item 多帧平均的累加器应从零开始；若先放入一幅原图、再加50幅图、最后只除50，会引入额外项，不能当作无偏的50帧平均。
+\item 归一化噪声方差$0.01$对应标准差$0.1$，按8位尺度换算为$25.5$；不要与$12.9$误认为同一个参数。裁剪后统计特征还会改变。
+\item “高提升”有不同系数约定：$Af-\bar f$与$f+k(f-\bar f)$不是随意换个参数就完全相同，须以题目定义为准。
+\item 连续模型下的均衡化结论不能直接推出有限灰度图输出严格均匀；BBHE的理想均值分析同样需要模型假设。
+\end{enumerate}

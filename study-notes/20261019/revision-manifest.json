@@ -1,0 +1,16 @@
+{
+  "pdf_filename": "高级图像处理_知识点与例题复习稿.pdf",
+  "pdf_pages": 30,
+  "pdf_sha256": "28690dddc1668dbe1c060480f5ee2d01a1cd5d425d7ba8649986887c18bbab31",
+  "pdf_delivery": "Delivered in conversation as native PDF attachment; binary not stored in this text-source directory",
+  "sources": {
+    "review.tex": "21c8439198a5fb756866ac8f8fd5851ef5964dc2f3bf66f70b64a99ae981f089",
+    "front.tex": "7d478c0683542601a7fc6937dca911134ce9be9442044b384d8ee41de7ef6637",
+    "core.tex": "11a5cdb8489b5c0145da8103d4858f6e4fc3a3ac4b224f5405e8e574ece8d445",
+    "filters.tex": "2c66e67c7dc6223b71cec5418c7a13fc419a544d6944b2bdd06d8eee5e384451",
+    "supplement.tex": "99de02af4828297afde1d582b60deb8adcb38c90e6220c7d6dad6b332b9cf4e4",
+    "practice.tex": "2649c309e2c27d9fc79a8cebe0dd8be2eeb9572d5d085f9e9dc102c883673df5",
+    "references.tex": "6f77aa5802428726f6e67756d7eaeee6518691fea9f8542afc6c2d4901a611bf",
+    "source-map.md": "908e2ffaef0b9df920be67577d0402d434890150bab1b4d7547c2eb1783af7a2"
+  }
+}

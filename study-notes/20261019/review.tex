@@ -1,0 +1,30 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{NotoSerifCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSerifCJK-Bold.ttc,ItalicFont=NotoSerifCJK-Regular.ttc,ItalicFeatures={FakeSlant=0.2}]
+\setsansfont{NotoSansCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSansCJK-Bold.ttc]
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\hypersetup{colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!55!black,pdftitle={高级图像处理考试复习稿},pdfauthor={}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt plus 1pt}
+\setlength{\emergencystretch}{3em}
+\linespread{1.15}
+\renewcommand{\contentsname}{目录}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\begin{document}
+\input{front.tex}
+\input{core.tex}
+\clearpage
+\input{filters.tex}
+\clearpage
+\IfFileExists{supplement.tex}{\input{supplement.tex}}{}
+\input{practice.tex}
+\input{references.tex}
+\end{document}
