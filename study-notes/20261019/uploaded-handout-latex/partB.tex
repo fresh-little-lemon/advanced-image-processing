@@ -1,0 +1,212 @@
+% 原稿第 4--7 页；正文忠实保留，包括原稿的技术表述。
+\begin{itemize}
+\item \textbf{对应关系：}平坦区／渐变 $\to$ 能量聚在中心（低频）；边缘、细线、纹理、噪声 $\to$ 外围亮线亮环（高频）；\textbf{等间距周期条纹 $\to$ 一对关于中心对称的亮点}；横线 $\to$ 过中心的竖直亮线（$\perp$ 条纹走向）。
+\item \textbf{相位}携带位置与结构信息，只保留幅度无法重建原图；图像\textbf{平移}只改相位、幅度谱不变，\textbf{旋转}则频谱随之旋转。
+\end{itemize}
+
+\subsection*{5.3 低通与高通}
+\begingroup\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\linewidth}{@{}p{.10\linewidth}p{.25\linewidth}p{.10\linewidth}p{.10\linewidth}X@{}}
+\toprule
+\textbf{类型} & $\boldsymbol{H(u,v)}$ & $\boldsymbol{D=D_0}$ \textbf{处} & \textbf{振铃} & \textbf{特点} \\
+\midrule
+\textbf{ILPF}\par 理想 & $\begin{cases}1,&D\le D_0\\0,&D>D_0\end{cases}$ & 突跳 & 最重 & 反变换是 2D sinc（jinc），旁瓣无限、含负瓣；\textbf{物理不可实现} \\
+\textbf{BLPF}\par 巴特沃斯 & $\dfrac{1}{1+(D/D_0)^{2n}}$ & $0.5$ & $n$ 小$\approx$无\par $n$ 大渐显 & 无明确截断；$n$ 为阶数，越大越接近理想 \\
+\textbf{GLPF}\par 高斯 & $\exp\!\left(-\dfrac{D^2}{2D_0^2}\right)$ & $0.607$ & 无 & 反变换仍是高斯（无旁瓣），最平滑、边缘最不“硬” \\
+\bottomrule
+\end{tabularx}
+\endgroup
+\begin{itemize}
+\item \textbf{振铃（ringing）：}$H$ 是理想矩形 $\to$ $h$ 是 sinc 型（无限旁瓣、含负瓣）$\to$ 阶跃边缘被抹成一圈圈明暗环。\textbf{截止越陡，振铃越重：}ILPF $>$ BLPF（$n$ 大）$>$ BLPF（$n$ 小）$>$ GLPF（无）。折中常用 \textbf{BLPF，$n=2\sim3$}。
+\item \textbf{$D_0$ 怎么定：按功率比}——使半径 $D_0$ 的圆内包含总能量 \textbf{$90\%\sim95\%$}；$D_0$ 越小保留频率越少、越模糊。
+\item \textbf{高通：}$H_{\mathrm{hp}}=1-H_{\mathrm{lp}}$（IHPF／BHPF／GHPF 与低通一一对应）。直流被去掉 $\to$ \textbf{暗背景上的亮边缘}，常“加回原图”（高提升）。频域低通 $\approx$ 空域均值／高斯，频域高通 $\approx$ 空域拉普拉斯／梯度；高通同样放大噪声。
+\end{itemize}
+
+\subsection*{5.4 带通／带阻与同态滤波}
+\begin{itemize}
+\item \textbf{带阻（bandreject）：}抑制以 $D_0$ 为中心、宽 $W$ 的环带（$|D-D_0|\le W/2$），其余通过——专治\textbf{周期性干扰}（电源纹波、网点、栅栏）。三种形式：理想、巴特沃斯
+\[
+H=\frac{1}{1+\left[DW/(D^2-D_0^2)\right]^{2n}}
+\]
+、高斯。\textbf{带通} $H_{\mathrm{bp}}=1-H_{\mathrm{br}}$，只保留该环带（提取特定尺度纹理）。
+\item \textbf{陷波（notch）：}带阻的“点”版本，只挖一对特定频率。因实图像频谱\textbf{共轭对称}，噪声点必成对出现，\textbf{必须成对挖}，只挖一个会破坏对称性、反变换出虚部。课件 p13／p16 的“notch filter”指 $H(M/2,N/2)=0$，即只挖直流。
+\item \textbf{同态滤波：}模型 $f=i\cdot r$——照明 $i$ 慢变$\to$\textbf{低频}，反射 $r$ 突变$\to$\textbf{高频}。\textbf{先取对数}把乘积变相加，两项才能在频域分别加增益：
+\[
+\ln\ \to\ \mathrm{DFT}\ \to\ \times H\ \to\ \mathrm{IDFT}\ \to\ \exp,
+\qquad
+H=(\gamma_H-\gamma_L)\bigl[1-\exp(-cD^2/D_0^2)\bigr]+\gamma_L.
+\]
+$\gamma_L<1$ \textbf{压低频}（压动态范围、去光照不均），$\gamma_H>1$ \textbf{提高频}（提局部对比度与细节）；$\gamma_L=\gamma_H$ 则退化为普通线性滤波。它既非单纯低通也非单纯高通。
+\end{itemize}
+
+\section*{6. 例题与标准答案（题库）}
+带【练习1原题】标记的是课堂练习1 的原题，答案已写成可直接背诵的版本。
+
+\noindent\textbf{题型索引：}A 掩模／滤波核特性判定 ｜ B 读图分析（直方图／频谱）＋方法选择 ｜ C 直方图／变换曲线作图 ｜ D 滤波原理问答 ｜ E 计算题 ｜ F 概念简答 ｜ G 应用题／开放设计 ｜ H 选择／判断小题
+
+\subsection*{题型 A\quad 掩模／滤波核特性判定}
+\subsubsection*{A1【练习1原题】指出下列掩模作用于图像，会产生什么特性。}
+\[
+\begin{array}{@{}ll@{\qquad\qquad}ll@{}}
+\mathrm{a.}&\begin{bmatrix}2&-1&-1\\-1&2&-1\\-1&-1&2\end{bmatrix}&
+\mathrm{b.}&\begin{bmatrix}0&-1&0\\-1&4&-1\\0&-1&0\end{bmatrix}\\[1.4em]
+\mathrm{c.}&\dfrac12\begin{bmatrix}-2&1&-2\\1&6&1\\-2&1&-2\end{bmatrix}&
+\mathrm{d.}&\dfrac19\begin{bmatrix}1&1&1\\1&1&1\\1&1&1\end{bmatrix}
+\end{array}
+\]
+\textbf{答案：}
+\begin{enumerate}[label=\alph*.,leftmargin=*]
+\item 系数和 $=2-1-1-1+2-1-1-1+2=0$，是\textbf{二阶差分（方向性高通）}掩模。均匀区域响应接近 0；对\textbf{沿对角线方向}的灰度变化和边缘响应强，突出高频细节。
+\item 系数和 $=4-1-1-1-1=0$，是\textbf{4 邻域拉普拉斯高通掩模}。突出\textbf{水平、垂直方向}的边缘、细线和孤立点，可用于锐化。
+\item 系数和 $=\frac12\times(-2+1-2+1+6+1-2+1-2)=\frac12\times2=1$，中心系数较大，属于\textbf{保留平均亮度的锐化/高提升类掩模}（$\approx$ 原图 + 高频）。能增强中高频细节与边缘，同时保留直流分量（背景亮度不改变）。
+\item 系数和 $=9\times(1/9)=1$，是 \textbf{$3\times3$ 均值（低通）掩模}。对邻域求平均，可平滑、降低随机噪声，但会\textbf{模糊边缘、细线和纹理}。
+\end{enumerate}
+
+\subsubsection*{A2\quad 判断下列三个掩模各属于低通还是高通、平滑还是锐化、是否有方向性。}
+\[
+\begin{array}{@{}ll@{\quad}ll@{\quad}ll@{}}
+\text{①}&\begin{bmatrix}0&-1&0\\-1&5&-1\\0&-1&0\end{bmatrix}&
+\text{②}&\begin{bmatrix}-1&-1&-1\\-1&8&-1\\-1&-1&-1\end{bmatrix}&
+\text{③}&\begin{bmatrix}-1&-1&-1\\2&2&2\\-1&-1&-1\end{bmatrix}
+\end{array}
+\]
+\textbf{答案：}
+
+① 系数和 $=5-1-1-1-1=1\to$ \textbf{低通成分保留 + 拉普拉斯锐化}（即 $f+\nabla^2f$ 的等效核），是高提升/锐化掩模；\textbf{各向同性}（4 邻域拉普拉斯），无方向性。用于在保持亮度的同时增强边缘。
+
+② 系数和 $=8-8=0\to$ \textbf{纯高通（八邻域拉普拉斯）}；各向同性，对\textbf{全方向}边缘与孤立点都敏感，输出在均匀区为 0。
+
+③ 系数和 $=2+2+2-1\times6=0\to$ \textbf{有方向性的高通（一阶差分/类 Prewitt）}；上下两行系数为负、中间行为正，对\textbf{沿垂直方向的灰度变化（即水平走向的边缘）}响应最强，对垂直边缘不敏感。
+
+\subsection*{题型 B\quad 读图分析（直方图／频谱）+ 增强／滤波方法选择}
+\subsubsection*{B1【练习1原题】就题目中所给的 a、b、c、d 四个直方图，分析比较四幅图像的明暗状况和对比度高低。哪些直方图对应的图像需要处理以取得较好的可视效果？方法是什么？}
+\textbf{通用规律：}直方图整体偏左 = 偏暗；偏右 = 偏亮；灰度分布范围越宽，动态范围与对比度越大；集中在窄区间 = 对比度低。
+
+\begingroup\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}cX@{}}
+\toprule
+\textbf{直方图} & \textbf{结论与处理方法}\\\midrule
+a & 像素集中在\textbf{左侧暗区}、分布范围偏窄 $\to$ \textbf{整体偏暗、对比度低}。建议先做\textbf{对比度拉伸}；若还要整体提亮，用 $\gamma<1$ 的\textbf{伽马变换}或灰度平移。\\
+b & 像素集中在\textbf{右侧亮区}、偏窄 $\to$ \textbf{整体偏亮、亮部层次不足}。可用 $\gamma>1$ 的\textbf{伽马变换}压暗，再做温和的对比度拉伸；已饱和的亮部细节无法恢复。\\
+c & 像素集中在\textbf{中间窄区间} $\to$ 平均亮度适中但\textbf{对比度低}。建议\textbf{分段线性对比度拉伸}；需自动增强可用 \textbf{HE}，若有噪声或照明不均则用 \textbf{CLAHE}。\\
+d & 灰度分布范围\textbf{接近全范围} $\to$ 动态范围和对比度都较好，\textbf{一般无需全局增强}。如仅有噪声，用中值滤波等保边方法。\\\bottomrule
+\end{tabularx}\endgroup
+
+\textbf{结论：}需要处理的是 \textbf{a、b、c}；d 一般不必再做全局增强。
+
+\subsubsection*{B2\quad 一幅夜间道路监控图像，其直方图呈“两个高耸的峰，中间接近平坦”（双峰）。请说明它反映的图像特征，并给出增强方案。}
+\textbf{答案：}双峰说明图像中大致存在\textbf{两类灰度占主导}的像素——一个峰对应暗背景（夜晚路面/天空），另一个峰对应较亮的车灯或反光目标；中间平坦表示中间灰度层次少，\textbf{目标与背景之间的过渡细节缺失}。
+
+\textbf{增强思路：}①若目标就是“看清目标细节”，优先用 \textbf{CLAHE}（局部、限制对比度，不会把噪声放大），或对暗峰区域做 $\gamma<1$ + \textbf{分段线性拉伸}；②\textbf{慎用全局 HE}——两个峰会被强行拉开、平坦区被“拉出”大量噪声，亮峰区域可能过曝，反而降低可视效果；③若需保留场景真实感，先做噪声抑制（如中值/双边）再局部增强。
+
+\subsubsection*{B3\quad 讨论：为什么直方图均衡化以后，变换图像的直方图往往并不是完全均匀的？}
+\textbf{答案：}①连续性假设失效——“均匀分布”的结论是在灰度连续、像素无穷多的理想条件下得到的；
+
+②\textbf{灰度级不可再分}：离散情况下输出灰度级数不超过输入级数，一个输出级只能接收整数个像素，无法均摊；
+
+③\textbf{映射是多对一的}：多个输入灰度可能映射到同一个输出灰度，像素被“堆”在一起；
+
+④像素总数固定，HE 只是把像素整体搬移，不能把某一级的像素“劈开”分配到多级上。
+
+因此实际结果只是“比原来更接近均匀、对比度更高”，而不是严格均匀。
+
+\subsubsection*{B4\quad 频谱图判读（Enhancement3）。(1) 中心亮点代表什么？(2) 远离中心的暗区代表什么？(3) 平坦的天空与密集的草地分别落在哪一部分？(4) 过中心出现一对对称亮斑，最可能是什么原因，用什么方法去除？}
+\begin{enumerate}[label=(\arabic*),leftmargin=*]
+\item \textbf{直流分量}（$u=v=0$），即图像\textbf{平均灰度}；多数图像能量集中在低频，故最亮。
+\item \textbf{高频分量}，对应边缘、细线、纹理与噪声，能量小所以偏暗。
+\item 天空（平坦、渐变）$\to$ \textbf{低频}，聚在中心附近；草地（细密纹理）$\to$ \textbf{高频}，外围亮带／亮环。
+\item \textbf{周期性干扰}（电源纹波、网点、栅栏、扫描条纹）：单频正弦在频谱上是\textbf{一对关于中心对称的冲激}。用\textbf{带阻／陷波滤波}去除，离中心距离 = 条纹空间频率；条纹方向 $\perp$ 两点连线方向。
+\end{enumerate}
+
+\subsection*{题型 C\quad 直方图／变换曲线作图}
+\subsubsection*{C1【练习1原题】画出题 3 图的直方图示意图，并给出增强操作的方法建议。（题图：左侧是较暗的人物与背景，右侧是一块较亮的投影屏幕）}
+\textbf{手绘要点（不必精确复刻，画对坐标、峰位置与相对形状即可）：}
+\begin{enumerate}[label=\arabic*.,leftmargin=*]
+\item \textbf{画坐标轴：}横轴标“灰度级 $r$”，左端 0（黑）、右端 255（白）；纵轴标“像素数 $h(r)$”，只表示多少，不必标精确刻度。
+\item \textbf{左侧暗部：}0--40 画一组较宽的高峰——靠近 0 处一个小尖峰（近黑背景），约 15--30 再画较宽隆起（人物与衣服）。
+\item \textbf{中间低谷：}约 40--145 曲线贴近横轴，表示中间灰度像素很少。
+\item \textbf{右侧亮部：}约 145--166 处画一个\textbf{窄而高}的峰（峰顶约 158），标注“投影屏幕”——屏幕上亮度接近，所以峰很集中。
+\item \textbf{收尾标注：}亮峰右侧迅速降回横轴；左标“人物/背景暗部”、右标“投影屏幕亮部”。
+\end{enumerate}
+\textbf{增强方法建议：}
+\begin{enumerate}[label=\arabic*.,leftmargin=*]
+\item 优先用 \textbf{CLAHE} 做局部对比度增强，并设置适中的 clip limit，避免暗部噪声被过度放大。
+\item 若主要目的是看清人物，对暗部用 $\gamma<1$ 的\textbf{伽马变换或分段线性拉伸}；不要直接强行提亮全图，以免屏幕区域进一步饱和。
+\item 若屏幕内容同样重要，可\textbf{按亮度分区处理后再合成}。全局 HE 会同时拉伸两个峰，造成屏幕过亮、暗部噪声增强，\textbf{不宜作首选}。
+\end{enumerate}
+
+\subsubsection*{C2\quad 画出反色、对数变换 $s=c\cdot\log(1+r)$、幂律变换中 $\gamma<1$ 与 $\gamma>1$ 的灰度变换曲线示意（横轴 $r$，纵轴 $s$，均在 $[0,L-1]$）。}
+\textbf{答案：反色：}过 $(0,L-1)$ 与 $(L-1,0)$ 的\textbf{负斜率直线}。
+
+\textbf{对数：}过原点附近、\textbf{上凸}（增长率递减）的曲线，左端陡、右端平——\textbf{扩展暗部、压缩亮部}。
+
+$\gamma<1$：过 $(0,0)$、$(L-1,L-1)$ 的\textbf{上凸}曲线（位于 $y=x$ 上方），提亮低灰度。
+
+$\gamma>1$：过同样两点但\textbf{下凹}（位于 $y=x$ 下方），压暗低灰度、扩展高灰度。
+
+（画图关键：所有幂律曲线都过 $(0,0)$ 和 $(L-1,L-1)$，$\gamma=1$ 时退化为 $y=x$ 恒等直线。）
+
+\subsection*{题型 D\quad 滤波原理问答}
+\subsubsection*{D1【练习1原题】对中值滤波回答下列问题：①如何操作 ②作用是什么 ③是否可以用模板操作 ④影响算法效率的因素 ⑤试估计其频域特性。}
+① \textbf{如何操作？}对每个像素，取以它为中心的邻域窗口 $W$（常用 $3\times3$、$5\times5$ 等\textbf{奇数}尺寸），把窗口内灰度值\textbf{排序}，取\textbf{中间位置}的值替换中心像素，然后沿图像逐点滑动；边界处需规定复制/对称/循环等延拓方式。可写为
+\[
+g(x,y)=\operatorname{median}\{f(x+s,y+t)\mid(s,t)\in W\}.
+\]
+② \textbf{作用是什么？}它是\textbf{非线性平滑滤波}，对\textbf{椒盐（脉冲）噪声}特别有效——孤立极大/极小值通常不会成为排序后的中值；与同尺寸均值滤波相比，\textbf{边缘与细线模糊更小}，但可能删除小目标和细纹理，对高斯噪声的平滑优势不如均值类方法。
+
+③ \textbf{能否用模板操作？}可以用模板（滑动窗口）定义\textbf{邻域}，但\textbf{不能}用固定系数模板像均值滤波那样做线性卷积。中值滤波需要\textbf{排序并取次序统计量}，输出随输入数据的排序关系变化，因此不存在对所有输入都适用的固定线性卷积掩模。
+
+④ \textbf{影响效率的因素？}主要有：\textbf{窗口大小与形状}（样本数 $K$ 越大，比较/排序越多）；\textbf{图像尺寸} $M\times N$；\textbf{实现方法}（逐点完整排序约 $O(K\log K)$，选择算法、滑动窗口复用、直方图维护、并行化可加速）；\textbf{边界处理、数据类型、内存访问}与 SIMD/GPU 等硬件条件。
+
+⑤ \textbf{频域特性？}中值滤波是\textbf{非线性系统}，不能写成固定的 $G(u,v)=F(u,v)H(u,v)$，因此\textbf{不存在}与输入无关的唯一频率响应。定性上表现为\textbf{自适应低通}：在平坦区抑制孤立的高频脉冲噪声，在边缘附近尽量保留阶跃结构，因而比均值低通更保边；窗口越大，等效低通作用越强、但边缘和小目标损失也越大。若要数值估计，可输入不同空间频率的正弦/条纹图，测输出幅度与输入幅度之比，得到给定窗口与信号条件下的\textbf{等效增益曲线}（工程上常用正弦扫描法）。
+
+\subsubsection*{D2\quad 比较均值滤波与中值滤波在噪声抑制上的差异，分别适用哪种噪声？}
+\textbf{答案：}均值滤波按邻域\textbf{平均}（线性低通），会模糊边缘，对\textbf{高斯噪声}有效（多个独立噪声相加后方差下降），但对\textbf{椒盐/脉冲噪声}效果差——均值会把噪声点的幅值“摊”到邻域里。中值滤波取邻域灰度的\textbf{中值}（非线性），能排除孤立的极值点，对\textbf{椒盐（脉冲）噪声}抑制效果显著，且能\textbf{较好地保留边缘和锐角}；但对高斯噪声的平滑能力弱于均值滤波。总之：\textbf{高斯噪声$\to$均值；椒盐噪声$\to$中值}。
+
+\subsubsection*{D3\quad 为什么平滑（低通）模板的系数和等于 1，而纯锐化（高通）模板的系数和等于 0？}
+\textbf{答案：}对一个\textbf{常数（均匀）区域}，平滑滤波的输出应当等于该常数，才能保持图像整体亮度不变，因此 $\sum w=1$。纯锐化/高通滤波的目的是\textbf{只保留灰度变化}、去掉直流（背景）成分，所以常数区域必须输出为 0，因此 $\sum w=0$。这也解释了“高通结果在暗背景上出现亮边”的视觉效果——只有梯度和细节被保留下来。
+
+\subsubsection*{D4\quad 写出拉普拉斯锐化的公式与典型掩模，并说明一阶导数与二阶导数在锐化中的区别。}
+\textbf{拉普拉斯（二阶）：}
+\[
+\nabla^2 f=f(x+1,y)+f(x-1,y)+f(x,y+1)+f(x,y-1)-4f(x,y),
+\]
+对应掩模
+\[
+\begin{bmatrix}0&-1&0\\-1&4&-1\\0&-1&0\end{bmatrix}
+\]
+（还有含对角项的 8 邻域版本，中心系数为 8）。锐化输出 $g=f-\nabla^2f$ 或 $g=f+\nabla^2f$（由掩模符号约定决定）。
+
+\textbf{一阶 vs 二阶：}①一阶导数（梯度）一般产生\textbf{较粗}的边缘，对\textbf{灰度阶跃}响应更强；②二阶导数对\textbf{细线、孤立点}等细节响应更强，且在阶跃处产生\textbf{双响应}（一正一负）；③因此增强细线细节偏好二阶（拉普拉斯），而检测边缘/轮廓常用一阶（梯度/Roberts/Sobel/Prewitt）。
+
+\subsubsection*{D5\quad 说明非锐化掩模与高提升滤波的关系。}
+\textbf{答案：非锐化掩模：}用原图减去其\textbf{模糊（低通）}版本得到高通（锐化）分量，即 $\mathrm{highpass}=f-f_{\mathrm{blur}}$。它丢失了原图的整体亮度。\textbf{高提升滤波}是在此基础上把原图按倍数 $A$ 加回：
+\[
+g=(A)\cdot f-f_{\mathrm{blur}}=(A-1)\cdot f+\mathrm{highpass},\qquad A>1.
+\]
+当 $A=1$ 时退化为非锐化掩模；$A$ 越大，原图（低频）占比越高，效果是\textbf{“在保持/提高整体亮度的同时锐化细节”}。
+
+\subsubsection*{D6\quad 写出频域滤波的完整流程；并说明：(1) 为什么变换前要乘 $(-1)^{x+y}$？(2) 为什么补零到 $M\times N$？(3) 什么时候该用频域而不是 $3\times3$ 掩模？}
+\textbf{流程：}
+\[
+f\cdot(-1)^{x+y}\ \to\ \mathrm{DFT}\ \to\ G=F\cdot H\ \to\ \mathrm{IDFT}
+\]
+$\to$ 取实部、再乘 $(-1)^{x+y}$、裁剪到 $[0,L-1]$。
+\begin{enumerate}[label=(\arabic*),leftmargin=*]
+\item 由平移性质，乘 $(-1)^{x+y}$ 把\textbf{直流搬到频谱中心}（等价 fftshift），$H$ 才能写成以中心为原点的 $D(u,v)$，否则要写成四个象限的副本。
+\item DFT 隐含周期性，不补零就是\textbf{循环卷积}——图像右边内容绕回左边，边界出鬼影；补零到同尺寸后才是线性卷积。（$H$ 若直接在频域构造，如 ILPF，则无此问题。）
+\item 小掩模（$3\times3$）用空域更省：$O(MN\cdot k^2)$、纯实数、无补零；\textbf{大掩模或需按频率精确选择}（带阻、陷波、同态）时用频域，$O(MN\log MN)$ 与核尺寸无关。
+\end{enumerate}
+
+\subsubsection*{D7\quad 同态滤波。(1) 写出模型，说明照明与反射各对应低频还是高频；(2) 为什么必须先取对数？(3) 写出流程与 $H(u,v)$，并说明 $\gamma_L$、$\gamma_H$ 的作用。}
+\begin{enumerate}[label=(\arabic*),leftmargin=*]
+\item $f=i\cdot r$，$0<i<\infty$，$0<r<1$；照明 $i$ 空间慢变 $\to$ \textbf{低频}，反射 $r$ 在物体交界处突变 $\to$ \textbf{高频}。
+\item $f$ 是 $i$ 与 $r$ 的乘积，频域里乘积变卷积，无法“只动低频、不动高频”；取对数后 $z=\ln i+\ln r$ 变相加，两项可分离，同一个 $H$ 才能给不同增益。
+\item $\ln\to\mathrm{DFT}\to\times H\to\mathrm{IDFT}\to\exp$；
+\[
+H=(\gamma_H-\gamma_L)\bigl[1-\exp(-cD^2/D_0^2)\bigr]+\gamma_L.
+\]
+$\gamma_L<1$ 压低频 $\to$ 压动态范围、去光照不均；$\gamma_H>1$ 提高频 $\to$ 提局部对比度。$\gamma_L=\gamma_H$ 时退化为普通线性滤波。
+\end{enumerate}
+\textbf{易错：}同态滤波既非单纯低通也非单纯高通，而是“低频压、高频提”——在 log 域线性，对原图是非线性。

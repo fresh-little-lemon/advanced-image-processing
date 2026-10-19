@@ -1,0 +1,167 @@
+\section*{1. 模块一 · 绪论（Lecture01）}
+\begin{itemize}
+\item \textbf{三种定位}：图像处理是信号处理的一个专业领域；也是一种（工程）工具；知识链为 电路分析 $\to$ 信号与系统 $\to$ 随机信号处理 $\to$ 各类信号处理（图像处理）。
+\item \textbf{目标的两种层次（必记）}：
+\end{itemize}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash}p{.19\linewidth}|>{\centering\arraybackslash}p{.13\linewidth}|X|p{.23\linewidth}|}\hline
+\textbf{层次}&\textbf{英文}&\centering\textbf{面向}&\centering\arraybackslash\textbf{内容举例}\\\hline
+低级图像处理\newline（Image improvement）&low level IP&面向\textbf{人的}观察与解释，改善图像的视觉效果&对比度拉伸、平滑、锐化、去噪等\\\hline
+高级图像处理\newline（Image analysis）&high level IP&面向\textbf{机器的}自主感知，为测量特征与结构做准备&分割、特征提取、识别、压缩表示\\\hline
+\end{tabularx}\end{center}
+\textbf{本课程重点是低级 IP。}
+\begin{itemize}
+\item \textbf{易混概念}：图像处理 \& 计算机图形学（分析 vs 合成）；图像处理 \& 计算机视觉（低级 vs 高级阶段）；图像处理 \& 模式识别（如指纹识别）。图像识别是人工智能的一个应用领域，但两条技术线是\textbf{平行的}。
+\item \textbf{图像获取设备}：摄像机（普通／鱼眼／全向）、红外相机、雷达、X 光机／CT、激光测距相机（Range camera）。
+\item \textbf{处理链}：图像获取 $\to$ 图像增强 $\to$ 图像复原（去噪／几何校正／辐射校正）$\to$ 彩色图像处理 $\to$ 图像压缩（无损／有损）$\to$ 图像分割 $\to$ 表示与描述 $\to$ 识别。
+\item \textbf{应用案例（能举 2～3 个即可）}：门禁／客流统计、A-B 门防尾随、遗留异物检测、车牌识别、虹桥机场飞机起降跟踪、无人机航拍交通参数与竣工图测绘。
+\end{itemize}
+\section*{2. 模块二 · 人眼视觉与感知（Lecture02-1）}
+\begin{itemize}
+\item \textbf{人眼结构}：角膜 + 巩膜（外膜）、脉络膜、睫状体、虹膜（隔膜）、晶状体、视网膜（含两类感光细胞）、盲点。
+\item \textbf{两类感光细胞（必考对比）}：
+\end{itemize}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash}p{.16\linewidth}|p{.22\linewidth}|X|}\hline
+\textbf{细胞}&\centering\textbf{视觉类型}&\centering\arraybackslash\textbf{分布与特性}\\\hline
+\textbf{视锥细胞}\newline Cones&明视觉 / 亮视觉\newline (photopic)&集中于\textbf{中央凹}（fovea）；对\textbf{颜色}高度敏感；分辨细节能力强；在昏暗环境下不工作\\\hline
+\textbf{视杆细胞}\newline Rods&暗视觉 (scotopic)&分布较广，提供总体视野（general view）；\textbf{无色觉}；暗光下灵敏、分辨力低\\\hline
+\end{tabularx}\end{center}
+\begin{itemize}
+\item \textbf{成像}：晶状体是\textbf{柔性的}（区别于普通光学透镜，由睫状体纤维张力控制）；看远处变扁、看近处变厚；对应近视与远视。
+\item \textbf{亮度适应（brightness adaptation）}：人眼总动态范围约 $10^{-6}\sim 10^4\ \mathrm{mL}$（毫朗伯），但\textbf{不能同时覆盖}；当前所处的灵敏度水平称为\textbf{亮度适应级}（光信号量化的依据）。
+\item \textbf{韦伯比（Weber ratio）——高频考点}：令 $\Delta I_{50}$ 为对给定背景亮度 $I$ 时，有 $50\%$ 概率被回答“是”的照度增量，则 $\Delta I_{50}/I$ 称为韦伯比。\par
+比值小 $\to$ 能区分很小的强度变化 $\to$ \textbf{亮度分辨能力好}；\textbf{比值大} $\to$ 只能区分较大的变化 $\to$ 分辨能力差。（背景越亮，能察觉的最小增量越大。）
+\item \textbf{心理视觉效应（psycho-visual effects）——感知亮度不是强度的简单函数}：
+\begin{itemize}
+\item \textbf{马赫带（Mach band）}：在灰度渐变带的边界处，人眼会看到并不存在的“更亮/更暗”的条带，说明视觉系统对边缘有增强作用（侧抑制）。
+\item \textbf{同时对比（simultaneous contrast）}：同一灰度的小块，放在暗背景上显得亮、放在亮背景上显得暗——感知亮度依赖于周围亮度。
+\item \textbf{视错觉（optical illusion）}：如长度、方向、形状的误判。
+\end{itemize}
+\end{itemize}
+\begin{quote}含义：\textbf{图像是为“人眼”增强的}，增强效果的好坏最终由人眼的主观感知决定——这也解释了为什么“客观均匀的直方图”未必等于“看起来最好”。\end{quote}
+\section*{3. 模块三 · 采样、量化与像素关系（Lecture02-2）}
+\begin{itemize}
+\item \textbf{采样 vs 量化（必背）}：
+\begin{itemize}
+\item \textbf{采样（Sampling）}：在\textbf{空间}上离散化——把连续的 $(x,y)$ 变成网格点。图像的数学描述 $I=E(x,y,z,\lambda,t)$。
+\item \textbf{量化（Quantization）}：在\textbf{幅度（灰度）}上离散化——把连续灰度变成有限级数。
+\end{itemize}
+两者合称\textbf{数字化}。
+\item \textbf{采样定理（Nyquist）}：为不失真恢复，采样频率须 $f_s\geq 2f_{\max}$（$f_{\max}$ 为信号最高频率）。图像中含义：\textbf{采样间隔要足够小}，否则出现混叠（aliasing）——细密纹理变成虚假的低频条纹。
+\item \textbf{两种分辨率（易混）}：
+\begin{itemize}
+\item \textbf{空间分辨率}：图像大小（行数 $\times$ 每行像素数）；同一范围内像素越多，分辨率越高。
+\item \textbf{灰度分辨率}：每像素的比特数（bit）；位数越多，可区分的灰度级越多。
+\end{itemize}
+\item \textbf{分辨率的工程含义}：像素有物理尺寸 $\to$ 决定“图像中一个像素代表多大的实际尺寸”。\par
+视场 $\mathrm{FOV}=\text{像素数}\times\text{像素尺寸}\times(\text{物距}/\text{焦距})$。示例：7952 px、像素 $4.52\ \mu\mathrm{m}$、物距 300 m、焦距 36.18 mm $\to$ 视场约 299 m，即\textbf{一个像素代表约 4.52 cm}。
+\item \textbf{数字图像表示}：二值图像（0/1）／灰度图像（白 255、黑 0）／彩色图像（RGB，每个像素由三原色的灰度级描述）。
+\item \textbf{像素关系（高频考点）}：
+\begin{itemize}
+\item \textbf{邻域}：4 邻域 $N_4(p)=$ 上下左右；对角邻域 $N_D(p)$；8 邻域 $N_8=N_4\cup N_D$。
+\item \textbf{邻接}：4 邻接、8 邻接、\textbf{m 邻接（混合邻接）}——在 8 邻接基础上，\textbf{排除会造成“歧义多路连接”的对角邻接}，从而消除 8 邻接的路径二义性。
+\item \textbf{路径}：4 路径 / 8 路径 / m 路径（连续像素的序列）。
+\item \textbf{连通集}：只含一个连通分量；\textbf{区域}是连通集；\textbf{边界}：区域中至少有一个邻点不在该区域内的像素集合。
+\end{itemize}
+\item \textbf{算术运算}（逐像素）：加、减、乘、除。
+\begin{itemize}
+\item \textbf{图像平均（加 + 除）}：多帧相加取平均可去随机噪声，噪声方差降为 $\sigma^2/N$。
+\item \textbf{图像相减}：提取差异／边缘／运动；$g=f-h$（如原图减模糊图或前一帧）。
+\end{itemize}
+\item \textbf{逻辑运算}：AND、OR、NOT（补）、XOR —— 常用于模板掩膜、二值图像处理与形态学。
+\item \textbf{缩放与插值}：创建新像素位置 + 赋灰度；整数倍放大可用\textbf{像素复制}；插值方法：最近邻（nearest）、双线性（bilinear）、双三次（bicubic），平滑性与计算量递增。
+\item \textbf{应用案例（10 m 气步枪报靶系统）}：环间距 10 mm、成绩需保留一位小数（0.1 环 = 1 mm）；需考虑①分辨率是否满足精度 ②如何实时判断子弹击中靶面 ③机位导致的透视变形如何校正 ④计算弹着点与靶心最近距离。
+\end{itemize}
+\section*{4. 模块四 · 空间域图像增强（重点 ★）}
+\subsection*{4.1 基本框架}
+\begin{itemize}
+\item \textbf{增强 vs 复原}：\textbf{增强}是为特定应用让结果比原图“更适合”（problem-oriented，主观、无统一标准）；\textbf{复原}是利用对退化现象的\textbf{先验知识}恢复原图（客观）。
+\item \textbf{三类处理途径}：①空间域\textbf{点处理}（只与单像素灰度有关，如对比度拉伸）；②空间域\textbf{掩模处理}（与邻域有关，如空间滤波）；③\textbf{频率域处理}（设计转移函数 $H(u,v)$，见第 5 节）。
+\end{itemize}
+\subsection*{4.2 灰度变换（点运算）}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash}p{.16\linewidth}|p{.24\linewidth}|X|}\hline
+\textbf{变换}&\centering\textbf{公式 / 参数}&\centering\arraybackslash\textbf{曲线特征与作用}\\\hline
+\textbf{反色}\newline Image negative&$s=L-1-r$&负斜率直线；适合增强暗区（或亮区）中的白色／灰色细节，如数字减影、乳腺影像\\\hline
+\textbf{对数}\newline Log transform&$s=c\cdot\log(1+r)$&上凸曲线；\textbf{扩展低（暗）灰度、压缩高灰度}，用于压缩动态范围（典型：显示傅里叶频谱）\\\hline
+\textbf{幂律（伽马）}\newline Power-law / gamma&$s=c\cdot r^\gamma$&$\gamma<1\to$ 上凸，\textbf{提亮暗部、扩展低灰度}；$\gamma>1\to$ 下凹，压暗、扩展高灰度。\textbf{伽马校正}用于补偿显示/采集设备的非线性\\\hline
+\textbf{分段线性}\newline Piecewise-linear&分段直线（需指定拐点）&形式可任意复杂（优点），但需要更多人工参数（缺点）；对比度拉伸是其特例\\\hline
+\textbf{对比度拉伸}&$(r_1,s_1)$、$(r_2,s_2)$ 控制&把窄灰度范围拉宽到全动态范围，提高对比度\\\hline
+\textbf{灰度级切片}\newline Gray-level slicing&阶跃 / 阶梯形&突出\textbf{特定灰度范围}（如缺陷、兴趣结构）；可只保留该段或保持其余不变\\\hline
+\textbf{位平面切片}\newline Bit-plane slicing&取第 $k$ 个比特&把 8 bit 图分解为 8 个二值图；\textbf{高位}含主要视觉信息、\textbf{低位}含细节/噪声；用于分析各位的重要性、指导压缩与量化位数\\\hline
+\end{tabularx}\end{center}
+\subsection*{4.3 直方图处理}
+\begin{itemize}
+\item \textbf{定义}：$h(r_k)=n_k$（灰度为 $r_k$ 的像素数）；归一化（概率）$p(r_k)=n_k/n$，$k=0,\ldots,L-1$。
+\item \textbf{读图规律}：整体偏左 $\to$ 图像偏暗；偏右 $\to$ 偏亮；分布范围宽 $\to$ 动态范围大、对比度高；集中在窄区间 $\to$ 对比度低；\textbf{双峰} $\to$ 前景/背景分离。
+\item \textbf{直方图均衡（HE）}：以 \textbf{CDF 作为变换函数}，把任意分布映射为近似均匀分布。
+\begin{itemize}
+\item 连续：$s=T(r)=\int_0^r p_r(w)\,\mathrm{d}w$，且 $p_s(s)=1$（均匀），与 $p_r$ 无关。
+\item 离散：$s_k=T(r_k)=(L-1)\sum_{j=0}^k p_r(r_j)$。
+\item \textbf{步骤}：①统计直方图 $H[k]$ ②求累积 $H_c$ ③$T[k]=\operatorname{round}\bigl(H_c[k]\cdot(L-1)/MN\bigr)$ ④按 $T$ 重映射输出灰度。
+\end{itemize}
+\item \textbf{为什么 HE 后直方图不是完全均匀的？}（常考讨论题）①离散灰度级不可分割，一个输出级只能“吃下”整数个像素；②映射是\textbf{多对一}的（灰度级总数不增加），无法把像素均摊到每一级；③像素总数固定，只能整体搬移。
+\item \textbf{规定化 / 匹配（specification）}：三步——①先对原图做均衡 ②指定目标 PDF 并求其变换函数 ③做\textbf{逆变换}：$z=G^{-1}(s)=G^{-1}(T(r))$。与均衡化的区别：均衡化目标是“一律均匀”，规定化是“匹配到指定形状”。
+\item \textbf{局部增强}：整体均衡可能忽略小区域，对每个局部（小窗口）做处理可突出局部细节。
+\end{itemize}
+\subsection*{4.4 代数运算}
+\begin{itemize}
+\item \textbf{图像平均（去噪）}：$g'(x,y)=\frac{1}{N}\sum g_i(x,y)$；若噪声不相关且零均值，则 $E[g']=f$、$\sigma_{g'}^2=\sigma_n^2/N$ —— $N$ 越大越接近原图。
+\item \textbf{图像相减}：$g=f-h$，用于提取差异/运动/边缘。
+\end{itemize}
+\subsection*{4.5 空间滤波}
+\begin{itemize}
+\item \textbf{掩模与相关/卷积}：$g(x,y)=\sum_{s=-a}^{a}\sum_{t=-b}^{b}w(s,t)\cdot f(x+s,y+t)$。步骤：选像素 $\to$ 取邻域 $\to$ 对邻域施加函数（返回标量）$\to$ 写回中心位置 $\to$ 遍历全图。
+\item \textbf{边界延拓（padding）}：X（界外取常数 X）、Symmetric（镜像反射）、Replicate（复制最近边界值）、Circular（周期延拓）。
+\item \textbf{平滑（低通）}：
+\begin{itemize}
+\item \textbf{均值滤波}：邻域平均；\textbf{系数和 = 1}（保持整体亮度）；可改尺寸；\textbf{缺点：模糊边缘与锐利特征}。
+\item \textbf{中值滤波}：\textbf{非线性}，用邻域灰度中值替代中心；对\textbf{椒盐（脉冲）噪声}极有效，且比同尺寸线性平滑少模糊；但可能删除细小目标/纹理，对高斯噪声优势不明显。
+\item \textbf{顺序统计滤波}：中值（median）、最大值（Max，找最亮点/膨胀）、最小值（Min，找最暗点/腐蚀）。
+\end{itemize}
+\item \textbf{锐化（高通）}：
+\begin{itemize}
+\item \textbf{一阶导数（梯度）}：产生\textbf{较粗的边缘}，对\textbf{灰度阶跃}响应强。
+\item \textbf{二阶导数（拉普拉斯）}：对\textbf{细线、孤立点}响应更强，在阶跃处产生\textbf{双响应}（正负各一次）。
+\item \textbf{拉普拉斯掩模}（4 邻域，系数和 = 0）：$\begin{bmatrix}0&-1&0\\-1&4&-1\\0&-1&0\end{bmatrix}$；锐化：$g=f-\nabla^2f$（或 $g=f+\nabla^2f$，取决于掩模符号约定）。
+\item \textbf{非锐化掩模（unsharp masking）}：$\mathrm{highpass}=\text{原图}-\text{低通}$。
+\item \textbf{高提升滤波（high-boost）}：$g=(A)\cdot\text{原图}-\text{低通}=(A-1)\cdot\text{原图}+\mathrm{highpass}$，$A>1$；视觉上“在锐化的同时保持原图亮度”。
+\end{itemize}
+\item \textbf{视觉表现}：高通滤波后在\textbf{暗背景上呈现增强的亮边缘}；平滑滤波后边缘变模糊。
+\item 统计：平滑模板系数和 = 1（保持平均亮度），纯高通/锐化模板系数和 = 0（均匀区输出 0）。
+\end{itemize}
+\subsection*{4.6 进阶：HE 的失效与改进谱系（对应课件“进阶”章节）}
+\begin{itemize}
+\item \textbf{HE 的三个失效模式}：①平坦区域噪声被拉成“麻点”（bin 间距被拉开，噪声被放大）；②\textbf{亮度均值漂移}（AMBE 变大，整图“变脸”）；③多峰直方图失配。
+\item \textbf{改进谱系（规律：每一代只修一个毛病）}：
+\end{itemize}
+\begin{center}\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash}p{.25\linewidth}|X|}\hline
+\textbf{方法（年份）}&\centering\arraybackslash\textbf{修的问题}\\\hline
+AHE (1987)&分块各自均衡，解决全局映射不适应局部\\\hline
+\textbf{CLAHE (1994)}&块内直方图\textbf{裁剪（clip limit）+ 双线性插值}，解决 AHE 放大噪声（工程标配）\\\hline
+BBHE / DSIHE (1997/99)&\textbf{按均值/中位数}把直方图分两半各自均衡，缓解亮度均值漂移\\\hline
+RMSHE / MMBEBHE\newline (2003/08)&递归分裂 / 最小化亮度误差 AMBE\\\hline
+WTHE (2009)&按出现频率加权并截断，抑制过度增强\\\hline
+Retinex / LIME (2016)&物理分解 $I=L\cdot R$，压光照 $L$、保反射 $R$\\\hline
+Zero-DCE (2020)&网络直接学习灰度映射曲线 $T(r)$ —— 点操作的深度版\\\hline
+\end{tabularx}\end{center}
+\begin{itemize}
+\item \textbf{直方图匹配 = 一维最优传输}：把源分布搬到目标分布 $z=G^{-1}(T(r))$，即两个 CDF 的复合（Monge 问题的一维解）。
+\item \textbf{BBHE 的均值保持条件}：以均值 $m$ 分裂后，精确保持均值的充要条件是 $P(r\leq m)=1-m/255$。
+\end{itemize}
+\section*{5. 模块五 · 频域（变换域）图像增强（Enhancement3）}
+\begin{quote}空间域是“拿掩模在图上滑”，频域是“按频率决定留谁、压谁”。两者由\textbf{卷积定理}严格等价，不是两套理论，只是“改哪个频率”比“改哪个邻域”更直观。\end{quote}
+\subsection*{5.1 三个步骤与卷积定理}
+\begin{itemize}
+\item \textbf{流程（五步）}：$f\cdot(-1)^{x+y}\to$ \textbf{DFT} 得 $F(u,v)\to$ \textbf{乘滤波器} $G=F\cdot H\to$ \textbf{IDFT} $\to$ 取实部、再乘 $(-1)^{x+y}$、裁剪到 $[0,L-1]$。$H$ 称\textbf{转移函数}。
+\item \textbf{乘 $(-1)^{x+y}$ 的作用}：由平移性质把\textbf{直流分量搬到频谱中心}（等价 fftshift），这样 $H$ 才能按“到中心的距离”$D(u,v)$ 设计——与课件 $D_0$ 的定义一致。
+\item \textbf{卷积定理}：$f*h\Longleftrightarrow F(u,v)\cdot H(u,v)$。\textbf{补零}：DFT 隐含周期性，$h$ 须补零到 $M\times N$，否则是\textbf{循环卷积}——图像右边内容“绕回”左边，边界出现鬼影。
+\item \textbf{何时用频域}：小掩模（$3\times3$）空域更省 $O(MN\cdot k^2)$、纯实数、无补零；\textbf{大掩模}或需按频率精确选择（低通／带阻／陷波／同态）时用频域，$O(MN\log MN)$ 与核尺寸无关（课件 “great saving for a large filter”）。
+\end{itemize}
+\subsection*{5.2 频谱图怎么读（课件只有图，结论补在这里）}
+\begin{itemize}
+\item \textbf{显示}：$|F(u,v)|$ 动态范围极大，须做\textbf{对数变换} $s=c\cdot\log(1+|F|)$，否则只能看到中心一个白点。
+\item \textbf{位置 = 频率}：中心是\textbf{直流}（平均亮度），越往外频率越高。\textbf{亮度 = 该频率分量的幅度}，不是“此处像素亮”。
+\end{itemize}

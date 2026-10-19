@@ -1,0 +1,137 @@
+% Faithful transcription of source pages 8--10. Source issues are recorded separately.
+\clearpage
+\section*{题型 E\quad 计算题}
+\subsection*{E1\quad 对一幅 $64\times64$、8 个灰度级的图像做直方图均衡。各灰度级像素数如下，求均衡后的映射关系与新直方图。}
+\begin{center}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{|l|*{8}{>{\centering\arraybackslash}X|}}\hline
+\textbf{灰度级 $r_k$}&0&1&2&3&4&5&6&7\\\hline
+像素数 $n_k$&790&1023&850&656&329&245&122&81\\\hline
+\end{tabularx}
+\end{center}
+\textbf{第 1 步\quad 求概率。}总像素 $MN=64\times64=4096$；$p(r_k)=n_k/4096$：0.19, 0.25, 0.21, 0.16, 0.08, 0.06, 0.03, 0.02（和为 1.00）。
+
+\textbf{第 2 步\quad 求累积 CDF。}0.19, 0.44, 0.65, 0.81, 0.89, 0.95, 0.98, 1.00。
+
+\textbf{第 3 步\quad 求输出灰度。}$s_k=\operatorname{round}(\mathrm{CDF}_k\times(L-1))=\operatorname{round}(\mathrm{CDF}_k\times7)$：
+
+$0.19\times7=1.33\to1$；$0.44\times7=3.08\to3$；$0.65\times7=4.55\to5$；$0.81\times7=5.67\to6$；$0.89\times7=6.23\to6$；$0.95\times7=6.65\to7$；$0.98\times7=6.86\to7$；$1.00\times7=7\to7$。
+
+\textbf{第 4 步\quad 得映射：}$0\to1$，$1\to3$，$2\to5$，$3\to6$，$4\to6$，$5\to7$，$6\to7$，$7\to7$。
+
+\textbf{第 5 步\quad 合并像素、求新直方图。}
+\begin{center}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{|l|*{8}{>{\centering\arraybackslash}X|}}\hline
+\textbf{新灰度 $s_k$}&0&1&2&3&4&5&6&7\\\hline
+构成&—&$r=0$&—&$r=1$&—&$r=2$&$r=3,4$&$r=5,6,7$\\\hline
+新像素数 $n_k$&0&790&0&1023&0&850&985&448\\\hline
+新概率 $p(s_k)$&0&0.19&0&0.25&0&0.21&0.24&0.11\\\hline
+\end{tabularx}
+\end{center}
+\textbf{说明：}新直方图比原来更均匀（原为 0.19/\allowbreak 0.25/\allowbreak 0.21/\allowbreak 0.16/\allowbreak 0.08/\allowbreak 0.06/\allowbreak 0.03/\allowbreak 0.02，现为 0.19/\allowbreak 0.25/\allowbreak 0.21/\allowbreak 0.24/\allowbreak 0.11），但不完全均匀——因为灰度级数没变、映射是多对一的。
+
+\subsection*{E2\quad 分辨率的工程换算。某相机像素数 $7952\times5304$，像素尺寸 $4.52\,\mu\mathrm{m}$，物距 $300\,\mathrm{m}$，镜头焦距 $36.18\,\mathrm{mm}$。求：(1) 传感器尺寸；(2) 视场（横向 $\times$ 纵向）；(3) 图像中一个像素代表多大的实际尺寸。}
+\textbf{(1) 传感器尺寸：}$7952\times4.52\,\mu\mathrm{m}\approx35.94\,\mathrm{mm}$（横）；$5304\times4.52\,\mu\mathrm{m}\approx23.97\,\mathrm{mm}$（纵）。
+
+\textbf{(2) 视场：}由几何关系 $\mathrm{FOV}=\text{传感器尺寸}\times\text{物距}/\text{焦距}$：横 $=35.94\,\mathrm{mm}\times300\,\mathrm{m}/36.18\,\mathrm{mm}\approx299\,\mathrm{m}$；纵 $=23.97\times300/36.18\approx199\,\mathrm{m}$。
+
+\textbf{(3) 单像素对应的物方尺寸：}$299\,\mathrm{m}/7952\approx0.0376\,\mathrm{m}\approx3.8\,\mathrm{cm}$（按纵向算 $199/5304\approx3.75\,\mathrm{cm}$）。题目原场景给出约 \textbf{4.52 cm/像素}，量级一致。
+
+\textbf{结论：}该相机在 300 m 处分辨能力约 4 cm/像素，\textbf{无法分辨毫米级裂纹}——这正是隧道检测案例要求“更高分辨率/更近物距/多相机”的原因。
+
+\subsection*{E3\quad 图像平均去噪。对同一静止场景连续拍摄 $N$ 帧并逐像素取平均，若各帧噪声互不相关、零均值、方差为 $\sigma^2$，求平均后图像的噪声方差与标准差；若要求噪声标准差降为原来的 $1/5$，需要平均多少帧？}
+\textbf{答案：}$g'(x,y)=\dfrac{1}{N}\sum_{i=1}^{N}g_i(x,y)$。因噪声不相关且零均值：$E[g']=f$（无偏），$\sigma^2_{g'}=\sigma^2/N$，标准差 $\sigma_{g'}=\sigma/\sqrt{N}$。
+
+要求 $\sigma/\sqrt{N}=\sigma/5\to\sqrt{N}=5\to N=25$ 帧。即噪声标准差按 $1/\sqrt{N}$ 下降，帧数要增加到平方倍。
+
+\subsection*{E4\quad 韦伯比。(1) 写出韦伯比的定义并说明其含义；(2) 某背景亮度 $I=100$（单位任意），在 $50\%$ 概率下可察觉的最小照度增量 $\Delta I_{50}=2$，求韦伯比；(3) 换一个更亮的背景 $I=400$、$\Delta I_{50}=16$，比较两次的亮度分辨能力。}
+\textbf{(1) 定义：}$\Delta I_{50}/I$，其中 $I$ 为背景亮度，$\Delta I_{50}$ 为有 $50\%$ 概率被回答“是”的照度增量。比值\textbf{小}表示能区分很小的强度变化 $\to$ 分辨能力\textbf{好}；比值\textbf{大}表示只能区分较大的变化 $\to$ 分辨能力\textbf{差}。
+
+\textbf{(2)} 韦伯比 $=2/100=0.02$。
+
+\textbf{(3)} 第二次 $=16/400=0.04$。两者韦伯比不同：第二次的比值更大，说明在更亮的背景下，人眼\textbf{分辨能力下降}——背景越亮，需更大的绝对增量才能被察觉（这正是“暗适应”比“亮适应”更灵敏的体现，也是量化级差设计要考虑韦伯定律的原因）。
+
+\subsection*{E5\quad 采样定理。某图像最细结构的空间周期为 $0.2\,\mathrm{mm}$，要在数字化时不发生混叠，采样间隔最大为多少？采样频率至少为多少？}
+\textbf{答案：}最细结构周期 $T=0.2\,\mathrm{mm}\to$ 最高空间频率 $f_{\max}=1/T=5\,\mathrm{cycles/mm}$。由采样定理 $f_s\geq2f_{\max}=10$ 次/mm，对应最大采样间隔 $\Delta x\leq1/f_s=0.1\,\mathrm{mm}$。
+
+\textbf{含义：}像素间距（采样间隔）必须 $\leq0.1\,\mathrm{mm}$，即像素尺寸至少要比最细结构小一半，否则细密纹理会出现虚假的低频条带（混叠）。工程上一般再留 2～3 倍裕量，取 0.03–0.05 mm/像素。
+
+\subsection*{E6\quad 频率域计算 + 振铃。$M=N=256$，频谱已中心化，$D_0=32$，某点偏移 $(\Delta u,\Delta v)=(24,32)$。(1) 求 $D$；(2) 求 ILPF、BLPF($n=2$)、GLPF 在该点的 $H$；(3) 用 ILPF 平滑含边界的图像，为什么边界两侧出现一圈圈明暗环？哪种滤波器不振铃？}
+\textbf{(1)} $D=\sqrt{24^2+32^2}=\sqrt{1600}=40$。
+
+\textbf{(2)} 因 $40>32$：ILPF $H=0$；BLPF $H=1/[1+(40/32)^4]=1/(1+2.441)=0.291$；GLPF $H=\exp(-40^2/(2\times32^2))=\exp(-0.781)=0.458$。
+
+补充：$D=D_0$ 时 ILPF 处于跳变边界、BLPF 恒为 \textbf{0.5}（$-3\,\mathrm{dB}$，与 $n$ 无关）、GLPF 为 $e^{-0.5}\approx0.607$。
+
+\textbf{(3) 即振铃：}ILPF 的 $H$ 是理想矩形，其反变换 $h$ 是 $\operatorname{sinc}$ 型函数，带\textbf{无限旁瓣（含负瓣）}；滤波 $=$ 与 $h$ 卷积，阶跃边缘被旁瓣抹成一圈圈明暗环。\textbf{截止越陡，振铃越重}（ILPF $>$ BLPF 高阶 $>$ BLPF 低阶 $>$ GLPF）。\textbf{GLPF 不振铃}，因为高斯的傅里叶变换仍是高斯、没有旁瓣；代价是截止不陡、边缘略糊。工程折中取 BLPF $n=2\sim3$。
+
+\section*{题型 F\quad 概念简答}
+\subsection*{F1\quad 图像增强与图像复原的区别是什么？}
+\textbf{答案：图像增强}是为了让结果比原图\textbf{更适合某个特定应用}而进行处理，是\textbf{面向问题（problem-oriented）}的，如对比度拉伸、平滑、锐化；它\textbf{没有统一的客观标准}，效果好坏常由人眼主观判断。\textbf{图像复原}是利用对\textbf{退化现象的先验知识}，把被退化的图像恢复到接近原图，是\textbf{客观}的，追求“逼近真实原图”。一句话：增强是“让它更好看/更有用”，复原是“把它还原回去”。
+
+\subsection*{F2\quad 低级图像处理与高级图像处理的区别？本课程的重点是哪一类？}
+\textbf{答案：低级图像处理（Image improvement）}面向\textbf{人}的观察与解释，目标是改善图像的视觉效果，如增强、去噪、锐化；\textbf{高级图像处理（Image analysis）}面向\textbf{机器}的自主感知，为测量图像中的特征与结构做准备，如分割、特征提取、识别、压缩表示。\textbf{本课程重点是低级图像处理。}
+
+\subsection*{F3\quad 视锥细胞与视杆细胞有什么差别？这对图像设计有什么意义？}
+\textbf{答案：视锥细胞}集中在\textbf{中央凹}，负责\textbf{明视觉（亮视觉）}，对\textbf{颜色}高度敏感、分辨细节能力强，但暗光下不工作；\textbf{视杆细胞}分布更广，负责\textbf{暗视觉}，提供总体视野、\textbf{无色觉}，暗光下灵敏但分辨力低。
+
+\textbf{意义：}人眼对亮度的感觉主要由视杆细胞完成，而其响应相当于一定范围内多个细胞的\textbf{平均}——这解释了为什么中值滤波等“不改变视觉感受”的去噪方法在主观上看不出损失；也说明图像增强的效果最终要以人眼主观感受为准（马赫带、同时对比等即为证据）。
+
+\subsection*{F4\quad 什么是采样？什么是量化？图像数字化包含哪两方面？}
+\textbf{答案：采样}是在\textbf{空间位置}上对连续图像离散化（把连续的坐标变成网格点）；\textbf{量化}是在\textbf{幅度（灰度）}上离散化（把连续灰度变成有限个灰度级）。图像的数学描述为 $I=E(x,y,z,\lambda,t)$；\textbf{数字化 $=$ 空间位置的数字化（采样）$+$ 灰度的数字化（量化）。}
+
+\subsection*{F5\quad 空间分辨率与灰度分辨率的区别？分别由什么决定？}
+\textbf{答案：空间分辨率}由图像中\textbf{像素的密集程度}决定（同一范围内像素越多分辨率越高，即行数$\times$列数）；\textbf{灰度分辨率}由每个像素的\textbf{比特数}决定（位数越多，可区分的灰度级越多，如 8 bit $\to$ 256 级）。降低空间分辨率会使图像出现块状/马赛克，降低灰度分辨率会出现“假轮廓”（伪轮廓）。
+
+\subsection*{F6\quad 写出像素 $p$ 的 4 邻域、对角邻域、8 邻域；什么是 $m$ 邻接？为什么要引入 $m$ 邻接？}
+\textbf{答案：}对像素 $p(i,j)$：\textbf{4 邻域} $N_4=\{(i-1,j),(i+1,j),(i,j-1),(i,j+1)\}$；\textbf{对角邻域} $N_D=\{(i-1,j-1),(i-1,j+1),(i+1,j-1),(i+1,j+1)\}$；\textbf{8 邻域} $N_8=N_4\cup N_D$。
+
+\textbf{$m$ 邻接（混合邻接）：}在 8 邻接的基础上，\textbf{排除会造成“多路歧义连接”的对角邻接}——即若两像素既 4 邻接（或可通过 4 邻接到达），则不再承认其对角邻接。其意义是\textbf{消除 8 邻接在路径/连通判断上的二义性}，使连通路径唯一、更符合直观。
+
+\subsection*{F7\quad 图像的算术运算与逻辑运算各有什么用途？各举一例。}
+\textbf{答案：算术运算}（加/减/乘/除，逐像素）：\textbf{加法+平均}用于多帧平均去随机噪声（$\sigma^2\to\sigma^2/N$）；\textbf{减法}用于提取差异、运动或边缘（$g=f-h$）；乘法/除法常用于阴影校正、掩膜。\textbf{逻辑运算}（AND/OR/NOT/XOR）：用于二值图像处理、模板掩膜与形态学——如用 AND 提取感兴趣区域、XOR 找出两幅二值图的差异。
+
+\section*{题型 G\quad 应用题／开放设计}
+\subsection*{G1\quad （气步枪报靶）$10\,\mathrm{m}$ 气步枪靶环间距 $10\,\mathrm{mm}$，成绩需保留一位小数（0.1 环 $=1\,\mathrm{mm}$）。请说明分辨率如何满足精度要求，并简述其余三个工程问题。}
+① \textbf{分辨率要求：}成绩精度 0.1 环 $=1\,\mathrm{mm}$，则弹着点定位误差应控制在约 $\pm0.5\,\mathrm{mm}$ 内。按“每个目标特征由 2～3 个像素采样”的经验，单像素对应的物方尺寸应 $\leq0.3\sim0.5\,\mathrm{mm}$。若需覆盖的靶面区域为 $L\times L$（mm），所需像素数 $N\geq(L/0.3)^2$。例如覆盖 $100\,\mathrm{mm}\times100\,\mathrm{mm}$ 时，至少约 $334\times334\approx11$ 万像素，实际选百万像素相机就很充裕。
+
+② \textbf{实时判断中靶、不每枪换靶纸：}对靶面区域连续采集，用\textbf{帧间差分（图像相减）$+$ 阈值}检测新出现的暗斑（弹孔），触发识别程序计算环值；靶纸上的历史弹孔通过“当前帧与历史背景模型比较”来区分，从而支持多枪累积而不换纸。
+
+③ \textbf{机位导致的图像变形：}相机与靶面不垂直会造成\textbf{透视变形}，使圆形靶环变成椭圆。需先做\textbf{相机标定}，用已知靶环（同心圆）做基准，估计单应/透视变换并做\textbf{几何校正}，把图像反变换到正视图后再计算。
+
+④ \textbf{弹着点到靶心的最近距离：}弹孔是一小块区域，应计算其\textbf{轮廓上各点到靶心距离的最小值}（距离变换/逐点求最小），而不是弹孔中心到靶心的距离——这与射击规则中“以弹孔内沿到环线最近距离判定”一致。
+
+\subsection*{G2\quad （隧道病害检测）要能分辨 $0.1\,\mathrm{mm}$ 的裂缝，检测车时速 $30\,\mathrm{km/h}$。请从分辨率与采样速度两方面说明对摄像机的需求。}
+\textbf{横向分辨率：}若要分辨 0.1 mm，单像素物方尺寸应 $\leq0.05\,\mathrm{mm}$（留 2 倍裕量）。若横向视场为 $W$（如环向 3 m），则横向像素数 $N\geq W/0.05\,\mathrm{mm}=3000\,\mathrm{mm}/0.05\,\mathrm{mm}=60000$ ——单相机难以达到，需\textbf{多相机拼接}或提高物距精度。
+
+\textbf{采样速度：}车速 $30\,\mathrm{km/h}=8.33\,\mathrm{m/s}$。若纵向也要 0.1 mm 以上的分辨能力（如 0.1 mm/行），行频需 $8330\,\mathrm{mm/s}\div0.1\,\mathrm{mm}\approx83300$ 行/s $\approx83\,\mathrm{kHz}$，远超常规相机，因此实践中往往：①用\textbf{线阵相机}配合运动扫描；②纵向适当放宽（裂缝是长条形，纵向精度可低），只保证横向 0.1 mm；③采用\textbf{多相机+高速传输/存储}。
+
+\textbf{附加问题：}圆弧形表会导致\textbf{光照不均与几何畸变}，需\textbf{匀光增强}（非线性流形映射 / 自适应匀光）与几何校正；相机间图像有偏差时先做\textbf{融合与增强}再拼接。
+
+\subsection*{G3\quad （方案选择）对一张低对比度车牌图像，要在 HE、CLAHE、伽马变换中选一种用于后续字符识别。你选哪个？说明理由。}
+\textbf{答案：}优先选 \textbf{CLAHE}。理由：①车牌区域小、且常受局部光照不均影响，全局 HE 会把整幅图的暗部噪声一起放大、可能使车牌两侧过曝，反而降低识别率；②CLAHE 采用\textbf{分块 $+$ 限制对比度（clip limit）$+$ 双线性插值}，能增强局部对比度同时抑制噪声放大与块边界，非常适合后续字符识别；③伽马变换是全局点运算，只能整体提亮/压暗，对局部对比度不足无能为力，可作为预处理补充。\textbf{结论：主方案用 CLAHE，必要时串联 $\gamma<1$ 提亮暗部。}
+
+\section*{题型 H\quad 选择／判断小题（快问快答）}
+\begin{enumerate}[leftmargin=*,label=\arabic*.]
+\item 下列哪个模板可用于去除椒盐噪声？\quad A. $3\times3$ 均值\quad B. 中值滤波\quad C. 拉普拉斯\quad D. 高提升\quad $\to$ \textbf{B}
+\item 下列属于空间域点处理的是？\quad A. 均值滤波\quad B. 中值滤波\quad C. 伽马变换\quad D. 拉普拉斯锐化\quad $\to$ \textbf{C}（点运算只与单像素有关）
+\item 对灰度阶跃最能产生“双响应”的是？\quad A. 一阶微分\quad B. 二阶微分\quad C. 均值滤波\quad D. 中值滤波\quad $\to$ \textbf{B}
+\item 能同时“平滑噪声且较少模糊边缘”的是？\quad A. 均值\quad B. 高斯低通\quad C. 中值\quad D. 理想低通\quad $\to$ \textbf{C}
+\item 8 bit 灰度图像最多能表示多少级灰度？\quad $\to$ \textbf{$2^8=256$ 级}
+\item 直方图均衡的变换函数是什么？\quad $\to$ \textbf{累积分布函数（CDF）}
+\item “同时对比”说明感知亮度依赖于？\quad $\to$ \textbf{周围（背景）亮度}
+\item $m$ 邻接主要用于解决什么问题？\quad $\to$ \textbf{8 邻接路径/连通的二义性}
+\item 纯锐化（高通）掩模的系数和是多少？\quad $\to$ \textbf{0}
+\item CLAHE 相比 AHE 的关键改进是？\quad $\to$ \textbf{直方图裁剪（clip limit）$+$ 双线性插值}
+\item 频域滤波前把图像乘 $(-1)^{x+y}$ 的作用？\quad $\to$ \textbf{把频谱直流分量移到中心（等价 fftshift）}
+\item 下列最易产生振铃的是？\quad A. 高斯低通\quad B. 巴特沃斯低通($n=2$)\quad C. 理想低通\quad D. 均值滤波\quad $\to$ \textbf{C}
+\item 去除图像上周期性条纹干扰宜用？\quad $\to$ \textbf{频域带阻／陷波滤波}
+\end{enumerate}
+
+\medskip
+\textbf{最后一句：}小测题型即使变了，考查的“内核”仍是——\textbf{看系数和判滤波性质、看直方图判明暗对比、看微分阶数判边缘响应、看截止频率判通阻、看振铃判滤波器类型、按定义说清概念。}把第 6 部分 A/B/D/E 四类题刷熟，基本就稳了。
+
+\begin{center}\small
+高级图像处理 · 小测复习讲义 ｜ 依据 Lecture01 / 02-1 / 02-2、传统图像增强、高级图像处理02、Enhancement3 及课堂练习1 整理
+\end{center}

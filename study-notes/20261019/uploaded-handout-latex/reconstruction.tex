@@ -1,0 +1,23 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=18mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{NotoSerifCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSerifCJK-Bold.ttc,ItalicFont=NotoSerifCJK-Regular.ttc,ItalicFeatures={FakeSlant=0.2}]
+\setsansfont{NotoSansCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSansCJK-Bold.ttc]
+\setmonofont{DejaVu Sans Mono}
+\XeTeXlinebreaklocale "zh"\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{amsmath,amssymb,booktabs,array,tabularx,longtable,enumitem,graphicx,xcolor,tikz,fancyhdr}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{hyperref}
+\hypersetup{hidelinks,pdftitle={高级图像处理·小测复习讲义（LaTeX黑白打印版）},pdfauthor={}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{4pt plus 1pt}
+\linespread{1.12}\setlength{\emergencystretch}{3em}
+\setlist{nosep,leftmargin=1.5em,topsep=3pt}
+\renewcommand{\arraystretch}{1.25}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small 高级图像处理·小测复习讲义}\fancyhead[R]{\small 黑白打印版}\fancyfoot[C]{\thepage}
+\begin{document}
+\begin{center}{\LARGE\bfseries 高级图像处理·小测复习讲义}\\[4pt]{\large 黑白打印版 · LaTeX 重排}\end{center}
+\vspace{3mm}
+\input{partA.tex}
+\input{partB.tex}
+\input{partC.tex}
+\end{document}
