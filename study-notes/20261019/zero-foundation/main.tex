@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm,headheight=16pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{NotoSerifCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSerifCJK-Bold.ttc,ItalicFont=NotoSerifCJK-Regular.ttc,ItalicFeatures={FakeSlant=0.2}]
+\setsansfont{NotoSansCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSansCJK-Bold.ttc]
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{amsmath,amssymb,booktabs,longtable,array,tabularx,enumitem,graphicx,xcolor,tikz,fancyhdr}
+\usetikzlibrary{arrows.meta,positioning,calc,shapes.geometric,fit,backgrounds,decorations.pathreplacing,patterns}
+\usepackage{hyperref}
+\definecolor{inkblue}{HTML}{173B58}
+\hypersetup{colorlinks=true,linkcolor=inkblue,urlcolor=inkblue,pdftitle={高级图像处理：零基础详解},pdfauthor={}}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\emergencystretch}{3em}
+\linespread{1.18}
+\renewcommand{\contentsname}{目录}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\sffamily 高级图像处理}\fancyhead[R]{\small\sffamily 零基础详解}\fancyfoot[C]{\thepage}
+
+\setlist{itemsep=3pt,topsep=4pt,leftmargin=2em}
+\renewcommand{\arraystretch}{1.25}
+
+\begin{document}
+\begin{titlepage}
+\vspace*{20mm}
+{\Huge\sffamily 高级图像处理\par}\vspace{8mm}
+{\LARGE 零基础详解\par}\vspace{12mm}
+{\large 从像素、灰度到滤波与频谱\par}
+\vfill
+\noindent 以提供的《小测复习讲义（黑白打印版）》为范围，补足理解所需的基础概念与逐步解题过程。原题编号保留，公式与图示重新编排；原稿中的已核实错误在对应讲解中更正。\par
+\vspace{6mm}
+\noindent 先理解图像中的变化，再把变化写成数字和公式。数学符号在使用前说明，计算例题写明单位、代入过程与结论条件。\par
+\vspace{10mm}
+2026年10月19日
+\end{titlepage}
+\setcounter{tocdepth}{2}\tableofcontents\clearpage
+\input{primer.tex}
+\input{foundations.tex}
+\input{histograms.tex}
+\input{filters.tex}
+\input{frequency.tex}
+\input{review.tex}
+\end{document}
